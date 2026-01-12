@@ -1,0 +1,58 @@
+﻿================================================================================
+R2AQ3 - ROADMAP FUTURO
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"The future directions should include specific research priorities and reference emerging technologies."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this suggestion. We have expanded Future Directions to include:
+
+1. AI integration: On-device inference, adaptive algorithms, real-time classification.
+2. Foundation models: Large-scale pre-trained models for EEG analysis.
+3. Federated learning: Privacy-preserving distributed approaches.
+4. Multimodal integration: EEG + fNIRS + biosignals convergence.
+5. Specific research priorities: Benchmarking, clinical translation, longitudinal surveillance, reporting 
+   standards.
+
+[NOTA: Referências 2023-2025 ainda pendentes para busca]
+
+================================================================================
+TEXTO PARA MANUSCRITO - FUTURE DIRECTIONS
+================================================================================
+
+Emerging Technologies and Research Roadmap
+
+Several emerging technologies are likely to reshape the portable neurotechnology landscape:
+
+Artificial Intelligence Integration: The integration of machine learning pipelines directly into device firmware 
+represents a critical frontier. On-device inference, adaptive algorithms, and real-time classification are 
+increasingly enabled by advances in edge computing and neuromorphic processing.
+
+Foundation Models: Large-scale pre-trained models for EEG analysis (e.g., EEGNet variants, Transformer-based 
+architectures) may standardize signal processing approaches across devices and applications.
+
+Federated Learning: Privacy-preserving distributed learning approaches enable multi-site neurotechnology research 
+without centralized data sharing, addressing regulatory and ethical constraints.
+
+Multimodal Integration: The convergence of EEG, fNIRS, and other biosignals (PPG, GSR, IMU) in single devices 
+enables comprehensive physiological monitoring for brain-body interface applications.
+
+Future research should prioritize: (1) standardized benchmarking protocols for cross-device validation; 
+(2) clinical translation studies in neurorehabilitation settings; (3) longitudinal market surveillance to track 
+technological evolution; and (4) development of reporting standards for neurotechnology specifications.
+
+================================================================================
+AÇÃO PENDENTE
+================================================================================
+
+[ ] Buscar referências 2023-2025:
+    - EEG + Inteligência Artificial
+    - Federated Learning em neurotecnologia
+    - Foundation Models para EEG/biossinais
+
+================================================================================

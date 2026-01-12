@@ -1,0 +1,32 @@
+﻿================================================================================
+R1C3 - VIÉS DE DADOS DOS FABRICANTES
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"Are specifications verified by independent sources, or do they rely solely on manufacturer claims?"
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for raising this important concern. We have addressed this by:
+
+1. Adding a Limitations paragraph: Acknowledging that specifications were compiled from manufacturer documentation 
+   and may not represent independent validation.
+
+2. Clarifying data sources in Methods: Stating that data came from technical manuals, websites, and secondary 
+   literature.
+
+3. Recommending future work: Suggesting experimental benchmarking studies for independent validation.
+
+================================================================================
+TEXTO PARA MANUSCRITO - LIMITATIONS
+================================================================================
+
+The reliance on manufacturer-provided data introduces potential bias, as specifications may be optimized for 
+marketing purposes rather than scientific transparency. Parameters such as signal-to-noise ratio, latency, and 
+impedance are rarely disclosed in standardized formats, limiting direct cross-device comparisons. These 
+limitations should be considered when interpreting device specifications presented in this review.
+
+================================================================================

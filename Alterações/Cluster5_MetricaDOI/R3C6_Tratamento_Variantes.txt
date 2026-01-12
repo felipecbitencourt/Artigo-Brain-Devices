@@ -1,0 +1,54 @@
+﻿================================================================================
+R3C6 - TRATAMENTO DE VARIANTES
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"The manuscript states '125 models and variants' but does not explain how variants were handled in the analysis. 
+If a study used 'Epoc' (2009) and another used 'Epoc X' (2018), were these counted separately or aggregated? 
+Clarify the aggregation strategy."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this important methodological question. We have added a paragraph in Methods explaining:
+
+1. Grouping criterion: Devices were organized based on form factor (device type), not just model name.
+
+2. Aggregation logic: Same type + minor variations → grouped; different type → separated.
+
+3. Bibliometric justification: Many publications do not specify the exact variant, supporting aggregation at 
+   device family level.
+
+================================================================================
+TEXTO PARA MANUSCRITO - METHODS
+================================================================================
+
+Device Variant Handling
+
+Devices were organized based on form factor (device type) as the primary grouping criterion. Within the same 
+manufacturer, devices sharing identical form factors but differing in channel count or minor configurations were 
+grouped as variants within a single entry (e.g., "Quick 20m | 20r v2 | 32r" representing the same headset design 
+with 20, 21, or 32 channels). Conversely, devices with fundamentally different form factors were recorded as 
+separate entries, even from the same manufacturer (e.g., CGX Cognionics "Quick" headset vs. "Mobile" cap).
+
+This aggregation strategy was also adopted because many publications do not specify the exact variant used. 
+Authors frequently report using "Emotiv EPOC" or "OpenBCI" without distinguishing specific models or 
+configurations. Aggregating at the device family level provides more stable adoption indicators and avoids 
+artificial fragmentation of citation counts.
+
+================================================================================
+EXEMPLOS:
+================================================================================
+
+Variantes agrupadas (mesmo Type):
+- Quick 20m | 20r v2 | 32r (Headset) - diferem em nº de canais
+- DSI 7 | 24 (Headset) - diferem em 7 ou 24 canais
+- Flex 2 Saline | Gel (Cap) - diferem apenas no eletrodo
+
+Dispositivos separados (Types diferentes):
+- CGX: Quick (Headset) ≠ Mobile (Cap) ≠ Patch EEG (Adhesive)
+- Bitbrain: Versatile (Cap) ≠ Diadem (Headset)
+
+================================================================================

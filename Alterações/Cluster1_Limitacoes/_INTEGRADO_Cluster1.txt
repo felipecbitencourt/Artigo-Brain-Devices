@@ -1,97 +1,100 @@
+﻿================================================================================
+CLUSTER 1: LIMITAÇÕES - RESPOSTA FINAL AOS REVISORES
 ================================================================================
-CLUSTER 1: LIMITAÇÕES - DOCUMENTO INTEGRADOR
-================================================================================
-Comentários: R1C3, R2C6, R2AQ2
-
-================================================================================
-RESPONSE TO REVIEWERS (UNIFICADA):
-================================================================================
-
-Following the recommendations of Reviewers 1 and 2 regarding methodological 
-limitations (R1C3, R2C6, R2AQ2), we have added a dedicated "Limitations and 
-Future Directions" section that explicitly addresses:
-
-1. **Absence of experimental benchmarking** (R2C6, R2AQ2)
-2. **Potential bias from manufacturer-provided data** (R1C3, R2AQ2)
-3. **No clinical validation** (R2C6)
-4. **Limitations of DOI-indexed publication counts** (R2C6)
-5. **Rapidly evolving market** (R2C6)
+Comentários Integrados: R1C3, R2C6, R2AQ2
+Atualizado: 2026-01-12
 
 ================================================================================
-TEXTO INTEGRADO PARA SEÇÃO (inserir antes de Conclusion):
+RESPONSE TO REVIEWERS
 ================================================================================
 
-Limitations and Future Directions
+We thank the Reviewers for their insightful comments regarding methodological limitations. Following their 
+recommendations (R1C3, R2C6, R2AQ2), we have substantially revised the manuscript to include a dedicated 
+"Limitations and Future Directions" section addressing:
 
-This scoping review has several limitations that should be acknowledged. 
-First, the study did not include experimental benchmarking or direct 
-signal quality validation. Device specifications were compiled from 
-manufacturer documentation, technical manuals, and secondary literature, 
-rather than from independent laboratory testing. As a result, reported 
-parameters such as sampling rate, resolution, and wireless performance 
-reflect manufacturer claims and may not fully represent real-world 
-performance under varying conditions.
+1. Absence of experimental benchmarking (R2C6, R2AQ2)
+2. Potential bias from manufacturer-provided data (R1C3, R2AQ2)
+3. No clinical validation (R2C6)
+4. Limitations of publication-based adoption metrics (R2C6)
+5. Rapidly evolving market (R2C6)
 
-Second, the reliance on manufacturer-provided data introduces potential 
-bias, as specifications may be optimized for marketing purposes rather 
-than scientific transparency. Parameters such as signal-to-noise ratio, 
-latency, and impedance are rarely disclosed in standardized formats, 
-limiting direct cross-device comparisons.
+================================================================================
+TEXTOS PARA MANUSCRITO
+================================================================================
 
-Third, no direct clinical evaluation was performed. The review focused 
-on technical characterization and research adoption patterns rather than 
-therapeutic efficacy or patient outcomes. Clinical applicability should 
-be inferred cautiously, and device selection for clinical use requires 
-additional validation beyond the scope of this review.
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Methodological Constraints
+RESPONDE A: R2AQ2
+--------------------------------------------------------------------------------
 
-Fourth, the use of DOI-indexed publication counts as a proxy for research 
-adoption has inherent limitations. This metric does not account for 
-industry-specific publishing practices, as some manufacturers may actively 
-encourage academic publications while others focus on commercial or 
-clinical markets. Device cost and accessibility influence publication 
-frequency; lower-cost, consumer-grade devices may appear more frequently 
-in the literature due to broader accessibility, particularly in 
-resource-limited research settings. The availability of open-source 
-software, datasets, and community support for specific devices may also 
-inflate publication counts independently of hardware performance. 
-Furthermore, this metric captures only documented academic use and does 
-not reflect unpublished research, proprietary industrial applications, 
-or clinical deployments outside peer-reviewed contexts. Readers should 
-interpret adoption metrics as indicators of documented research use 
-rather than endorsements of device quality.
+This scoping review is subject to methodological limitations inherent to the catalog approach. Device 
+specifications were compiled from publicly available sources (manufacturer documentation, technical manuals, 
+peer-reviewed publications) rather than from independent laboratory testing. Consequently, reported parameters 
+reflect manufacturer claims and may not fully represent real-world performance.
 
-Finally, the neurotechnology market evolves rapidly. Devices included 
-in this review reflect commercial availability as of August 2025, and 
-new products, firmware updates, or discontinued models may alter the 
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Experimental Benchmarking
+RESPONDE A: R2C6, R2AQ2
+--------------------------------------------------------------------------------
+
+First, the study did not include experimental benchmarking or direct signal quality validation. Device 
+specifications were compiled from manufacturer documentation, technical manuals, and secondary literature, rather 
+than from independent laboratory testing. As a result, reported parameters such as sampling rate, resolution, and 
+wireless performance reflect manufacturer claims and may not fully represent real-world performance under varying 
+conditions.
+
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Manufacturer Data Bias
+RESPONDE A: R1C3, R2AQ2
+--------------------------------------------------------------------------------
+
+Second, the reliance on manufacturer-provided data introduces potential bias, as specifications may be optimized 
+for marketing purposes rather than scientific transparency. Parameters such as signal-to-noise ratio, latency, 
+and impedance are rarely disclosed in standardized formats, limiting direct cross-device comparisons.
+
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Clinical Validation
+RESPONDE A: R2C6
+--------------------------------------------------------------------------------
+
+Third, no direct clinical evaluation was performed. The review focused on technical characterization and research 
+adoption patterns rather than therapeutic efficacy or patient outcomes. Clinical applicability should be inferred 
+cautiously, and device selection for clinical use requires additional validation beyond the scope of this review.
+
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Publication-Based Metrics
+RESPONDE A: R2C6
+--------------------------------------------------------------------------------
+
+Fourth, the use of DOI-indexed publication counts as an adoption proxy captures documented academic use but does 
+not account for unpublished research, proprietary industrial applications, or clinical deployments outside 
+peer-reviewed contexts. Additionally, publication frequency may be influenced by device cost, accessibility, and 
+manufacturer support rather than technical merit.
+
+--------------------------------------------------------------------------------
+SEÇÃO: LIMITATIONS
+SUBTÍTULO: Market Temporality
+RESPONDE A: R2C6
+--------------------------------------------------------------------------------
+
+Finally, the neurotechnology market evolves rapidly. Devices included in this review reflect commercial 
+availability as of August 2025, and new products, firmware updates, or discontinued models may alter the 
 landscape in subsequent years.
 
-Future research should address these limitations through several 
-complementary approaches. First, experimental benchmarking studies 
-are needed to systematically compare signal quality, noise spectral 
-profiles, dropout rates, and operational reliability across devices 
-under controlled conditions.
+--------------------------------------------------------------------------------
+SEÇÃO: FUTURE DIRECTIONS
+SUBTÍTULO: Research Priorities
+RESPONDE A: R2C6
+--------------------------------------------------------------------------------
 
-Second, the integration of brain monitoring devices with artificial 
-intelligence and machine learning pipelines represents a critical 
-frontier. Future work should evaluate device compatibility with 
-real-time classification algorithms, adaptive neurofeedback systems, 
-and closed-loop brain-computer interfaces.
-
-Third, clinical validation studies in neurorehabilitation settings 
-are essential to assess the translational potential of portable 
-neurotechnologies.
-
-Fourth, longitudinal tracking of device adoption and technological 
-evolution would enable trend analysis and inform predictions about 
-future market developments.
-
-Finally, the development of standardized reporting frameworks for 
-neurotechnology specifications would enhance transparency and 
-facilitate cross-study comparisons.
+Future research should address these limitations through: (1) experimental benchmarking studies comparing signal 
+quality and reliability across devices; (2) integration with AI and machine learning for real-time applications; 
+(3) clinical validation studies in neurorehabilitation; (4) longitudinal tracking of market evolution; and 
+(5) development of standardized reporting frameworks for neurotechnology specifications.
 
 ================================================================================
-CHECKLIST:
-================================================================================
-[x] R1C3 - Viés fabricantes (parágrafo 2)
-[x] R2C6 - Limitations & Future Work (todos parágrafos)
-[x] R2AQ2 - Limitações metodológicas (parágrafos 1-2)

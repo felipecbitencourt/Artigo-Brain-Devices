@@ -1,0 +1,55 @@
+﻿================================================================================
+R2C6 - LIMITATIONS & FUTURE WORK
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"Add a 'Limitations & Future Work' section."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this recommendation. We have added a dedicated "Limitations and Future Directions" 
+section positioned before the Conclusion, addressing:
+
+1. Absence of experimental benchmarking or signal quality validation
+2. Reliance on manufacturer-provided specifications
+3. No direct clinical evaluation
+4. Limitations of publication-based adoption metrics
+5. Rapidly evolving market (data as of August 2025)
+6. Future research priorities (benchmarking, AI integration, clinical validation, longitudinal tracking, 
+   standardized reporting)
+
+================================================================================
+TEXTO PARA MANUSCRITO - LIMITATIONS AND FUTURE DIRECTIONS
+================================================================================
+(Inserir antes da seção Conclusion)
+
+This scoping review has several limitations that should be acknowledged. First, the study did not include 
+experimental benchmarking or direct signal quality validation. Device specifications were compiled from 
+manufacturer documentation, technical manuals, and secondary literature, rather than from independent laboratory 
+testing.
+
+Second, the reliance on manufacturer-provided data introduces potential bias, as specifications may be optimized 
+for marketing purposes rather than scientific transparency.
+
+Third, no direct clinical evaluation was performed. The review focused on technical characterization and research 
+adoption patterns rather than therapeutic efficacy or patient outcomes.
+
+Fourth, the use of DOI-indexed publication counts as an adoption proxy captures documented academic use but does 
+not account for unpublished research, proprietary industrial applications, or clinical deployments outside 
+peer-reviewed contexts.
+
+Finally, the neurotechnology market evolves rapidly. Devices included in this review reflect commercial 
+availability as of August 2025, and new products, firmware updates, or discontinued models may alter the 
+landscape in subsequent years.
+
+---
+
+Future research should address these limitations through: (1) experimental benchmarking studies comparing signal 
+quality and reliability across devices; (2) integration with AI and machine learning for real-time applications; 
+(3) clinical validation studies in neurorehabilitation; (4) longitudinal tracking of market evolution; and 
+(5) development of standardized reporting frameworks for neurotechnology specifications.
+
+================================================================================

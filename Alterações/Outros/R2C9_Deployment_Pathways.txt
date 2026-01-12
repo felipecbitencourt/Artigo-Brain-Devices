@@ -1,0 +1,39 @@
+﻿================================================================================
+R2C9 - DEPLOYMENT PATHWAYS
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"The discussion should address clinical, industrial, and societal deployment pathways."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this suggestion. We have added a Discussion paragraph addressing:
+
+1. Clinical pathways: Medical-grade certification trends, tele-neurorehabilitation potential.
+2. Industrial pathways: Workplace monitoring, driver alertness, human-machine interfaces.
+3. Societal implications: Accessibility, equity, price heterogeneity across device categories.
+
+================================================================================
+TEXTO PARA MANUSCRITO - DISCUSSION
+================================================================================
+
+Deployment Pathways
+
+The implications of this review extend beyond academic research to clinical, industrial, and societal contexts. 
+From a clinical perspective, the increasing availability of medical-grade certified devices (7.3% of the 
+identified devices) suggests a maturing pathway toward regulatory-approved neurotechnology deployments. 
+Consumer-grade devices (42.7%) offer opportunities for preventive neurology, mental wellness monitoring, and 
+tele-neurorehabilitation, though clinical validation remains essential.
+
+Industrial deployment pathways include workplace cognitive monitoring, driver alertness systems, and human-machine 
+interface optimization. The dominance of wireless architectures (approximately 70% Bluetooth adoption) facilitates 
+integration into existing occupational health infrastructures.
+
+Societal implications include accessibility and equity considerations. The price range observed ($97 to $25,000) 
+reflects significant heterogeneity, with consumer-grade devices potentially democratizing access to brain 
+monitoring technologies in resource-limited settings.
+
+================================================================================

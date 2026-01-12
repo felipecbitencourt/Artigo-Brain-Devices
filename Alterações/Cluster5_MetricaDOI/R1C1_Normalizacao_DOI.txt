@@ -1,0 +1,87 @@
+﻿================================================================================
+R1C1 - NORMALIZAÇÃO DA MÉTRICA DOI
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"How do the authors justify the use of the 'number of DOI-indexed publications' as a proxy for device adoption 
+without normalising device age, year of market entry, or industry-specific publishing practices?"
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this important methodological concern. We have addressed this limitation by:
+
+1. Clarifying metric purpose in Methods: We now explicitly state that DOI-indexed publications serve as an 
+   indicator of documented use, not device quality or technical performance.
+
+2. Revising terminology: We replaced ambiguous terms with "research adoption" and "literature-based adoption proxy."
+
+3. Adding time-normalized analysis: We calculated annualized publication rates (articles/year since market entry) 
+   for 92 of 96 devices (95.8%).
+
+4. Creating a comparative table (Table X): Presenting both total publications and annualized rates.
+
+5. Adding concentration analysis: Gini coefficient (0.86) quantifying adoption inequality.
+
+6. Adding a Limitations paragraph: Acknowledging factors that may influence publication counts.
+
+================================================================================
+TEXTO PARA MANUSCRITO - METHODS
+================================================================================
+
+Research adoption was quantified by the number of DOI-indexed publications explicitly reporting the use of each 
+device in experimental or clinical applications. This metric serves as a literature-based proxy for adoption 
+within the scientific community, reflecting documented use rather than device quality or technical performance. 
+To account for differences in device age, an annualized adoption rate was calculated by dividing the total 
+publication count by the number of years since each device's market entry. Market entry dates were available for 
+92 of 96 devices (95.8%), spanning from 2008 to 2025.
+
+Release year information was not consistently disclosed by manufacturers for a substantial portion of the devices. 
+Consequently, a secondary strategy based on the year of first appearance was adopted. This strategy integrated 
+multiple indicators, including official manufacturer documentation, the earliest peer-reviewed publications 
+reporting device usage, presentations at scientific or industry events, and, when applicable, the year of first 
+clearance or approval by the relevant regulatory authority (e.g., FDA, CE marking), among other verifiable 
+milestones. For devices that underwent subsequent updates, revisions, or new versions, the earliest identifiable 
+date of public availability was considered.
+
+================================================================================
+TEXTO PARA MANUSCRITO - RESULTS
+================================================================================
+
+Table X presents the research adoption metrics for the identified devices. The Emotiv EPOC X leads in total 
+publications (n = 722, 19.30%), followed by OpenBCI Ganglion/Cyton/Daisy (n = 180, 4.81%) and NeuroSky MindWave 
+Mobile 2 (n = 152, 4.06%). When normalized by years since market entry, adoption velocity reveals different 
+patterns: recently released devices such as NirSmart (24.50 articles/year) and Emotiv Flex 2 (18.00 articles/year) 
+exhibit high annual adoption rates despite lower absolute counts, suggesting growing research interest in newer 
+technologies.
+
+The research adoption distribution is highly concentrated, with a Gini coefficient of 0.86. The top 5 devices by 
+adoption velocity account for 55.4% of all identified studies (1,157 of 2,087), while 80% of devices contribute 
+less than 10% of the total literature.
+
+================================================================================
+TEXTO PARA MANUSCRITO - LIMITATIONS
+================================================================================
+
+The use of DOI-indexed publication counts as a proxy for research adoption has inherent limitations. First, this 
+metric does not account for industry-specific publishing practices, as some manufacturers may actively encourage 
+academic publications while others focus on commercial or clinical markets. Second, device cost and accessibility 
+influence publication frequency; lower-cost, consumer-grade devices may appear more frequently in the literature 
+due to broader accessibility, particularly in resource-limited research settings. Third, the availability of 
+open-source software, datasets, and community support for specific devices may inflate publication counts 
+independently of hardware performance. Finally, this metric captures only documented academic use and does not 
+reflect unpublished research, proprietary industrial applications, or clinical deployments outside peer-reviewed 
+contexts.
+
+================================================================================
+DADOS UTILIZADOS (do RELATORIO_TABELA.txt):
+================================================================================
+- Período analisado: 2008-2025
+- Dispositivos com ano: 92/96 (95.8%)
+- Gini = 0.8568
+- Top 5 = 55.4% dos estudos (1,157/2,087)
+- Top dispositivo: Epoc X com 120.33 art/ano (722 estudos / 6 anos)
+
+================================================================================

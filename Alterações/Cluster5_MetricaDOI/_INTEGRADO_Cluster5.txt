@@ -1,108 +1,123 @@
+﻿================================================================================
+CLUSTER 5: MÉTRICA DOI / TEMPORAL - RESPOSTA FINAL AOS REVISORES
 ================================================================================
-CLUSTER 5: MÉTRICA DOI / TEMPORAL - DOCUMENTO INTEGRADOR
-================================================================================
-Comentários: R1C1, R3C5, R3C6
-Atualizado: 2026-01-12 (dados calculados inseridos)
-
-================================================================================
-RESPONSE TO REVIEWERS (UNIFICADA):
-================================================================================
-
-Following the recommendations of Reviewers 1 and 3 regarding adoption 
-metrics and temporal analysis (R1C1, R3C5, R3C6), we have made 
-substantial revisions including:
-
-1. **Time-normalized metrics** (R1C1): Annualized publication rate calculated 
-   for 57 devices with complete data
-2. **Temporal evolution analysis** (R3C5): Trend analysis covering 2008-2025
-3. **Variant handling clarification** (R3C6): Aggregation strategy explained
-4. **Concentration analysis** (R3C3): Gini coefficient = 0.8568
+Comentários Integrados: R1C1, R3C5, R3C6
+Atualizado: 2026-01-12
 
 ================================================================================
-DADOS CALCULADOS:
+RESPONSE TO REVIEWERS
 ================================================================================
 
-MÉTRICAS GERAIS:
-- Dispositivos analisados: 96
-- Com ano de lançamento: 92 (95.8%)
-- Período: 2008-2025
-- Total de estudos: 2,087
-- Gini: 0.8568 (alta concentração)
+We thank the Reviewers for their recommendations regarding adoption metrics and temporal analysis. Following 
+their comments (R1C1, R3C5, R3C6), we have substantially revised the manuscript to include:
 
-TOP 10 ARTIGOS/ANO:
-| #  | Dispositivo          | Ano  | Estudos | Art./Ano |
-|----|----------------------|------|---------|----------|
-| 1  | Epoc X               | 2020 | 722     | 120.33   |
-| 2  | NirSmart             | 2024 | 49      | 24.50    |
-| 3  | MindWave Mobile 2    | 2018 | 152     | 19.00    |
-| 4  | OpenBCI              | 2016 | 180     | 18.00    |
-| 5  | Flex 2               | 2023 | 54      | 18.00    |
-| 6  | NeuSen W             | 2021 | 72      | 14.40    |
-| 7  | NIRSport2            | 2018 | 61      | 7.62     |
-| 8  | Enobio               | 2008 | 108     | 6.00     |
-| 9  | DSI                  | 2023 | 18      | 6.00     |
-| 10 | Insight              | 2015 | 63      | 5.73     |
-
-TENDÊNCIAS TEMPORAIS:
-| Período   | Disp. | Canais | Preço   | $/Canal | BT%   | WiFi% |
-|-----------|-------|--------|---------|---------|-------|-------|
-| 2008-2014 | 8     | 24.9   | $3,380  | $108    | 62.5% | 12.5% |
-| 2015-2018 | 23    | 27.4   | $807    | $69     | 73.9% | 34.8% |
-| 2019-2022 | 35    | 23.9   | $3,502  | $355    | 71.4% | 31.4% |
-| 2023-2025 | 26    | 22.2   | $3,902  | $2,331  | 69.2% | 19.2% |
+1. Time-normalized metrics (R1C1): Annualized publication rates alongside raw counts.
+2. Temporal evolution analysis (R3C5): Trend analysis covering 2008-2025.
+3. Gini coefficient (R3C3): Research adoption concentration quantified.
+4. Variant handling clarification (R3C6): Device family aggregation explained.
+5. Year of first appearance methodology (R1C1, R3C5): Multi-source strategy described.
 
 ================================================================================
-TEXTOS INTEGRADOS (COM DADOS):
+TEXTOS PARA MANUSCRITO
 ================================================================================
 
---- METHODS (normalização temporal - R1C1) ---
+--------------------------------------------------------------------------------
+SEÇÃO: METHODS
+SUBTÍTULO: Research Adoption Metrics
+RESPONDE A: R1C1
+--------------------------------------------------------------------------------
 
-"Research adoption was quantified by the number of DOI-indexed publications 
-explicitly reporting the use of each device. This metric serves as a 
-literature-based proxy for adoption within the scientific community, 
-reflecting documented use rather than device quality. To account for 
-differences in device age, an annualized adoption rate was calculated 
-by dividing the total publication count by the number of years since 
-each device's market entry. Market entry dates were available for 92 
-of 96 devices (95.8%), spanning from 2008 to 2025.
+Research adoption was quantified by the number of DOI-indexed publications explicitly reporting the use of each 
+device in experimental or clinical applications. This metric serves as a literature-based proxy for adoption 
+within the scientific community, reflecting documented use rather than device quality or technical performance.
 
-Release year information was not consistently disclosed by manufacturers 
-for a substantial portion of the devices. Consequently, a secondary 
-strategy based on the year of first appearance was adopted. This strategy 
-integrated multiple indicators, including official manufacturer documentation, 
-the earliest peer-reviewed publications reporting device usage, presentations 
-at scientific or industry events, and, when applicable, the year of first 
-clearance or approval by the relevant regulatory authority (e.g., FDA, CE 
-marking), among other verifiable milestones. For devices that underwent 
-subsequent updates, revisions, or new versions, the earliest identifiable 
-date of public availability was considered."
+To account for differences in device age, an annualized adoption rate was calculated by dividing the total 
+publication count by the number of years since each device's market entry. Market entry dates were available for 
+92 of 96 devices (95.8%), spanning from 2008 to 2025.
 
---- METHODS (tratamento de variantes - R3C6) ---
+--------------------------------------------------------------------------------
+SEÇÃO: METHODS
+SUBTÍTULO: Year of First Appearance
+RESPONDE A: R1C1, R3C5
+--------------------------------------------------------------------------------
 
-"Device variants were handled using a hybrid approach. At the catalog 
-level, unique device families were identified based on manufacturer 
-naming conventions. When variants exhibited distinct specifications, 
-they were recorded as separate entries (resulting in 125 entries from 
-96 device families). For bibliometric analysis, publication counts 
-were aggregated at the device family level to avoid fragmentation."
+Release year information was not consistently disclosed by manufacturers for a substantial portion of the devices. 
+Consequently, a secondary strategy based on the year of first appearance was adopted. This strategy integrated 
+multiple indicators, including official manufacturer documentation, the earliest peer-reviewed publications 
+reporting device usage, presentations at scientific or industry events, and, when applicable, the year of first 
+clearance or approval by the relevant regulatory authority (e.g., FDA, CE marking), among other verifiable 
+milestones. For devices that underwent subsequent updates, revisions, or new versions, the earliest identifiable 
+date of public availability was considered.
 
---- RESULTS (evolução temporal - R3C5) ---
+--------------------------------------------------------------------------------
+SEÇÃO: METHODS
+SUBTÍTULO: Device Variant Handling
+RESPONDE A: R3C6
+--------------------------------------------------------------------------------
 
-"Figure X presents the timeline of market entry for the 96 devices. 
-The market has shown accelerating growth, with 63.6% of devices entering 
-the market since 2019. The average channel count increased from 24.9 
-(2008-2014) to 27.4 (2015-2018), then stabilized around 22-24 channels 
-(2019-2025). Wireless connectivity has become dominant, with approximately 
-70% of devices featuring Bluetooth connectivity across all periods since 
-2015. The research adoption distribution exhibited high concentration 
-(Gini coefficient = 0.86), with the top 5 devices accounting for 55.4% 
-of all documented studies."
+Devices were organized based on form factor (device type) as the primary grouping criterion. Within the same 
+manufacturer, devices sharing identical form factors but differing in channel count or minor configurations were 
+grouped as variants within a single entry (e.g., "Quick 20m | 20r v2 | 32r" representing the same headset design 
+with 20, 21, or 32 channels). Conversely, devices with fundamentally different form factors were recorded as 
+separate entries, even from the same manufacturer (e.g., CGX Cognionics "Quick" headset vs. "Mobile" cap).
+
+This aggregation strategy was also adopted because many publications do not specify the exact variant used. 
+Authors frequently report using "Emotiv EPOC" or "OpenBCI" without distinguishing specific models or 
+configurations. Aggregating at the device family level provides more stable adoption indicators and avoids 
+artificial fragmentation of citation counts.
+
+--------------------------------------------------------------------------------
+SEÇÃO: RESULTS
+SUBTÍTULO: Temporal Evolution of the Neurotechnology Market
+RESPONDE A: R3C5
+--------------------------------------------------------------------------------
+
+Figure X presents the timeline of market entry for the 96 devices identified in this review. The market has shown 
+accelerating growth, with 63.6% of all devices (61 of 96) entering the market between 2019 and 2025.
+
+The distribution of device market entries across time periods was as follows: 2008-2014 (8 devices, 8.3%), 
+2015-2018 (23 devices, 24.0%), 2019-2022 (35 devices, 36.5%), and 2023-2025 (26 devices, 27.1%).
+
+--------------------------------------------------------------------------------
+SEÇÃO: RESULTS
+SUBTÍTULO: Channel Count Evolution
+RESPONDE A: R3C5
+--------------------------------------------------------------------------------
+
+The average channel count increased from 24.9 (2008-2014) to 27.4 (2015-2018), then stabilized around 22-24 
+channels (2019-2025). This pattern reflects the simultaneous growth of two market segments: high-density research 
+systems (32-128+ channels) and consumer-grade devices (1-8 channels).
+
+--------------------------------------------------------------------------------
+SEÇÃO: RESULTS
+SUBTÍTULO: Wireless Adoption
+RESPONDE A: R3C5
+--------------------------------------------------------------------------------
+
+Wireless connectivity has become the dominant architecture since 2015, with approximately 70% of devices featuring 
+Bluetooth connectivity across all subsequent periods: 2008-2014 (62.5% Bluetooth, 12.5% Wi-Fi), 2015-2018 (73.9% 
+Bluetooth, 34.8% Wi-Fi), 2019-2022 (71.4% Bluetooth, 31.4% Wi-Fi), and 2023-2025 (69.2% Bluetooth, 19.2% Wi-Fi).
+
+--------------------------------------------------------------------------------
+SEÇÃO: RESULTS
+SUBTÍTULO: Research Adoption Concentration
+RESPONDE A: R1C1, R3C3
+--------------------------------------------------------------------------------
+
+The research adoption distribution exhibited high concentration (Gini coefficient = 0.86), with the top 5 devices 
+accounting for 55.4% of all documented studies (1,157 of 2,087). The Emotiv EPOC X led research adoption with 
+120.33 articles/year (722 total studies over 6 years).
+
+When normalized by years since market entry, adoption velocity reveals that recently released devices such as 
+NirSmart (24.50 articles/year) and Emotiv Flex 2 (18.00 articles/year) exhibit high annual adoption rates despite 
+lower absolute counts, suggesting growing research interest in newer technologies.
 
 ================================================================================
-CHECKLIST:
+FIGURAS GERADAS (em Alterações/Figuras/)
 ================================================================================
-[x] R1C1 - Texto normalização → DADOS INSERIDOS
-[x] R3C5 - Texto evolução temporal → DADOS INSERIDOS
-[x] R3C6 - Texto variantes → OK
-[x] Gini calculado: 0.8568
-[x] Tendências por período calculadas
+
+1. timeline_scatter.png  - Dispersão de dispositivos por ano de entrada
+2. timeline_bar.png      - Distribuição anual por tecnologia (empilhado)
+3. temporal_trends.png   - Painel 2x2 com tendências temporais
+
+================================================================================

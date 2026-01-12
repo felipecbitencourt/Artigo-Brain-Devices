@@ -1,49 +1,106 @@
+﻿================================================================================
+OUTROS COMENTÁRIOS - RESPOSTA FINAL AOS REVISORES
 ================================================================================
-OUTROS COMENTÁRIOS - DOCUMENTO INTEGRADOR
-================================================================================
-Comentários: R2C1, R2C9, R2AQ3
-
-Estes comentários não pertencem aos Clusters 1, 3 ou 5, mas estão
-atribuídos a Felipe e Eduarda.
+Comentários Integrados: R2C1, R2C9, R2AQ3
+Atualizado: 2026-01-12
 
 ================================================================================
-MAPEAMENTO:
+RESPONSE TO REVIEWERS
 ================================================================================
 
-R2C1 - Pergunta de pesquisa explícita
-→ ONDE: Introduction
-→ STATUS: ✅ Resposta pronta
+We thank Reviewer 2 for their insightful comments. Following their recommendations (R2C1, R2C9, R2AQ3), we have 
+revised the manuscript to:
 
-R2C9 - Clinical, Industrial, and Societal Deployment Pathways
-→ ONDE: Discussion (nova subseção)
-→ STATUS: ✅ Resposta pronta
-
-R2AQ3 - Roadmap futuro e referências 2023-2025
-→ ONDE: Future Directions
-→ STATUS: ✅ Resposta pronta (precisa referências)
+1. Add explicit research question (R2C1): Clear RQ in Introduction.
+2. Address deployment pathways (R2C9): Clinical, industrial, societal considerations.
+3. Expand future roadmap (R2AQ3): AI integration, emerging technologies.
 
 ================================================================================
-TEXTO INTEGRADO PARA INTRODUCTION (R2C1):
+TEXTOS PARA MANUSCRITO
 ================================================================================
 
-"Despite their growing potential, selecting the most appropriate brain 
-monitoring device remains a major challenge. The commercial landscape has 
-expanded rapidly, encompassing numerous manufacturers with heterogeneous 
-specifications. This diversity, coupled with the absence of standardized 
-reporting, creates a paradox of choice that complicates decision-making.
+--------------------------------------------------------------------------------
+SEÇÃO: INTRODUCTION
+SUBTÍTULO: Research Context
+RESPONDE A: R2C1
+--------------------------------------------------------------------------------
 
-This scoping review addresses the following research question: How can 
-commercially available portable EEG and fNIRS devices be systematically 
-characterized and compared to support informed selection for neuroscience 
-and neurorehabilitation research?
+Despite their growing potential, selecting the most appropriate brain monitoring device remains a major challenge. 
+The commercial landscape has expanded rapidly, with 96 devices from 64 manufacturers across 26 countries 
+currently available. This diversity, coupled with the absence of standardized reporting, creates a paradox of 
+choice that complicates decision-making for researchers and clinicians.
 
-Rather than testing a hypothesis, this study provides an evidence-based 
-framework that bridges engineering specifications and practical research 
-implementation."
+--------------------------------------------------------------------------------
+SEÇÃO: INTRODUCTION
+SUBTÍTULO: Research Question
+RESPONDE A: R2C1
+--------------------------------------------------------------------------------
+
+This scoping review addresses the following research question: How can commercially available portable EEG and 
+fNIRS devices be systematically characterized and compared to support informed selection for neuroscience and 
+neurorehabilitation research?
+
+Rather than testing a hypothesis, this study provides an evidence-based framework that bridges engineering 
+specifications and practical research implementation.
+
+--------------------------------------------------------------------------------
+SEÇÃO: DISCUSSION
+SUBTÍTULO: Deployment Pathways
+RESPONDE A: R2C9
+--------------------------------------------------------------------------------
+
+The implications of this review extend beyond academic research to clinical, industrial, and societal contexts. 
+From a clinical perspective, the increasing availability of medical-grade certified devices (7.3% of the 
+identified devices) suggests a maturing pathway toward regulatory-approved neurotechnology deployments. 
+Consumer-grade devices (42.7%) offer opportunities for preventive neurology, mental wellness monitoring, and 
+tele-neurorehabilitation, though clinical validation remains essential.
+
+Industrial deployment pathways include workplace cognitive monitoring, driver alertness systems, and human-machine 
+interface optimization. The dominance of wireless architectures (approximately 70% Bluetooth adoption) facilitates 
+integration into existing occupational health infrastructures.
+
+Societal implications include accessibility and equity considerations. The price range observed ($97 to $25,000) 
+reflects significant heterogeneity, with consumer-grade devices potentially democratizing access to brain 
+monitoring technologies in resource-limited settings.
+
+--------------------------------------------------------------------------------
+SEÇÃO: FUTURE DIRECTIONS
+SUBTÍTULO: Emerging Technologies
+RESPONDE A: R2AQ3
+--------------------------------------------------------------------------------
+
+Several emerging technologies are likely to reshape the portable neurotechnology landscape:
+
+Artificial Intelligence Integration: The integration of machine learning pipelines directly into device firmware 
+represents a critical frontier. On-device inference, adaptive algorithms, and real-time classification are 
+increasingly enabled by advances in edge computing and neuromorphic processing.
+
+Foundation Models: Large-scale pre-trained models for EEG analysis (e.g., EEGNet variants, Transformer-based 
+architectures) may standardize signal processing approaches across devices and applications.
+
+Federated Learning: Privacy-preserving distributed learning approaches enable multi-site neurotechnology research 
+without centralized data sharing, addressing regulatory and ethical constraints.
+
+Multimodal Integration: The convergence of EEG, fNIRS, and other biosignals (PPG, GSR, IMU) in single devices 
+enables comprehensive physiological monitoring for brain-body interface applications.
+
+--------------------------------------------------------------------------------
+SEÇÃO: FUTURE DIRECTIONS
+SUBTÍTULO: Research Priorities
+RESPONDE A: R2AQ3
+--------------------------------------------------------------------------------
+
+Future research should prioritize: (1) standardized benchmarking protocols for cross-device validation; 
+(2) clinical translation studies in neurorehabilitation settings; (3) longitudinal market surveillance to track 
+technological evolution; and (4) development of reporting standards for neurotechnology specifications.
 
 ================================================================================
-CHECKLIST:
+AÇÃO PENDENTE
 ================================================================================
-[x] R2C1 - Pergunta de pesquisa
-[x] R2C9 - Deployment Pathways
-[x] R2AQ3 - Roadmap futuro
+
+[ ] Buscar referências 2023-2025:
+    - EEG + Inteligência Artificial
+    - Federated Learning em neurotecnologia
+    - Foundation Models para EEG/biossinais
+
+================================================================================

@@ -1,0 +1,34 @@
+﻿================================================================================
+R2AQ1 - JUSTIFICAR CARÁTER DESCRITIVO
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"Why is this a descriptive scoping review rather than a systematic review with meta-analysis?"
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this methodological question. We have:
+
+1. Clarified scope in Methods: This is a scoping review following PRISMA-ScR guidelines, designed for technical 
+   characterization rather than hypothesis testing.
+
+2. Justified approach: The heterogeneity of device specifications and lack of standardized outcomes preclude 
+   meta-analysis.
+
+3. Stated objective: Mapping the commercial landscape and research adoption patterns, not evaluating 
+   comparative efficacy.
+
+================================================================================
+TEXTO PARA MANUSCRITO - METHODS
+================================================================================
+
+This scoping review was conducted following PRISMA-ScR guidelines and registered in the Open Science Framework. 
+The scoping review methodology was selected because the objective was to map the commercial landscape and 
+quantify research adoption patterns, rather than to synthesize intervention effects or test hypotheses. The 
+heterogeneity of device specifications, absence of standardized performance metrics, and lack of head-to-head 
+comparative studies preclude traditional meta-analytical approaches.
+
+================================================================================

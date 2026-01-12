@@ -1,77 +1,93 @@
+﻿================================================================================
+CLUSTER 3: ABSTRACT - RESPOSTA FINAL AOS REVISORES
 ================================================================================
-CLUSTER 3: ABSTRACT - DOCUMENTO INTEGRADOR
-================================================================================
-Comentários: R1AQ1, R2C7, R2AQ1
-Atualizado: 2026-01-12 (dados do CSV inseridos)
-
-================================================================================
-RESPONSE TO REVIEWERS (UNIFICADA):
-================================================================================
-
-Following the recommendations of Reviewers 1 and 2 regarding the Abstract 
-(R1AQ1, R2C7, R2AQ1), we have substantially revised the Abstract to include:
-
-1. **Specific quantitative achievements** (R2C7): 96 devices, 64 manufacturers, 
-   26 countries, 2,087 studies, 55.79% inclusion rate
-2. **Clear statement of contribution** (R1AQ1): Evidence-based framework 
-   for device selection
-3. **Justification of descriptive scope** (R2AQ1): Valid scoping review 
-   methodology
+Comentários Integrados: R1AQ1, R2C7, R2AQ1
+Atualizado: 2026-01-12
 
 ================================================================================
-ABSTRACT REVISADO (COM DADOS):
+RESPONSE TO REVIEWERS
 ================================================================================
 
-Background: The proliferation of portable brain monitoring devices for 
-electroencephalography (EEG) and functional near-infrared spectroscopy 
-(fNIRS) has created both opportunities and challenges for neuroscience 
-and neurorehabilitation research. Device selection remains a methodological 
-challenge due to heterogeneous specifications and lack of standardized 
-comparison frameworks.
+We thank the Reviewers for their recommendations regarding the Abstract. Following their comments (R1AQ1, R2C7, 
+R2AQ1), we have substantially revised the Abstract to include:
 
-Objective: This scoping review provides a comprehensive technical 
-characterization of wireless brain monitoring devices currently available 
-on the global market and quantifies their adoption in the scientific 
-literature.
-
-Methods: Following PRISMA-ScR guidelines and registered in the Open 
-Science Framework (OSF), we systematically identified and characterized 
-commercially available EEG and fNIRS devices. Research adoption was 
-quantified through DOI-indexed publications explicitly reporting device 
-use. An annualized adoption rate was calculated to account for differences 
-in device age.
-
-Results: A total of 96 unique devices (125 including model variants) 
-from 64 manufacturers across 26 countries were identified. Bibliometric 
-analysis yielded 3,741 unique records, of which 2,087 (55.79%) met the 
-inclusion criteria, explicitly reporting device use in experimental or 
-clinical applications. The Emotiv EPOC X led research adoption 
-with 19.30% of included studies (722 publications; 120.33 articles/year), 
-followed by OpenBCI (4.81%) and NeuroSky MindWave (4.06%). The research 
-adoption distribution exhibited high concentration (Gini coefficient = 0.86), 
-with the top 5 devices accounting for 55.4% of all documented studies.
-
-Conclusion: This review provides the most comprehensive device-level 
-mapping of portable brain monitoring technologies currently available 
-in the peer-reviewed literature. The compiled catalog offers an 
-evidence-based framework to guide device selection, bridging the gap 
-between engineering specifications and practical research implementation.
+1. Specific quantitative achievements (R2C7): 96 devices, 64 manufacturers, 26 countries, Gini 0.86.
+2. Clear statement of contribution (R1AQ1): Evidence-based framework for device selection.
+3. Justification of descriptive scope (R2AQ1): Scoping review methodology clarified.
 
 ================================================================================
-DADOS UTILIZADOS (do RELATORIO_TABELA.txt):
+TEXTOS PARA MANUSCRITO
 ================================================================================
-✅ Total de dispositivos: 96
-✅ Fabricantes únicos: 64
-✅ Países de origem: 26
-✅ Total de estudos: 2,087
-✅ Coeficiente de Gini: 0.8568
-✅ Top 5 dispositivos: 55.4% dos estudos
-✅ Epoc X: 722 estudos, 120.33 art/ano
+
+--------------------------------------------------------------------------------
+SEÇÃO: ABSTRACT
+SUBTÍTULO: Background
+RESPONDE A: R2AQ1
+--------------------------------------------------------------------------------
+
+The proliferation of portable brain monitoring devices for electroencephalography (EEG) and functional 
+near-infrared spectroscopy (fNIRS) has created both opportunities and challenges for neuroscience and 
+neurorehabilitation research. Device selection remains a methodological challenge due to heterogeneous 
+specifications and lack of standardized comparison frameworks.
+
+--------------------------------------------------------------------------------
+SEÇÃO: ABSTRACT
+SUBTÍTULO: Objective
+RESPONDE A: R2AQ1
+--------------------------------------------------------------------------------
+
+This scoping review provides a comprehensive technical characterization of wireless brain monitoring devices 
+currently available on the global market and quantifies their adoption in the scientific literature.
+
+--------------------------------------------------------------------------------
+SEÇÃO: ABSTRACT
+SUBTÍTULO: Methods
+RESPONDE A: R2AQ1
+--------------------------------------------------------------------------------
+
+Following PRISMA-ScR guidelines and registered in the Open Science Framework (OSF), we systematically identified 
+and characterized commercially available EEG and fNIRS devices. Research adoption was quantified through 
+DOI-indexed publications explicitly reporting device use. An annualized adoption rate was calculated to account 
+for differences in device age.
+
+--------------------------------------------------------------------------------
+SEÇÃO: ABSTRACT
+SUBTÍTULO: Results
+RESPONDE A: R2C7
+--------------------------------------------------------------------------------
+
+A total of 96 unique devices (125 including model variants) from 64 manufacturers across 26 countries were 
+identified. Bibliometric analysis yielded 3,741 unique records, of which 2,087 (55.79%) met the inclusion 
+criteria, explicitly reporting device use in experimental or clinical applications. The Emotiv EPOC X led 
+research adoption with 19.30% of included studies (722 publications; 120.33 articles/year). The research adoption 
+distribution exhibited high concentration (Gini coefficient = 0.86), with the top 5 devices accounting for 55.4% 
+of all documented studies.
+
+--------------------------------------------------------------------------------
+SEÇÃO: ABSTRACT
+SUBTÍTULO: Conclusion
+RESPONDE A: R1AQ1
+--------------------------------------------------------------------------------
+
+This review provides the most comprehensive device-level mapping of portable brain monitoring technologies 
+currently available in the peer-reviewed literature. The compiled catalog offers an evidence-based framework to 
+guide device selection, bridging the gap between engineering specifications and practical research implementation.
 
 ================================================================================
-CHECKLIST:
+DADOS UTILIZADOS (fonte: RELATORIO_TABELA.txt)
 ================================================================================
-[x] R1AQ1 - Contribuição explícita (conclusão)
-[x] R2C7  - Números específicos (results)
-[x] R2AQ1 - Justificativa caráter descritivo (na resposta)
-[x] Placeholders preenchidos com dados reais
+
+| Métrica                    | Valor     |
+|----------------------------|-----------|
+| Total de dispositivos      | 96        |
+| Fabricantes únicos         | 64        |
+| Países de origem           | 26        |
+| Total de estudos           | 2,087     |
+| Inclusion rate             | 55.79%    |
+| Coeficiente de Gini        | 0.86      |
+| Top dispositivo            | Epoc X    |
+| Epoc X - estudos           | 722       |
+| Epoc X - art/ano           | 120.33    |
+| Top 5 - % estudos          | 55.4%     |
+
+================================================================================

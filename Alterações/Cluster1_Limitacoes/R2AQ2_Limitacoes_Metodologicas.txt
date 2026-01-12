@@ -1,0 +1,36 @@
+﻿================================================================================
+R2AQ2 - LIMITAÇÕES METODOLÓGICAS
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"The methodology section could benefit from explicitly stating the limitations of the review approach."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this suggestion. We have:
+
+1. Added explicit limitations in the Methods section regarding data collection approach.
+2. Expanded the Limitations section with methodological constraints.
+3. Clarified the scope as a scoping review rather than systematic validation study.
+
+================================================================================
+TEXTO PARA MANUSCRITO - METHODS (adicionar ao final)
+================================================================================
+
+This scoping review is subject to methodological limitations inherent to the catalog approach. Device 
+specifications were compiled from publicly available sources (manufacturer documentation, technical manuals, 
+peer-reviewed publications) rather than from independent laboratory testing. Consequently, reported parameters 
+reflect manufacturer claims and may not fully represent real-world performance.
+
+================================================================================
+TEXTO PARA MANUSCRITO - LIMITATIONS
+================================================================================
+
+From a methodological perspective, the catalog approach prioritized breadth of coverage over depth of validation. 
+While this enables comprehensive market mapping, it does not substitute for empirical benchmarking studies that 
+would provide independent verification of device specifications under controlled conditions.
+
+================================================================================

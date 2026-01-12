@@ -1,0 +1,29 @@
+﻿================================================================================
+R2C7 - NÚMEROS ESPECÍFICOS NO ABSTRACT
+================================================================================
+Atualizado: 2026-01-12
+
+COMENTÁRIO DO REVISOR:
+"The abstract should include specific quantitative results."
+
+================================================================================
+RESPONSE TO REVIEWERS
+================================================================================
+
+We thank the reviewer for this suggestion. We have revised the Abstract to include:
+
+1. Device counts: 96 devices, 125 variants, 64 manufacturers, 26 countries
+2. Bibliometric results: 3,741 records, 2,087 included (55.79%)
+3. Adoption metrics: Top device (EPOC X, 19.30%), Gini coefficient (0.86)
+
+================================================================================
+TEXTO PARA MANUSCRITO - ABSTRACT (Results section)
+================================================================================
+
+Results: A total of 96 unique devices (125 including model variants) from 64 manufacturers across 26 countries 
+were identified. Bibliometric analysis yielded 3,741 unique records, of which 2,087 (55.79%) met the inclusion 
+criteria, explicitly reporting device use in experimental or clinical applications. The Emotiv EPOC X led 
+research adoption with 19.30% of included studies. The research adoption distribution exhibited high 
+concentration (Gini coefficient = 0.86), with the top 5 devices accounting for 55.4% of all documented studies.
+
+================================================================================
