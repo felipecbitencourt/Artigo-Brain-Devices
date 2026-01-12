@@ -1,107 +1,125 @@
 ================================================================================
 CHECKLIST DE FELIPE E EDUARDA
 ================================================================================
-Atualizado: 2026-01-11 22:11
-Organização: Clusters 1, 3, 5 + Outros
+Atualizado: 2026-01-12 12:45
+Organização: Por Cluster (Ações LLM + Ações Autores)
 
 ================================================================================
 ESTRUTURA DE PASTAS
 ================================================================================
 
-Respostas/
+Alterações/
 ├── Cluster1_Limitacoes/     (R1C3, R2C6, R2AQ2)
 ├── Cluster3_Abstract/       (R1AQ1, R2C7, R2AQ1)
 ├── Cluster5_MetricaDOI/     (R1C1, R3C5, R3C6)
-└── Outros/                  (R2C1, R2C9, R2AQ3)
+├── Outros/                  (R2C1, R2C9, R2AQ3)
+└── Figuras/                 (timeline_scatter, timeline_bar, temporal_trends)
 
 ================================================================================
-PARTE 1: AÇÕES VIA LLM ✅ COMPLETO
+📁 CLUSTER 1: LIMITAÇÕES (R1C3, R2C6, R2AQ2)
 ================================================================================
 
-📁 CLUSTER 1: LIMITAÇÕES
-------------------------------------------
+✏️ AÇÕES LLM:
 [x] _INTEGRADO_Cluster1.txt     → Seção Limitations completa
 [x] R1C3_Response.txt           → Viés fabricantes
 [x] R2C6_Response.txt           → Limitations & Future Work
 [x] R2AQ2_Response.txt          → Limitações metodológicas
 
-📁 CLUSTER 3: ABSTRACT
-------------------------------------------
-[x] _INTEGRADO_Cluster3.txt     → Abstract revisado
+📋 AÇÕES AUTORES:
+[ ] Copiar _INTEGRADO_Cluster1 para seção Limitations do manuscrito
+[ ] Revisar consistência de linguagem na seção
+
+================================================================================
+📁 CLUSTER 3: ABSTRACT (R1AQ1, R2C7, R2AQ1)
+================================================================================
+
+✏️ AÇÕES LLM:
+[x] _INTEGRADO_Cluster3.txt     → Abstract revisado com dados
 [x] R1AQ1_Response.txt          → Contribuição original
 [x] R2C7_Response.txt           → Números específicos
 [x] R2AQ1_Response.txt          → Justificar descritivo
 
-📁 CLUSTER 5: MÉTRICA DOI / TEMPORAL
-------------------------------------------
-[x] _INTEGRADO_Cluster5.txt     → Análise temporal
-[x] R1C1_Response.txt           → Normalização métrica
+📋 AÇÕES AUTORES:
+[x] Preencher placeholders [X]=96, [Y]=64, [N]=26 ✅ Já preenchidos
+[ ] Copiar Abstract revisado para manuscrito
+[ ] Revisar contagem de palavras (limite IEEE Access)
+
+================================================================================
+📁 CLUSTER 5: MÉTRICA DOI / TEMPORAL (R1C1, R3C5, R3C6)
+================================================================================
+
+✏️ AÇÕES LLM:
+[x] _INTEGRADO_Cluster5.txt     → Análise temporal com dados
+[x] R1C1_Response.txt           → Normalização métrica (artigos/ano)
 [x] R3C5_Response.txt           → Evolução temporal
 [x] R3C6_Response.txt           → Tratamento variantes
 
-📁 OUTROS
-------------------------------------------
+📊 DADOS CALCULADOS:
+[x] Anos de lançamento coletados (92/96 = 95.8%)
+[x] Artigos/ano calculados (57 dispositivos)
+[x] Tendência de canais por período
+[x] Tendência de custo/canal por período
+[x] % Wireless por período (Bluetooth e WiFi)
+[x] Coeficiente de Gini = 0.8568
+
+📈 FIGURAS:
+[x] timeline_scatter.png        → Dispersão por ano
+[x] timeline_bar.png            → Barras empilhadas por ano
+[x] temporal_trends.png         → 4 painéis de tendências
+
+📋 AÇÕES AUTORES:
+[ ] Copiar textos de Methods para manuscrito
+[ ] Copiar textos de Results para manuscrito
+[ ] Inserir referência às figuras no texto
+[ ] Adicionar metodologia "Year of first appearance"
+
+================================================================================
+📁 OUTROS (R2C1, R2C9, R2AQ3)
+================================================================================
+
+✏️ AÇÕES LLM:
 [x] _INTEGRADO_Outros.txt       → Introduction e Discussion
 [x] R2C1_Response.txt           → Pergunta de pesquisa
 [x] R2C9_Response.txt           → Deployment Pathways
 [x] R2AQ3_Response.txt          → Roadmap futuro
 
-TOTAL PARTE 1: 16/16 documentos ✅
-
-================================================================================
-PARTE 2: AÇÕES EXTERNAS (requerem trabalho dos autores)
-================================================================================
-
-🔍 COLETA DE DADOS
-------------------------------------------
-[ ] Coletar ANOS DE LANÇAMENTO dos 96 dispositivos
-[ ] Coletar PREÇOS dos dispositivos
-[ ] Confirmar METODOLOGIA de variantes usada
-[ ] Verificar nº de FABRICANTES e PAÍSES
-
-📊 ANÁLISES E CÁLCULOS
-------------------------------------------
-[ ] Calcular ARTIGOS/ANO para cada dispositivo
-[ ] Calcular tendência de CANAIS ao longo do tempo
-[ ] Calcular tendência de CUSTO/CANAL
-[ ] Calcular % de WIRELESS por período
-
-📖 REFERÊNCIAS BIBLIOGRÁFICAS
-------------------------------------------
+📖 REFERÊNCIAS (para R2AQ3):
 [ ] Buscar 3-5 referências 2023-2025 (EEG + IA)
 [ ] Buscar referências federated learning
 [ ] Buscar referências foundation models
 
-📝 INTEGRAÇÃO NO MANUSCRITO
-------------------------------------------
-[ ] Copiar _INTEGRADO_Cluster1 para Limitations
-[ ] Copiar _INTEGRADO_Cluster3 para Abstract (preencher [X], [Y], [N])
-[ ] Copiar _INTEGRADO_Cluster5 para Methods/Results
-[ ] Copiar _INTEGRADO_Outros para Introduction/Discussion
-[ ] Criar FIGURA timeline
-[ ] Criar TABELA artigos/ano normalizado
+📋 AÇÕES AUTORES:
+[ ] Copiar textos para Introduction
+[ ] Copiar textos para Discussion
+[ ] Inserir novas referências
 
-✅ REVISÃO FINAL
-------------------------------------------
-[ ] Revisar consistência de linguagem
-[ ] Verificar que não há repetições
-[ ] Preencher todos os placeholders
+================================================================================
+✅ REVISÃO FINAL (cross-cluster)
+================================================================================
+
+[ ] Revisar consistência de linguagem em todo manuscrito
+[ ] Verificar que não há repetições entre seções
 [ ] Verificar formatação IEEE Access
-[ ] Submeter para coautores
-
-TOTAL PARTE 2: 0/19 itens
+[ ] Submeter para coautores (Claudio, Eduardo)
 
 ================================================================================
 PROGRESSO GERAL
 ================================================================================
 
-PARTE 1 (LLM):     ████████████████████ 100% (16/16)
-PARTE 2 (Autores): ░░░░░░░░░░░░░░░░░░░░   0% (0/19)
+CLUSTER 1 (Limitações):   ████████████████████ 100% LLM | 0% Autores
+CLUSTER 3 (Abstract):     ████████████████████ 100% LLM | 33% Autores
+CLUSTER 5 (Métrica DOI):  ████████████████████ 100% LLM | 0% Autores
+OUTROS:                   ████████████████████ 100% LLM | 0% Autores
+
+TOTAL LLM:     16/16 documentos ✅
+TOTAL AUTORES: ~15 ações pendentes
 
 ================================================================================
-AÇÕES PRIORITÁRIAS
+ARQUIVOS DE REFERÊNCIA
 ================================================================================
 
-1. [ ] Coletar anos de lançamento (necessário para Cluster 5)
-2. [ ] Preencher placeholders no Abstract [X], [Y], [N]
-3. [ ] Integrar textos no manuscrito Word
+📄 RELATORIO_TABELA.txt - Todas as métricas calculadas
+📄 analyze_table.py     - Script de análise
+📄 generate_timeline.py - Script de figuras
+
+================================================================================

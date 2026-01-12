@@ -1,0 +1,164 @@
+
+================================================================================
+RELATÓRIO DE ANÁLISE DA TABELA DE DISPOSITIVOS
+================================================================================
+Gerado em: 2026-01-12 12:20:49
+Arquivo fonte: Table1_v12 - Cópia de Página1.csv
+Total de dispositivos: 96
+
+================================================================================
+PARTE 1: ANÁLISES BÁSICAS
+================================================================================
+
+📅 ANOS DE LANÇAMENTO
+------------------------------------------
+Dispositivos com ano: 92
+Dispositivos sem ano: 4
+Período: 2008 - 2025
+
+Distribuição por ano:
+  2008: 1 dispositivos
+  2010: 1 dispositivos
+  2011: 1 dispositivos
+  2012: 1 dispositivos
+  2013: 1 dispositivos
+  2014: 3 dispositivos
+  2015: 4 dispositivos
+  2016: 5 dispositivos
+  2017: 6 dispositivos
+  2018: 8 dispositivos
+  2019: 6 dispositivos
+  2020: 8 dispositivos
+  2021: 10 dispositivos
+  2022: 11 dispositivos
+  2023: 18 dispositivos
+  2024: 7 dispositivos
+  2025: 1 dispositivos
+
+🏭 FABRICANTES: 64 únicos
+🌍 PAÍSES: 26 países
+
+Principais países:
+  USA: 39 dispositivos
+  CHN: 8 dispositivos
+  ESP: 6 dispositivos
+  DEU: 6 dispositivos
+  KOR: 4 dispositivos
+  AUT: 3 dispositivos
+  NLD: 3 dispositivos
+  CAN: 3 dispositivos
+  JPN: 3 dispositivos
+  RUS: 2 dispositivos
+
+🔬 TECNOLOGIAS
+  EEG: 77 dispositivos
+  fNIRS: 10 dispositivos
+  EEG + fNIRS: 3 dispositivos
+  VR + EEG: 2 dispositivos
+  fNIRS + EEG: 2 dispositivos
+  AR + EEG: 1 dispositivos
+  EEG + VR: 1 dispositivos
+
+💰 PREÇOS (USD)
+------------------------------------------
+Com preço: 41 | Sem preço: 55
+Mínimo: $97 | Máximo: $25,000 | Média: $2,938
+
+📡 CANAIS
+------------------------------------------
+Mínimo: 1 | Máximo: 150 | Média: 24.2
+
+📊 ESTUDOS ENCONTRADOS
+------------------------------------------
+Total: 2087 | Média: 21.7 | Máx: 722
+
+================================================================================
+PARTE 2: MÉTRICAS DOS REVISORES
+================================================================================
+
+📈 R1C1 + R3C5: ARTIGOS POR ANO (TOP 20)
+------------------------------------------
+   1. Epoc X                                   | 120.33 art/ano | (722 / 6 anos)
+   2.  NirSmart | NirSmart II                  |  24.50 art/ano | (49 / 2 anos)
+   3. MindWave Mobile 2                        |  19.00 art/ano | (152 / 8 anos)
+   4. Ganglion | Cyton | Daisy                 |  18.00 art/ano | (180 / 10 anos)
+   5. Flex 2                                   |  18.00 art/ano | (54 / 3 anos)
+   6. NeuSen W                                 |  14.40 art/ano | (72 / 5 anos)
+   7. NIRSport2                                |   7.62 art/ano | (61 / 8 anos)
+   8. Enobio                                   |   6.00 art/ano | (108 / 18 anos)
+   9. DSI                                      |   6.00 art/ano | (18 / 3 anos)
+  10. Insight                                  |   5.73 art/ano | (63 / 11 anos)
+  11. Eego Sports                              |   5.44 art/ano | (49 / 9 anos)
+  12. SmartBCI                                 |   5.42 art/ano | (65 / 12 anos)
+  13. Muse 2                                   |   5.38 art/ano | (43 / 8 anos)
+  14. g.Nautilus                               |   5.33 art/ano | (64 / 12 anos)
+  15. LiveAmp                                  |   4.82 art/ano | (53 / 11 anos)
+  16. B-Alert                                  |   4.40 art/ano | (66 / 15 anos)
+  17. Nirsit                                   |   4.29 art/ano | (30 / 7 anos)
+  18. Brite                                    |   4.25 art/ano | (17 / 4 anos)
+  19. PortaLite MKII                           |   4.00 art/ano | (16 / 4 anos)
+  20. Smarting                                 |   3.75 art/ano | (15 / 4 anos)
+
+📉 R3C3: CURVA DE LORENZ E COEFICIENTE DE GINI
+------------------------------------------
+Coeficiente de Gini: 0.8568
+Interpretação: Alta concentração (poucos dispositivos dominam)
+
+Pontos significativos:
+- 80% dos dispositivos contribuem com ~90% das citações
+- Top 5 dispositivos: 1157 estudos (55.4% do total)
+
+🔗 R3C3: CORRELAÇÕES
+------------------------------------------
+  Price Vs Adoption:
+    r = -0.0728 (n=41) → Correlação negativa
+  Channels Vs Adoption:
+    r = 0.0392 (n=94) → Correlação positiva
+  Open Api Vs Adoption:
+    r = 0.071 (n=96) → Correlação positiva
+  Dry Electrode Vs Adoption:
+    r = -0.1333 (n=96) → Correlação negativa
+
+⏳ R3C5: TENDÊNCIAS TEMPORAIS
+------------------------------------------
+Período         | Disp.  | Canais   | Preço      | $/Canal    | BT%    | WiFi% 
+-------------------------------------------------------------------------------------
+2008-2014       | 8      | 24.9     | $3380      | $108       | 62.5 % | 12.5 %
+2015-2018       | 23     | 27.4     | $807       | $69        | 73.9 % | 34.8 %
+2019-2022       | 35     | 23.9     | $3502      | $355       | 71.4 % | 31.4 %
+2023-2025       | 26     | 22.2     | $3902      | $2331      | 69.2 % | 19.2 %
+
+🏷️ R1C2 + R3C4: CLASSIFICAÇÃO POR GRADE
+------------------------------------------
+Consumer-grade:   41 dispositivos (42.7%)
+Research-grade:   48 dispositivos (50.0%)
+Clinical-grade:    7 dispositivos (7.3%)
+
+Critérios utilizados:
+- Consumer: <$500, ≤8 canais, eletrodos secos
+- Research: >$2000, >16 canais, eletrodos gel
+- Clinical: Certificação FDA/CE, uso médico declarado
+
+================================================================================
+PARTE 3: RESUMO PARA O ARTIGO
+================================================================================
+
+📝 PLACEHOLDERS PARA ABSTRACT:
+   [X] dispositivos = 96
+   [Y] fabricantes = 64
+   [N] países = 26
+
+📝 MÉTRICAS PRONTAS PARA INSERIR:
+   ✅ Gini = 0.8568 (distribuição concentrada)
+   ✅ Top dispositivo: Epoc X com 120.33 art/ano
+   ✅ Período analisado: 2008-2025
+   ✅ Tendência canais: 25 → 22 (crescimento)
+   ✅ Wireless: 69% Bluetooth em 2023-2025
+
+📝 CORRELAÇÕES PARA DISCUSSION:
+   - price vs adoption: r=-0.0728 (fraca)
+   - channels vs adoption: r=0.0392 (fraca)
+   - open api vs adoption: r=0.071 (fraca)
+   - dry electrode vs adoption: r=-0.1333 (fraca)
+
+================================================================================

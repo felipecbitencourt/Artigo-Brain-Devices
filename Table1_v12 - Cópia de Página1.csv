@@ -1,0 +1,179 @@
+Technology,Model,Type,Manufacturer,Origin,Year of first appearance,Sensor Type,Sensor Technology,Channels,Positioning,Wireless Connectivity,Sampling Rate,ADC resolution,Raw data access,Bundled Software,Data Synchronization,Auxiliary capabilities,Price (USD),Studies Found,Inclusion (%)
+EEG,Epoc X,Headset,Emotiv,USA,2020,Wet (saline),Saline soaked felt pads,14,"AF3, F7, F3, FC5, T7, P7, O1, O2, P8, T8, FC6, F4, F8, AF4",BLE 4.0,128 | 256 Hz,14-bit,Requires PRO license for use,Included,SDK,"IMU, Detects mental commands, performance states and facial expressions",">1,000",722,"19,30%"
+EEG,"Ganglion | Cyton | Daisy
+Ultracortex | Cap | cEEGrid",Headset | Cap | Around-Ear,OpenBCI,USA,2016,"Hybrid (dry | gel) Semi-Dry (saline)
+Wet (gel)",Ag/AgCl | Gold Cup | Gold-plated C-shaped flex-print,4 | 8 | 16,10-20 System,BLE 4.0,125 | 250 Hz,24-bit,Available,Open-source,LSL,"3x ExG, Analog In ExG, Digital I/O Trigger In/Out, Accelerometer",">3,000",180,"4,81%"
+EEG,MindWave Mobile 2,Headset,NeuroSky,USA,2018,Dry,Stainless steel,1,Fp1,"Bluetooth SPP
+BLE/GATT",512 Hz,12-bit,Available,Free apps,"TGC, SDK, TCP",---,>130,152,"4,06%"
+EEG,Enobio,Cap,NE Neuroelectrics,ESP,2008,"Dry
+Wet (gel)","Drytrodes: Ag/AgCl coating
+Geltrodes: Sintered Ag/AgCl ",8 | 20 | 32,Flexible 10-20 System,Wi-Fi,500 Hz,24-bit,Available,Free,"LSL, TCP, SDK","Accelerometer, ERP, Hyperscanning, TTL triggers",---,108,"2,89%"
+EEG,NeuSen W,Cap,Neuracle,CHN,2021,Dry,---,8 | 16 | 32 | 64,10-20 System,Wi-Fi 2.4 | 5 GHz,16 kHz,24-bit,Available,Included,"LSL, API","IMU, 5 x ExG, Event marker integration",---,72,"1,92%"
+EEG,B-Alert,Headset,"Advanced Brain
+Monitoring",USA,2011,Dry,Ag/AgCl,9 | 20,Flexible 10-20 System,Bluetooth 5.0,256 Hz,16-bit,Available,Included,SDK,"Accelerometer, ExG, Heart Rate/HRV",---,66,"1,76%"
+EEG,SmartBCI,Cap,Mitsar,RUS,2014,"Dry
+Wet (gel)","Active dry soft touch, 
+Ag/AgCl  wet ",24 | 32 | 64,10-10 System,Bluetooth 5.0,250 | 500 Hz,24-bit,Available,Included,LSL,"Accelerometer, ExG, Trigger In (Analog), Sync video",---,65,"1,74%"
+EEG,"g.Nautilus
+PRO Flexible | Multi-Purpose | Research",Cap,g.tec,AUT,2014,"Hybrid (dry | gel)
+Dry | Wet (gel)",Active,8 | 16 | 19 | 32,10-20 System,RF 2.4 GHz,500 Hz ,24-bit,Available,Sold separately,API,"IMU, 8x Digital trigger In, ExG (optional)",">6,500",64,"1,71%"
+EEG,Insight,Headset,Emotiv,USA,2015,Semi-Dry,Polymer,5,"AF3, AF4, T7, T8, Pz",Bluetooth,128 Hz,16-bit,Requires PRO license for use,Included,SDK,"IMU, Detects mental commands, performance states and facial expressions",>500,63,"1,68%"
+fNIRS,NIRSport2,Cap,NIRx,DEU,2018,Optodes,Dual-wavelength emitters,8 to 80,10-20 System,Wi-Fi,240 Hz,24-bit,Partial access,Included,LSL,"IMU, EEG, tDCS/TES, Eye-tracking, 8-bit TTL In, Hyperscanning",---,61,"1,63%"
+EEG,"Flex 2 
+Saline | Gel",Cap,Emotiv,USA,2023,"Wet (saline)
+Wet (gel)",Sintered Ag/AgCl,32,10-20 System,Bluetooth 5.2,256 Hz,16-bit,Requires PRO license for use,Included,LSL,"IMU, ExG",">2,000",54,"1,44%"
+EEG,LiveAmp,Cap,Brain Products,DEU,2015,"Dry
+Semi-Dry (saline)
+Wet (gel)","Flat Ag/AgCl, passive sponge-based or active dry",8 | 16 | 32 | 64,"actiCAP, BrainCap, LiveCap, R-Net",Bluetooth,500 Hz | 1 kHz,24-bit,Available,Included,SDK,"LiveAmp Mobility Set, Accelerometer, TTL (LVTTL) In,
+Compliances: FCC (USA), IC (Canada), MIC (Japan)",---,53,"1,42%"
+EEG,Eego Sports,Cap,ANT Neuro,DEU,2017,"Dry
+Wet (gel | saline)",Active,8 | 32 | 64 | 128,10-20 System,Wi-Fi,2 kHz,24-bit,Available,Sold separately,"SDK, LSL","IMU, 2x ExG, 4x Aux (GSR, RESP, TEMP, Accel), 8-bit TTL Trigger",---,49,"1,31%"
+fNIRS, NirSmart | NirSmart II,Cap,Danyang Huichuang,CHN,2024,Optodes,Light source LED/laser ≥50 mW,63 | 130,Occipital and temporal lobes | Full head coverage,Wi-Fi,---,---,Available,Included,---,"Supports connections with EEG, tDCS, TMS, fMRI and VR",---,49,"1,31%"
+EEG,Muse 2,Headband,InteraXon,CAN,2018,Dry,Gold-plated,4,"TP9, AF7, AF8, TP10, FPz",BLE 4.2,256 Hz,12-bit,Available,Free,"LSL, OSC","IMU, HR (PPG), 2x Amplified aux channels",>250,43,"1,15%"
+fNIRS,"Nirsit
+Lite | Lite Kids",Headset,Obelab,KOR,2019,Optodes,Dual-wavelength emitters,15 | 48,Prefrontal/motor cortex,"WLAN 2.4 GHz
+BLE 5.0",8 Hz,---,Available,App included,---,"IMU, Photogrammetry (for sensors localization)",---,30,"0,80%"
+EEG,"Quick
+20m | 20r v2 | 32r",Headset,CGX Cognionics,USA,2015,Dry,"Active, polymer, built-in LED impedance indicators ",20 | 21 | 32,10-10 System,BLE,500 Hz,24-bit,Available,Included,API,"Accelerometer, 2x ExG, GSR, SpO₂, Resp, Temp, Wireless trigger, Hyperscanning",---,21,"0,56%"
+EEG,"NeXus
+Q32 | 10 MKII",Cap,Mind Media,NLD,2019,Wet (gel),Individually shielded sintered,4 | 21,10-20 System,"Bluetooth, Wi-Fi",4 | 8 kHz,24-bit,Requires PRO license for use,Included," SDK, API","ExG, BVP, GSR, Temp, Resp, Data Recorder I/O, Trigger I/O, Medical CE, FDA",---,21,"0,56%"
+EEG,"DSI
+7 | 24",Headset,Wearable Sensing,USA,2023,Dry,"Faraday cage's, Spring-loaded",7 | 19,"C3, C4, F3, F4, Pz, P3, P4, Fp1, Fp2, Fz, F7, F8, Cz, T7/T3, T8/T4, P7/T5, P8/T6, O1, O2, A1, A2",Bluetooth,300 | 600Hz ,16-bit,Available,Included,"TCP/IP, API, LSL","IMU, 3x Aux In (ExG, GSR, Resp, Temp), 4-bit/8-bit Digital Trigger",---,18,"0,48%"
+fNIRS,"Brite
+MKIII | Frontal | Lite | Medi | Baby | Mini",Cap,Artinis,USA,2022,Optodes,"Short-channel, multi-wavelength CW-NIRS",27 | 54,10-20 System,Bluetooth,150 Hz,24-bit,Available,Included,"LSL, DCOM","IMU, Compatible with other techniques 
+(EEG, tES), Hyperscanning ",---,17,"0,45%"
+fNIRS,PortaLite MKII,Adhesive ,Artinis,USA,2022,Optodes,Two wavelenghts,6,Forehead,Bluetooth,100 Hz,---,Available,"Software + App
+included","ASCII, LSL, DCOM","HbO₂, HHb, tHb, TSI, IMU (optional)",---,16,"0,43%"
+fNIRS,Lightnirs,Cap,Shimadzu,JPN,2016,Optodes,3-wavelength absorbance calculation,22,10-20 System,Wi-Fi,166 Hz,16-bit,Available,Included,---,"3 digital channels and 10 analog channels, Synchronized video recording, ",---,16,"0,43%"
+EEG,"Smarting 
+Mobi | PRO | PRO X",Cap,mbt mBrainTrain,SRB,2022,"Semi-Dry (water) 
+Wet (gel)",Active,24 | 32 | 64,10-20 System,"Bluetooth 2.1,
+Bluetooth 5.0","250-500 Hz
+| 2 | 4kHz",24-bit,Available,App included,"LSL, UDP, SDK","IMU, 8x Bipolar In, 1-bit/8-bit Trigger, RT Artifact Removal (ASR), Sync mobile video record, Hyperscanning, (ExG, TTL)",---,15,"0,40%"
+EEG,microEEG,Cap | Adhesive,BioSignal ,USA,2012,Wet (gel),Disposeable | HydroDot,16 | 22 | 26,10-20 System,Bluetooth,1 | 2 kHz,16-bit,Available,Included,SDK,FDA approved,---,11,"0,29%"
+EEG,Ceribell,Headband,Ceribell,USA,2017,Wet (gel),Electrode array,8,"Fp1, Fp2, F7, F8, T3, T4, T5, 
+T6, O1, O2",Wi-Fi,250 Hz,---,---,Cloud-based software,---,"Include brain stethoscope, which converts EEG signals into audible sounds",---,11,"0,29%"
+EEG,Unicorn Hybrid Black,Cap,g.tec,AUT,2019,Hybrid (dry | gel),Passive and conductive rubber,8,"Fz, C3, Cz, C4, Pz, PO7, PO8 , Oz",Bluetooth 2.1,250 Hz,24-bit,Available,Sold separately,API,IMU,">1,300",9,"0,24%"
+EEG,Saga,Cap,TMSi Artinis,NLD,2016,Wet (gel | water),Ag/AgCl,32 | 64,10-10 System,Wi-Fi,800-4 kHz,24-bit,Available,Free,LSL,"4x Bipolar In, Digital In (sync), 
+(EMG, ECG, EOG, GSR, Resp, SpO₂, IMU)",---,9,"0,24%"
+EEG,Mindo,Headband,BrainBit,USA,2020,Dry,Gold-coated,4,"T3, T4, O1, O2, FpZ (Ref)",BLE 4.2,250 Hz,---,Available,Sold separately,SDK,---,>400,8,"0,21%"
+EEG,neuroNicle FX2 ,Hair band,LAXTHA ,KOR,2018,Dry,Light weight elastic,2,Prefrontal,Bluetooth 3.0 EDR,250 Hz,15-bit,Available,Included,Emulates serial port via Bluetooth,"PPG, KFDA medical device certification",---,8,"0,21%"
+EEG,BrainStatus,Adhesive ,Bittium,FIN,2018,Wet (solid gel),Disposeable,16,"Sp1, Sp2, Af7, Af8, Fp1, Fp2, F7, F8, T9, T10","Wi-Fi,
+Bluetooth",---,24-bit,---,Included,---,"EOG, Sp1/Sp2 (Sphenoidal electrodes for temporal lobe epilepsy detection)",---,7,"0,19%"
+EEG,Stat,Headset,"Advanced Brain
+Monitoring",USA,2013,Dry,Medical-grade Ag/AgCl,9 | 20,Flexible 10-20 System,Bluetooth 5.0,256 Hz,16-bit,Available,Included,SDK,"Accelerometer, ExG, Heart Rate/HRV, FDA-Cleared",---,7,"0,19%"
+EEG,Explore Pro,Cap,Mentalab ,DEU,2020,"Dry
+Wet (gel)","Soft Ag/AgCl-coated multitrode (flat, thick, brush, long, stick & peel)",8 | 16 | 32,10-20 System,Bluetooth,1 kHz,24-bit,Available,Open-source,"Open-source APIs, BrainFlow, LSL, NeuroPype","Motion sensor, Software marker, Triggers TTL, 8-bit and wireless",---,6,"0,16%"
+EEG,BrainScope,Adhesive ,BrainScope,USA,2017,Dry,Disposeable,8,"Fp1, Fp2, Fpz, AFz, F7, F8, A1, A2","Wi-Fi,
+Bluetooth",1 kHz,24-bit,---,Included,---,---,---,5,"0,13%"
+EEG + fNIRS,g.Nautilus fNIRS,Cap,g.tec,AUT,2024,"Hybrid (dry | gel) 
++ Optodes","Active EEG + High-power optodes for sensorimotor cortex
+Low-power for frontal cortex","8 | 16 | 32 | 64
+EEG + 8 fNIRS",10-20 System,Wireless digital transmission,"250/500 Hz
+| 10 Hz fNIRS",24-bit,Available,Sold separately,API,"IMU, Multi-sensor system (optional): EMG, Temp, BP, Snoring, Resp, Airflow, SpO₂, GSR, Limb movement sensors",---,5,"0,13%"
+EEG,Cumulus,Headset,Cumulus,IRL,2023,Dry,Passive,6,"Fp1, Fp2, F7, F8, Cz, Gnd",Bluetooth,500 Hz,24-bit,Via device hub,Tablet app included,API,FDA-cleared and UKCA-marked for at-home and clinical use,---,4,"0,11%"
+EEG,Dev Kit,Headband,CGX Cognionics,USA,2017,Dry,"Drypad or Flex (included),
+Active shielding",8,"F3, F4, C3, C4, P3, P4, O1, O2",BLE,500 Hz,24-bit,Available,Included,"LSL, API","IMU, ECG",---,4,"0,11%"
+EEG,"BrainLink 
+Lite | PRO",Headset | Headband,Macrotellect,CHN,2016,Dry,Gold-plated copper,1 | 2,"Fp1, Fp2","Bluetooth,
+BLE 4.0",---,---,Available,Free apps,---,"Accelerometer, PPG, Forehead Temp, Vibration feedback",>180,4,"0,11%"
+EEG,CerebAir AE-120A,Headset,Nihon Koden,JPN,2017,Wet (gel),Disposable pre-gelled cup mounted on flexible spring-arms,8,"F3, F4, C3, C4, T3, T4, Cz, O1, O2",Bluetooth,---,---,Available,Included,---,---,---,4,"0,11%"
+EEG,BioNomadix,Cap,BIOPAC,USA,2010,Wet (gel),Ag/AgCl,2,10-20 System,RF 2.4 GHz,2 kHz,12-bit,Available,Included,"API, LSL","Optional: BioNomadix Logger (Accelerometer, Feedback multimodal)",---,3,"0,08%"
+EEG,X-trodes,Adhesive ,Emotiv,USA,2019,Dry,"Flexible, soft patch, disposeable",2 | 12 | 16,"Prefrontal, Around the ear",Bluetooth,4 kHz,16-bit,Requires PRO license for use,Available,SDK,Medical-grade skin patch completely wireless (Smart Skin),">10,000",3,"0,08%"
+EEG,Arc Apollo+,Cap,Cadwell,USA,2022,Wet (gel),"Disposable Ag/AgCl - 
+Reusable gold cup",32 | 64,10-20 System,Wi-Fi,2 kHz,24-bit,Available,Sold separately,"API, LSL",Magnetic connectors for automatic identification and configuration,---,2,"0,05%"
+EEG,Mobile,Cap,CGX Cognionics,USA,2018,Dry,Active Ag/AgCl,72 | 128,10-20 System,BLE,500 Hz,24-bit,Available,Included,LSL,"ExG, GSR, HR/HRV, SpO₂, Resp, Temp, Trigger",---,2,"0,05%"
+EEG,Versatile,Cap,Bitbrain,ESP,2019,Semi-Dry (water),Active shielding and optimized DRL,8 | 16 | 32 | 64,Flexible 10-10 System,Bluetooth 2.1,256 Hz,24-bit,Available,Included,"LSL, SDK","IMU, Optical trigger, Digital In, Bipolar ExG",---,2,"0,05%"
+EEG,MyndBand,Headband,MyndPlay,GBR,2014,Dry,Sensor cable replaceable,3,Prefrontal ,BLE,512 Hz,---,Requires PRO license for use,Free App,SDK,Integrates directly into VR headsets ,>260,2,"0,05%"
+EEG,Remi,Adhesive ,Epitel,USA,2021,Dry,Total wireless,1,"F7/F8, T5/T6",BLE,256 Hz,12-bit,---,App included,---,"AI-powered seizure detection, Cloud-based data management",---,2,"0,05%"
+EEG,WR19,Headset,Zeto,USA,2018,Dry,"Active, AgCl-coated plastic, Spring loaded plunger",19,"Fp1, Fp2, F7, F3, Fz, F4, F8, T7, T8, P7, P8, C3, Cz, C4, P3, Pz, P4, O1, O2",Wi-Fi,500 Hz,24-bit,Available,Web-based included,"LSL, API","Accelerometer, ECG, 1-bit Digital trigger In, Wireless photic sensor, Aux In (IMU)",---,2,"0,05%"
+EEG,Guardian,In-Ear,Idun,SWE,2023,Dry,Dryode,1,"Right ear electrode, left ear reference, ground on left earhook",BLE 5.0,250 Hz,24-bit,Available,Web-based app,"LSL, SDK, API","IMU, Detects jaw clench and eye movement",">1,300",2,"0,05%"
+EEG,Aura 02,Cap,Mirai,JPN,2022,---," Ag-AgCl,  coated or sintered",8,---,Bluetooth ,250 Hz,24-bit,---,Included,SDK,IMU,">3,800",1,"0,03%"
+fNIRS,Mendi,Headband,"Mendi 
+Innovations",SWE,2020,Optodes,Optode array,2,Prefrontal (Brodmann area 10),Bluetooth,---,---,---,Free App,---,IMU,>255,1,"0,03%"
+EEG,"NeoRec
+Professional | Base | Mini",Cap,MSC Medical Computer Systems,RUS,2022,"Dry
+Wet (gel)",Ag/AgCl sintered,7 | 21,"FP1, FP2, O1, O2, F3, F4, C3, C4, P3, P4, F7, F8, T7, T8, P7, P8, FZ, CZ, PZ, A1, A2, GND",BLE 5.2,"125 | 250 | 500 Hz
+| 1 kHz",24-bit,Available,Included,"API, LSL",Accelerometer ,---,1,"0,03%"
+EEG,BrainBit Headband,Headband,BrainBit,USA,2015,Dry,"Gold-plated, spring-loaded",4,"O1, O2, T3, T4, FpZ (Ref)",BLE,250 Hz,---,Available,Sold separately,SDK,"EMG, EOG",>500,1,"0,03%"
+EEG,FocusCalm,Headband,BrainCo,USA,2021,Dry,Dry hydrogel coating,1,"AF7, AF8 e FPz",Bluetooth 5.0,250 Hz,24-bit,---,"Mobile app
+included",---,IMU,>280,1,"0,03%"
+VR + EEG,Galea,Headset,"Varjo & 
+OpenBCI",FIN | USA,2020,Dry,Soft-polymer active ,10,"F1, F2, C3, Cz, C4, P3, Pz, 
+P4, O1, O2",Wi-Fi,500 Hz,24-bit,Available,Free,"SDK, LSL, UDP, OSC","IMU, 4 EMG, 2 EOG,  Forehead EDA, PPG, Eye tracking , Pupilometry",">25,000",1,"0,03%"
+EEG,Diadem,Headset,Bitbrain,ESP,2023,Dry,Active shielding and optimized DRL,12,"Fp1, Fp2, AF7, AF8, F3, F4, P3, P4, PO7, PO8, O1, O2, A1 (Ref), Fpz (Gnd)",Bluetooth 2.1 EDR,256 Hz,24-bit,Available,Included,"LSL, SDK","IMU, 1-bit Digital In, Optical trigger In",---,1,"0,03%"
+EEG,Hero,Headset,Bitbrain,ESP,2021,Dry,Active shielding and optimized DRL,9,"FC3, FCz, FC4, C3, Cz, C4, CP3, 
+CPz, CP4, A2 (Ref), A1 (Gnd)",Bluetooth 2.1 EDR,256 Hz,24-bit,Available,Included,"LSL, SDK","IMU, 1-bit Digital In, Optical trigger In",---,1,"0,03%"
+EEG,Crown,Headset,Neurosity,USA,2021,Dry,Passive + Active Ag/AgCl,8," CP3, C3, F5, PO3, PO4, F6, C4, CP4","Bluetooth 4.2, BLE, Wi-Fi",256 Hz,24-bit,Available,Lifetime app subscription,"LSL, SDK","Accelerometer, 2x Haptic motors, NFC",">1,500",1,"0,03%"
+fNIRS + EEG,Photon C20 + LiveAmp,Cap,CortiVision & Brain Products,POL | DEU,2022,"Optodes + 
+Wet (gel)","CW-NIRS, Dual-wavelength LEDs 
++ Active gel-based",8 | 16 | 32 | 64,10-5 System,Wi-Fi,86 Hz,16-bit,Available,Included,LSL,"IMU, VR integration, Hyperscanning ",---,1,"0,03%"
+EEG,Neuronaute+,Adhesive ,BioSerenity ,FRA,2023,Wet (gel | saline),"Flat, thin, flex, disposeable Ag/AgCl",9 | 11 | 19,10-20 System,Wi-Fi,250 | 500 Hz,24-bit,Available,"Mobile app
+included",---,"Ambulatory use, CE and FDA cleared",---,0,
+EEG,Patch EEG,Adhesive ,CGX Cognionics,USA,2023,Wet (gel),Disposable HydroFlex,2,"FP1, FP2, AFz (Gnd)",Bluetooth,300 Hz,24-bit,Available,Included,"LSL, API, SDK","ExG, GSR, HR/HRV, SpO₂, Temp, Resp",>750,0,
+EEG,Mr.ESP 2,Cap,BlueBCI,CHN,2023,---,---,8,"POz, PO3, PO4, PO5, PO6, Oz, O1, O2",---,---,---,---,---,"API, LSL",---,---,0,
+fNIRS,NirsCute,Cap,Danyang Huichuang,CHN,-,Optodes,Light source LED/laser ≥15 mW,14,---,Wi-Fi,---,---,Available,Included,---,"Supports connections with EEG, tDCS, TMS, fMRI and VR",---,0,
+EEG,Apex,Cap,TMSi Artinis,NLD,2022,Wet (gel | water),Ag/AgCl,24 | 32,10-10 System,Wi-Fi,800-1024 Hz,24-bit,Available,Free,LSL,4-bit Trigger In,---,0,
+fNIRS,"Photon C20
+Light | Full",Cap,CortiVision,POL,2021,Optodes,"4x2, 16x10",37,10-5 System,Wi-Fi,86 Hz,16-bit,Available,Included,LSL,"IMU, EEG, Eye-Tracking, Virtual Reality",---,0,
+fNIRS,Spectrum C23,Cap,CortiVision,POL,2023,Optodes,"Detachable, scalable setups
+(8×12, 16×24, 24×36, 32×48)",150,10-5 System,Wi-Fi,250 Hz,16-bit,Available,Included,LSL,"IMU, EEG, Virtual Reality, Hyperscanning ",---,0,
+fNIRS + EEG,Photon C20 + Versatile Bio,Cap,"CortiVision 
+& BitBrain",POL | ESP,-,Optodes + Semi-Dry,"CW-NIRS, Dual-wavelength LEDs, Short-distance channels",8 | 16 | 32,10-5 System,"Wi-Fi
+Bluetooth",86 | 256 Hz,24 | 32-bit,Available,Included,"LSL, API","Analog In (ExG, GSR, Resp, Temp, BVP), Digital In (IMU), Digital trigger In/Out (photodiode, pedal, air flow, snore sensor)",---,0,
+EEG,Callibri,Cap,BrainBit,USA,2024,Dry,Gold-plated with magnet (any scalp location),1,Flexible placement,BLE 4.0,"125 | 250 | 500 Hz
+| 1 | 2 kHz",---,Available,Sold separately,SDK,"IMU, EMG, ECG/HRV, GSR, Resp, Electromyostimulation",>400,0,
+EEG,DragonEEG,Cap,BrainBit,USA,2023,"Dry
+Wet (gel)","Dry gold-plated spring-loaded
+Wet Ag/AgCl",21,"Fp1, Fpz, Fp2, F7, F3, Fz, F4, F8, T3, C3, Cz, C4, T4, T5, P3, Pz, P4, T6, O1, Oz, O2",BLE,250 Hz,---,Available,Included,SDK,"EMG, ECG, EOG, Hardware In (wireless photo stimulator)",">3,800",0,
+EEG,DSI-Flex,Cap,Wearable Sensing,USA,2023,Dry,"Every sensor can be customized as either ExG, GSR, Temp, and Resp",7,"Adjustable 
+frontal/central regions",Bluetooth,300 | 600Hz ,16-bit,Available,Included,"LSL, TCP/IP, API","Accelerometer, ExG, GSR, Resp, Temp, Eye-tracking, optional Wireless Trigger Hub (I/O, switch, audio)",---,0,
+EEG,Flex | Flex Wet | Flex8,Cap,BrainBit,USA,2022,"Dry
+Wet (gel)","Dry gold-plated spring
+Ag/AgCl wet",4 | 8,10-20 System,BLE,250 Hz,---,Available,Sold separately,SDK,---,>750,0,
+EEG,MN8,Earphones ,Emotiv,USA,2018,Dry,"Non-toxic, non-allergenic conductive elastomer",2,In-ears with ear hooks and interchangeable brush sensors,"Bluetooth, BLE 4.2",128 Hz,14-bit,Requires PRO license for use,Included,SDK,"IMU, Speakers, Mic",>400,0,
+EEG + fNIRS,Muse S Athena,Headband,InteraXon,CAN,2020,Dry,Silver thread fabric,"4 EEG
++ 5 fNIRS","TP9, AF7, AF8, TP10, FPz (Ref)",BLE 5.3,256 Hz,14-bit,Premium license required,Free App,Premium license required,"PPG, IMU, 4 Amplified aux channels",>475,0,
+EEG,Sens.ai,Headband,Sens.ai,CAN,2023,Dry,Hi-Fi sensors,3,Central/midline,Bluetooth,---,---,---,Free App,---,"Pulse oximeter, 7x NIR stimulation, audiovisual cues, tPBM, HRV/coherence biofeedback, brain test (GeniusPulse)",">1,500",0,
+EEG,Flowtime,Headband,Enter Technology ,CHN,2020,Dry,Ag/AgCl,2,"Fp1, Fp2", Bluetooth 4.0,250 Hz,24-bit,Available,Free,"SDK, API","IMU, HRV (PPG), Real-time audio cues based on physiological state",>210,0,
+EEG,Mr.ESP 1,Headband,BlueBCI,CHN,-,---,---,---,---,---,---,---,---,---,"API, LSL",---,>97,0,
+EEG,SereniBrain,Headband,iHNNK,CHN,2024,Semi-dry (gel),---,---,---,---,---,---,---,"Mobile app
+included",---,---,>250,0,
+EEG,Ikon,Headband,Bitbrain,ESP,2024,Dry,"Textile-based, Active shielding 
+and optimized DRL",5,"Fp1, Fp2, AF7, AF8, Fpz, A1, A2",BLE 4.2,256 Hz,24-bit,Available,Included,"LSL, SDK","IMU, Real-time impedance check",---,0,
+EEG,Bright 2,Headband,MindRove,HUN,2021,Semi-dry,"Active, conductive fabric 
+with platinum threads",4 + 2,"O1, O2, Fp1, Fp2",Wi-Fi,500 Hz,24-bit,Available,Included,"SDK, LSL",IMU,>679,0,
+EEG,Aigo,Headband,Oraigo,ITA,2023,Dry,Ag/AgCl,4,"Fp1, Fp2, T5/P7, T6/P8, AF7, AF6",BLE,300 Hz,16-bit,---,Free App,---,Accelerometer,---,0,
+EEG,BrainAccess HALO,Headband,Neurotechnology,LTU,2023,Dry,"Gold-plated, feature 
+spring-loaded spikes",4,"Fp1, Fp2, O1, O2",BLE 4.2,250 Hz,24-bit,Available,"PC and mobile app
+included","LSL, SDK, API","Accelerometer, Hyperscanning ",>450,0,
+EEG,SenzeBand 2,Headband,Neeuro ,SGP,2021,Dry,Real-time sensors contact check,4,"Fp1, Fp2, T3, T4, Fpz",Bluetooth 5.0,250 Hz,24-bit,Available,Monthly license fee,SDK,"PPG, IMU, LED Activity Indicator represents mental states",>600,0,
+EEG,FRENZ,Headband,Earable,USA,2023,Dry,Electroless nickel immersion gold,6,Prefrontal ,Bluetooth 5.2,125 Hz,24-bit,Available,Free App,SDK,"IMU, PPG, EMG, EOG, SpO₂, Bone-conducting 
+speakers, Mic",>680,0,
+EEG,"BrainBit Headphones
+Lite | PRO",Headphones,BrainBit,USA,2016,Dry,"Gold-plated, spring-loaded",4,"A1, A2, С3, С4, Cz (Ref)",Bluetooth 4.2,250 Hz,---,Available,Sold separately,SDK,"Mic, Speakers",>900,0,
+EEG,MW75 Neuro,Headphones,Neurable,USA,2024,Dry,Silver-threaded soft ear pads,12,Around the ear,Bluetooth 5.2,500 Hz,---,Available,Included,LSL,"IMU, Speakers",">2,200",0,
+EEG,Versus,Headphones,SenseLabs,USA,2017,Dry,---,5,"Fz, Cz, C3, C4, Pz, Gnd",BLE,---,---,---,"Mobile app
+included",---,Speakers,">1,400",0,
+EEG,Mindtooth,Headset,Brain Products,DEU,2023,Semi-dry (saline),"Passive, sponge-based",7,"F3, F4, C3, Cz, C4, P3, P4",BLE 5.0,125 | 250 | 500 Hz,16 | 24-bit,Available,"PC and mobile app
+included",LSL ,---,">8,500",0,
+EEG,X.on,Headset,Brain Products,DEU,2022,Semi-dry (saline),"Passive, sponge-based",7,"F3, F4, C3, Cz, C4, P3, P4",BLE 5.0,125 | 250 | 500 Hz,16 | 24-bit,Available,"PC and mobile app
+included",LSL ,"Accelerometer, ExG",">2,500",0,
+EEG,Air,Headset,Bitbrain,ESP,2023,Dry,Active shielding and optimized DRL,8,"Fp1, Fp2, AF7, AF8, PO7, PO8, O1, O2, A1, Fpz",Bluetooth 2.1 EDR,256 Hz,24-bit,Available,Included,"LSL, SDK","IMU, 1-bit Digital In for event sync, Optical Trigger In",---,0,
+EEG,arc 2,Headset,MindRove,HUN,2020,Semi-Dry,"Active, conductive fabric 
+with platinum threads",6,"C5, C3, C1, C2, C4, C6",Wi-Fi,500 Hz,24-bit,Available,Included,"SDK, LSL",IMU,>780,0,
+EEG,"Brain Sensei
+1.5 | 2.0",Headset,brain.space,ISR,2022,Dry,"Brush type, LED sensor status",20 | 115,10-20 System,---,---,---,---,"Dashboard, cloud",LSL,"Optional integration ECG, eye-tracker, GSR. Lightweight or Pneumatic system adapts electrodes to head shape using air cushions",---,0,
+EEG,iSyncWave | iSyncMe,Headset,iMediSync,KOR,2021,Dry ,"Ag/AgCl-coated 
+conductive polymer",19,"Fp1, Fp2, F3, F4, F7, F8, Fz, C3, C4, Cz, T3, T4, T5, T6, P3, P4, Pz, O1, O2, A1, Fpz",Bluetooth 5.0,250 Hz,24-bit,---,Included,---,"HRV (PPG), 19x NIR LED (Light therapy: Photobiomodulation, PBM)",">10,000",0,
+VR + EEG,Lucy,Headset,Looxid Labs,KOR,2021,Dry,FPCB Gold-plated,6," AF3, AF4, AF7, AF8, Fp1, Fp2",Wi-Fi,500 Hz,24-bit,---,Included,"API, SDK",Eye tracking,---,0,
+EEG,Altaire,Headset,ArtiseBio Biomedical,TWN,2023,Dry,---,8,"Fp1 , Fp2 , Fz , T7 , T8 , Pz , O1, O2",RF,1 kHz,24-bit,---,Included,LSL,"Accelerometer, Specialized for ERP experiment",---,0,
+AR + EEG,"Axon-R
+Standard | Advanced | Elite",Headset,Cognixion,USA,2025,Dry,Active,6,"O1, O2, Oz, PO3, PO4, POz","Bluetooth, Wi-Fi",2 kHz,24-bit,"Raw, filtered, and classified data available",Included,"LSL, SDK, API","8 ExG, EEG (SSVEP)-based intent detection via visual attention in AR, IMU, AR Interface",">25,000",0,
+EEG + VR,"DSI
+VR300 | VRVEP",Headset,Wearable Sensing,USA,2019,Dry,"Faraday cage's, Spring-loaded",7,"FCz, Pz, P3, P4, PO7, PO8, Oz
+FCz, POz, PO3, PO4, O1, O2, Oz",Bluetooth,300 | 600Hz ,16-bit,Available,Included,"TCP/IP, API, LSL","IMU, VR, Stimuli (P300, alertness, emotions, phobias, sensory. Processing (SSVEP)",---,0,
+EEG + fNIRS,DSI-EEG+fNIRS,Headset,Wearable Sensing,USA,-,Dry + Optodes,"4 emitters, 4 detectors, center EEG","  10 EEG
++ 8 fNIRS","Fp1, Fp2, C3, C4, T3, T4, O1, O2, A1, A2","Bluetooth, TCP/IP",300/600 Hz,16-bit,Raw and filtered data available,Included,"LSL, API","8 Trigger I/O, 4 Analog In, 2 Switch In, 1 Audio In, EMG, EOG, PPG",---,0,
+EEG,ONE,Headset,Zeto,USA,2024,Dry,"Active, soft-tip",21,"Fp1, Fp2, F7, F3, Fz, F4, F8, T7, T8, C3, Cz, C4, P7, P3, Pz, P4, P8, O1, O2, A1, A2",Wi-Fi,500 Hz,24-bit,Available,Web-based included,"LSL, API","IMU, Photic stimulus sync sensor, 8x ExG (optional), 
+1-bit Digital trigger In",---,0,

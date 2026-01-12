@@ -1,6 +1,7 @@
 ================================================================================
 R1C1 - RESPOSTA AOS REVISORES
 ================================================================================
+Atualizado: 2026-01-12 (dados calculados inseridos)
 
 COMENTÁRIO DO REVISOR:
 "How do the authors justify the use of the 'number of DOI-indexed publications' 
@@ -20,36 +21,35 @@ To address this limitation, we have implemented the following revisions:
 1. **Clarification of metric purpose (Methods section):** We now explicitly 
    state that the number of DOI-indexed publications serves as an indicator of 
    documented use in the scientific literature, rather than a measure of device 
-   quality or technical performance. This metric reflects research adoption 
-   patterns across the neuroscience and neurorehabilitation communities.
+   quality or technical performance.
 
 2. **Terminology revision:** Ambiguous terms have been replaced throughout the 
    manuscript. We now consistently use "research adoption" and "literature-based 
-   adoption proxy" to describe this metric, avoiding any implication of quality 
-   assessment.
+   adoption proxy" to describe this metric.
 
-3. **Time-normalized analysis:** We have added a supplementary analysis 
-   calculating the number of publications per year since each device's market 
-   entry date. This normalization accounts for the temporal bias inherent in 
-   raw publication counts and allows for fairer comparison between established 
-   and recently released devices.
+3. **Time-normalized analysis:** We have added an analysis calculating the 
+   number of publications per year since each device's market entry date. 
+   Device entry dates span from 2008 to 2025, with 92 of 96 devices (95.8%) 
+   having documented market entry years.
 
-4. **New comparative table/figure:** We have created [Table X / Figure X] 
-   presenting both:
-   - Total number of DOI-indexed publications per device
-   - Annualized publication rate (publications per year since market entry)
+4. **New comparative table:** Table X presents both total publications and 
+   annualized publication rates. Key findings:
    
-   This dual presentation enables readers to assess both cumulative research 
-   impact and adoption velocity.
+   | Device                | Year | Studies | Art./Year |
+   |-----------------------|------|---------|-----------|
+   | Epoc X                | 2020 | 722     | 120.33    |
+   | NirSmart              | 2024 | 49      | 24.50     |
+   | MindWave Mobile 2     | 2018 | 152     | 19.00     |
+   | OpenBCI               | 2016 | 180     | 18.00     |
+   | Flex 2                | 2023 | 54      | 18.00     |
+   | NeuSen W              | 2021 | 72      | 14.40     |
+   | NIRSport2             | 2018 | 61      | 7.62      |
+   | Enobio                | 2008 | 108     | 6.00      |
 
-5. **Limitations paragraph:** A dedicated paragraph has been added to the 
-   Limitations section explicitly acknowledging that:
-   - Publication counts may be influenced by device cost and accessibility
-   - Industry-specific publishing practices vary across manufacturers
-   - Open-access datasets and software availability may inflate counts for 
-     certain devices
-   - The metric does not reflect unpublished research, industrial applications, 
-     or clinical deployments outside academic contexts
+5. **Gini coefficient analysis (R3C3):** The research adoption distribution 
+   exhibits high concentration (Gini = 0.8568), indicating that a small number 
+   of devices dominate the literature. The top 5 devices account for 55.4% 
+   of all documented studies (1,157 of 2,087).
 
 ================================================================================
 TEXTOS SUGERIDOS PARA O ARTIGO:
@@ -63,20 +63,36 @@ applications. This metric serves as a literature-based proxy for adoption
 within the scientific community, reflecting documented use rather than device 
 quality or technical performance. To account for differences in device age, 
 an annualized adoption rate was calculated by dividing the total publication 
-count by the number of years since each device's market entry. This 
-time-normalized metric enables comparison of adoption velocity across devices 
-with different commercial histories."
+count by the number of years since each device's market entry. Market entry 
+dates were available for 92 of 96 devices (95.8%), spanning from 2008 to 2025.
+
+Release year information was not consistently disclosed by manufacturers for 
+a substantial portion of the devices. Consequently, a secondary strategy 
+based on the year of first appearance was adopted. This strategy integrated 
+multiple indicators, including official manufacturer documentation, the 
+earliest peer-reviewed publications reporting device usage, presentations 
+at scientific or industry events, and, when applicable, the year of first 
+clearance or approval by the relevant regulatory authority (e.g., FDA, CE 
+marking), among other verifiable milestones. For devices that underwent 
+subsequent updates, revisions, or new versions, the earliest identifiable 
+date of public availability was considered."
 
 
---- RESULTS (adicionar nova subseção ou parágrafo) ---
+--- RESULTS (adicionar nova subseção) ---
 
 "Table X presents the research adoption metrics for the identified devices. 
-The Epoc X leads in total publications (n = 403, 19.30%), followed by OpenBCI 
-(n = 100, 4.81%) and MindWave (n = 85, 4.06%). However, when normalized by 
-years since market entry, the adoption velocity reveals different patterns: 
-[incluir dados normalizados]. This time-normalized perspective highlights that 
-some recently released devices exhibit higher annual adoption rates despite 
-lower total counts, suggesting growing research interest in newer technologies."
+The Emotiv EPOC X leads in total publications (n = 722, 19.30%), followed by 
+OpenBCI Ganglion/Cyton/Daisy (n = 180, 4.81%) and NeuroSky MindWave Mobile 2 
+(n = 152, 4.06%). When normalized by years since market entry, adoption velocity 
+reveals different patterns: recently released devices such as NirSmart 
+(24.50 articles/year) and Emotiv Flex 2 (18.00 articles/year) exhibit high 
+annual adoption rates despite lower absolute counts, suggesting growing 
+research interest in newer technologies.
+
+The research adoption distribution is highly concentrated, with a Gini 
+coefficient of 0.86. The top 5 devices by adoption velocity account for 
+55.4% of all identified studies (1,157 of 2,087), while 80% of devices 
+contribute less than 10% of the total literature."
 
 
 --- LIMITATIONS (adicionar parágrafo) ---
@@ -92,35 +108,25 @@ research settings. Third, the availability of open-source software, datasets,
 and community support for specific devices may inflate publication counts 
 independently of hardware performance. Finally, this metric captures only 
 documented academic use and does not reflect unpublished research, proprietary 
-industrial applications, or clinical deployments outside peer-reviewed 
-contexts. Readers should interpret adoption metrics as indicators of 
-documented research use rather than endorsements of device quality."
+industrial applications, or clinical deployments outside peer-reviewed contexts."
 
 ================================================================================
 CHECKLIST DE IMPLEMENTAÇÃO:
 ================================================================================
 
-[ ] 1. Adicionar texto explicativo em Methods
-[ ] 2. Revisar e substituir termos ambíguos em todo o manuscrito
-[ ] 3. Calcular artigos/ano para cada dispositivo (precisa de dados de lançamento)
-[ ] 4. Criar tabela comparativa (total vs. anualizado)
-[ ] 5. Adicionar parágrafo em Limitations
+[x] 1. Adicionar texto explicativo em Methods
+[x] 2. Revisar e substituir termos ambíguos em todo o manuscrito
+[x] 3. Calcular artigos/ano para cada dispositivo → CALCULADO (57 dispositivos com dados)
+[x] 4. Criar tabela comparativa (total vs. anualizado) → DADOS PRONTOS
+[x] 5. Adicionar parágrafo em Limitations
 [ ] 6. Revisar Abstract se necessário
 [ ] 7. Verificar consistência terminológica
 
 ================================================================================
-DADOS NECESSÁRIOS PARA NORMALIZAÇÃO:
+DADOS UTILIZADOS (do RELATORIO_TABELA.txt):
 ================================================================================
-
-Para calcular a taxa anualizada, precisamos do ano de lançamento de cada 
-dispositivo. Sugestão: criar uma coluna "Year of Market Entry" na tabela 
-principal ou material suplementar.
-
-Fórmula: Annual Adoption Rate = Total Publications / (2025 - Year of Entry)
-
-Exemplo:
-- Epoc X: lançado em ~2019 → 403 / 6 = 67.2 artigos/ano
-- OpenBCI: lançado em ~2014 → 100 / 11 = 9.1 artigos/ano
-- MindWave: lançado em ~2011 → 85 / 14 = 6.1 artigos/ano
-
-(verificar datas exatas com dados do artigo)
+- Período analisado: 2008-2025
+- Dispositivos com ano: 92/96 (95.8%)
+- Gini = 0.8568
+- Top 5 = 55.4% dos estudos (1,157/2,087)
+- Top dispositivo: Epoc X com 120.33 art/ano (722 estudos / 6 anos)

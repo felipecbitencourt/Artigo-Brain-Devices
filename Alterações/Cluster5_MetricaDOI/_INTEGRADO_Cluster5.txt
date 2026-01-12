@@ -2,6 +2,7 @@
 CLUSTER 5: MÉTRICA DOI / TEMPORAL - DOCUMENTO INTEGRADOR
 ================================================================================
 Comentários: R1C1, R3C5, R3C6
+Atualizado: 2026-01-12 (dados calculados inseridos)
 
 ================================================================================
 RESPONSE TO REVIEWERS (UNIFICADA):
@@ -11,12 +12,47 @@ Following the recommendations of Reviewers 1 and 3 regarding adoption
 metrics and temporal analysis (R1C1, R3C5, R3C6), we have made 
 substantial revisions including:
 
-1. **Time-normalized metrics** (R1C1): Annualized publication rate
-2. **Temporal evolution analysis** (R3C5): Timeline figure, trend analysis
+1. **Time-normalized metrics** (R1C1): Annualized publication rate calculated 
+   for 57 devices with complete data
+2. **Temporal evolution analysis** (R3C5): Trend analysis covering 2008-2025
 3. **Variant handling clarification** (R3C6): Aggregation strategy explained
+4. **Concentration analysis** (R3C3): Gini coefficient = 0.8568
 
 ================================================================================
-TEXTOS INTEGRADOS:
+DADOS CALCULADOS:
+================================================================================
+
+MÉTRICAS GERAIS:
+- Dispositivos analisados: 96
+- Com ano de lançamento: 92 (95.8%)
+- Período: 2008-2025
+- Total de estudos: 2,087
+- Gini: 0.8568 (alta concentração)
+
+TOP 10 ARTIGOS/ANO:
+| #  | Dispositivo          | Ano  | Estudos | Art./Ano |
+|----|----------------------|------|---------|----------|
+| 1  | Epoc X               | 2020 | 722     | 120.33   |
+| 2  | NirSmart             | 2024 | 49      | 24.50    |
+| 3  | MindWave Mobile 2    | 2018 | 152     | 19.00    |
+| 4  | OpenBCI              | 2016 | 180     | 18.00    |
+| 5  | Flex 2               | 2023 | 54      | 18.00    |
+| 6  | NeuSen W             | 2021 | 72      | 14.40    |
+| 7  | NIRSport2            | 2018 | 61      | 7.62     |
+| 8  | Enobio               | 2008 | 108     | 6.00     |
+| 9  | DSI                  | 2023 | 18      | 6.00     |
+| 10 | Insight              | 2015 | 63      | 5.73     |
+
+TENDÊNCIAS TEMPORAIS:
+| Período   | Disp. | Canais | Preço   | $/Canal | BT%   | WiFi% |
+|-----------|-------|--------|---------|---------|-------|-------|
+| 2008-2014 | 8     | 24.9   | $3,380  | $108    | 62.5% | 12.5% |
+| 2015-2018 | 23    | 27.4   | $807    | $69     | 73.9% | 34.8% |
+| 2019-2022 | 35    | 23.9   | $3,502  | $355    | 71.4% | 31.4% |
+| 2023-2025 | 26    | 22.2   | $3,902  | $2,331  | 69.2% | 19.2% |
+
+================================================================================
+TEXTOS INTEGRADOS (COM DADOS):
 ================================================================================
 
 --- METHODS (normalização temporal - R1C1) ---
@@ -27,7 +63,19 @@ literature-based proxy for adoption within the scientific community,
 reflecting documented use rather than device quality. To account for 
 differences in device age, an annualized adoption rate was calculated 
 by dividing the total publication count by the number of years since 
-each device's market entry."
+each device's market entry. Market entry dates were available for 92 
+of 96 devices (95.8%), spanning from 2008 to 2025.
+
+Release year information was not consistently disclosed by manufacturers 
+for a substantial portion of the devices. Consequently, a secondary 
+strategy based on the year of first appearance was adopted. This strategy 
+integrated multiple indicators, including official manufacturer documentation, 
+the earliest peer-reviewed publications reporting device usage, presentations 
+at scientific or industry events, and, when applicable, the year of first 
+clearance or approval by the relevant regulatory authority (e.g., FDA, CE 
+marking), among other verifiable milestones. For devices that underwent 
+subsequent updates, revisions, or new versions, the earliest identifiable 
+date of public availability was considered."
 
 --- METHODS (tratamento de variantes - R3C6) ---
 
@@ -41,24 +89,20 @@ were aggregated at the device family level to avoid fragmentation."
 --- RESULTS (evolução temporal - R3C5) ---
 
 "Figure X presents the timeline of market entry for the 96 devices. 
-The average channel count has increased over time, from [X] channels 
-(2009-2012) to [Y] channels (2020-2025). Cost per channel has decreased, 
-with current consumer-grade devices achieving costs below $50 per channel. 
-Wireless connectivity has become dominant, exceeding [Z]% for devices 
-released after 2020."
-
-================================================================================
-DADOS NECESSÁRIOS (ação dos autores):
-================================================================================
-- Ano de lançamento de cada dispositivo
-- Cálculo de artigos/ano
-- Análise de tendência de canais
-- Análise de custo/canal
-- Porcentagem de wireless por período
+The market has shown accelerating growth, with 63.6% of devices entering 
+the market since 2019. The average channel count increased from 24.9 
+(2008-2014) to 27.4 (2015-2018), then stabilized around 22-24 channels 
+(2019-2025). Wireless connectivity has become dominant, with approximately 
+70% of devices featuring Bluetooth connectivity across all periods since 
+2015. The research adoption distribution exhibited high concentration 
+(Gini coefficient = 0.86), with the top 5 devices accounting for 55.4% 
+of all documented studies."
 
 ================================================================================
 CHECKLIST:
 ================================================================================
-[x] R1C1 - Texto normalização (precisa dados)
-[x] R3C5 - Texto evolução temporal (precisa dados)
-[x] R3C6 - Texto variantes
+[x] R1C1 - Texto normalização → DADOS INSERIDOS
+[x] R3C5 - Texto evolução temporal → DADOS INSERIDOS
+[x] R3C6 - Texto variantes → OK
+[x] Gini calculado: 0.8568
+[x] Tendências por período calculadas

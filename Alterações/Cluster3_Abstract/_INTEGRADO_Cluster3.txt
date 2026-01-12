@@ -2,6 +2,7 @@
 CLUSTER 3: ABSTRACT - DOCUMENTO INTEGRADOR
 ================================================================================
 Comentários: R1AQ1, R2C7, R2AQ1
+Atualizado: 2026-01-12 (dados do CSV inseridos)
 
 ================================================================================
 RESPONSE TO REVIEWERS (UNIFICADA):
@@ -10,15 +11,15 @@ RESPONSE TO REVIEWERS (UNIFICADA):
 Following the recommendations of Reviewers 1 and 2 regarding the Abstract 
 (R1AQ1, R2C7, R2AQ1), we have substantially revised the Abstract to include:
 
-1. **Specific quantitative achievements** (R2C7): 96 devices, 125 variants, 
-   2,087 studies, 55.79% inclusion rate
+1. **Specific quantitative achievements** (R2C7): 96 devices, 64 manufacturers, 
+   26 countries, 2,087 studies, 55.79% inclusion rate
 2. **Clear statement of contribution** (R1AQ1): Evidence-based framework 
    for device selection
 3. **Justification of descriptive scope** (R2AQ1): Valid scoping review 
    methodology
 
 ================================================================================
-ABSTRACT REVISADO:
+ABSTRACT REVISADO (COM DADOS):
 ================================================================================
 
 Background: The proliferation of portable brain monitoring devices for 
@@ -41,12 +42,14 @@ use. An annualized adoption rate was calculated to account for differences
 in device age.
 
 Results: A total of 96 unique devices (125 including model variants) 
-from [X] manufacturers across [Y] countries were identified. Bibliometric 
+from 64 manufacturers across 26 countries were identified. Bibliometric 
 analysis yielded 3,741 unique records, of which 2,087 (55.79%) met the 
 inclusion criteria, explicitly reporting device use in experimental or 
-clinical applications. The Emotiv EPOC/EPOC X led research adoption 
-with [N]% of included studies, followed by OpenBCI ([N]%) and NeuroSky 
-MindWave ([N]%).
+clinical applications. The Emotiv EPOC X led research adoption 
+with 19.30% of included studies (722 publications; 120.33 articles/year), 
+followed by OpenBCI (4.81%) and NeuroSky MindWave (4.06%). The research 
+adoption distribution exhibited high concentration (Gini coefficient = 0.86), 
+with the top 5 devices accounting for 55.4% of all documented studies.
 
 Conclusion: This review provides the most comprehensive device-level 
 mapping of portable brain monitoring technologies currently available 
@@ -55,11 +58,15 @@ evidence-based framework to guide device selection, bridging the gap
 between engineering specifications and practical research implementation.
 
 ================================================================================
-PLACEHOLDERS A PREENCHER:
+DADOS UTILIZADOS (do RELATORIO_TABELA.txt):
 ================================================================================
-[X] = número de fabricantes
-[Y] = número de países
-[N]% = percentuais específicos de cada dispositivo
+✅ Total de dispositivos: 96
+✅ Fabricantes únicos: 64
+✅ Países de origem: 26
+✅ Total de estudos: 2,087
+✅ Coeficiente de Gini: 0.8568
+✅ Top 5 dispositivos: 55.4% dos estudos
+✅ Epoc X: 722 estudos, 120.33 art/ano
 
 ================================================================================
 CHECKLIST:
@@ -67,3 +74,4 @@ CHECKLIST:
 [x] R1AQ1 - Contribuição explícita (conclusão)
 [x] R2C7  - Números específicos (results)
 [x] R2AQ1 - Justificativa caráter descritivo (na resposta)
+[x] Placeholders preenchidos com dados reais
