@@ -18,14 +18,10 @@ their comments (R1C1, R3C5, R3C6), we have substantially revised the manuscript 
 5. Year of first appearance methodology (R1C1, R3C5): Multi-source strategy described.
 
 ================================================================================
-TEXTOS PARA MANUSCRITO
+SEÇÃO: METHODS
 ================================================================================
 
---------------------------------------------------------------------------------
-SEÇÃO: METHODS
-SUBTÍTULO: Research Adoption Metrics
-RESPONDE A: R1C1
---------------------------------------------------------------------------------
+--- Research Adoption Metrics (R1C1) ---
 
 Research adoption was quantified by the number of DOI-indexed publications explicitly reporting the use of each 
 device in experimental or clinical applications. This metric serves as a literature-based proxy for adoption 
@@ -35,11 +31,7 @@ To account for differences in device age, an annualized adoption rate was calcul
 publication count by the number of years since each device's market entry. Market entry dates were available for 
 92 of 96 devices (95.8%), spanning from 2008 to 2025.
 
---------------------------------------------------------------------------------
-SEÇÃO: METHODS
-SUBTÍTULO: Year of First Appearance
-RESPONDE A: R1C1, R3C5
---------------------------------------------------------------------------------
+--- Year of First Appearance (R1C1, R3C5) ---
 
 Release year information was not consistently disclosed by manufacturers for a substantial portion of the devices. 
 Consequently, a secondary strategy based on the year of first appearance was adopted. This strategy integrated 
@@ -49,11 +41,7 @@ clearance or approval by the relevant regulatory authority (e.g., FDA, CE markin
 milestones. For devices that underwent subsequent updates, revisions, or new versions, the earliest identifiable 
 date of public availability was considered.
 
---------------------------------------------------------------------------------
-SEÇÃO: METHODS
-SUBTÍTULO: Device Variant Handling
-RESPONDE A: R3C6
---------------------------------------------------------------------------------
+--- Device Variant Handling (R3C6) ---
 
 Devices were organized based on form factor (device type) as the primary grouping criterion. Within the same 
 manufacturer, devices sharing identical form factors but differing in channel count or minor configurations were 
@@ -66,11 +54,11 @@ Authors frequently report using "Emotiv EPOC" or "OpenBCI" without distinguishin
 configurations. Aggregating at the device family level provides more stable adoption indicators and avoids 
 artificial fragmentation of citation counts.
 
---------------------------------------------------------------------------------
+================================================================================
 SEÇÃO: RESULTS
-SUBTÍTULO: Temporal Evolution of the Neurotechnology Market
-RESPONDE A: R3C5
---------------------------------------------------------------------------------
+================================================================================
+
+--- Temporal Evolution of the Neurotechnology Market (R3C5) ---
 
 Figure X presents the timeline of market entry for the 96 devices identified in this review. The market has shown 
 accelerating growth, with 63.6% of all devices (61 of 96) entering the market between 2019 and 2025.
@@ -78,31 +66,19 @@ accelerating growth, with 63.6% of all devices (61 of 96) entering the market be
 The distribution of device market entries across time periods was as follows: 2008-2014 (8 devices, 8.3%), 
 2015-2018 (23 devices, 24.0%), 2019-2022 (35 devices, 36.5%), and 2023-2025 (26 devices, 27.1%).
 
---------------------------------------------------------------------------------
-SEÇÃO: RESULTS
-SUBTÍTULO: Channel Count Evolution
-RESPONDE A: R3C5
---------------------------------------------------------------------------------
+--- Channel Count Evolution (R3C5) ---
 
 The average channel count increased from 24.9 (2008-2014) to 27.4 (2015-2018), then stabilized around 22-24 
 channels (2019-2025). This pattern reflects the simultaneous growth of two market segments: high-density research 
 systems (32-128+ channels) and consumer-grade devices (1-8 channels).
 
---------------------------------------------------------------------------------
-SEÇÃO: RESULTS
-SUBTÍTULO: Wireless Adoption
-RESPONDE A: R3C5
---------------------------------------------------------------------------------
+--- Wireless Adoption (R3C5) ---
 
 Wireless connectivity has become the dominant architecture since 2015, with approximately 70% of devices featuring 
 Bluetooth connectivity across all subsequent periods: 2008-2014 (62.5% Bluetooth, 12.5% Wi-Fi), 2015-2018 (73.9% 
 Bluetooth, 34.8% Wi-Fi), 2019-2022 (71.4% Bluetooth, 31.4% Wi-Fi), and 2023-2025 (69.2% Bluetooth, 19.2% Wi-Fi).
 
---------------------------------------------------------------------------------
-SEÇÃO: RESULTS
-SUBTÍTULO: Research Adoption Concentration
-RESPONDE A: R1C1, R3C3
---------------------------------------------------------------------------------
+--- Research Adoption Concentration (R1C1, R3C3) ---
 
 The research adoption distribution exhibited high concentration (Gini coefficient = 0.86), with the top 5 devices 
 accounting for 55.4% of all documented studies (1,157 of 2,087). The Emotiv EPOC X led research adoption with 
@@ -113,11 +89,11 @@ NirSmart (24.50 articles/year) and Emotiv Flex 2 (18.00 articles/year) exhibit h
 lower absolute counts, suggesting growing research interest in newer technologies.
 
 ================================================================================
-FIGURAS GERADAS (em Alterações/Figuras/)
+FIGURAS (em Alterações/Figuras/)
 ================================================================================
 
 1. timeline_scatter.png  - Dispersão de dispositivos por ano de entrada
-2. timeline_bar.png      - Distribuição anual por tecnologia (empilhado)
+2. timeline_bar.png      - Distribuição anual por tecnologia
 3. temporal_trends.png   - Painel 2x2 com tendências temporais
 
 ================================================================================

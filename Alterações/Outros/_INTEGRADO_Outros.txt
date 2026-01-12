@@ -16,25 +16,17 @@ revised the manuscript to:
 3. Expand future roadmap (R2AQ3): AI integration, emerging technologies.
 
 ================================================================================
-TEXTOS PARA MANUSCRITO
+SEÇÃO: INTRODUCTION
 ================================================================================
 
---------------------------------------------------------------------------------
-SEÇÃO: INTRODUCTION
-SUBTÍTULO: Research Context
-RESPONDE A: R2C1
---------------------------------------------------------------------------------
+--- Research Context (R2C1) ---
 
 Despite their growing potential, selecting the most appropriate brain monitoring device remains a major challenge. 
 The commercial landscape has expanded rapidly, with 96 devices from 64 manufacturers across 26 countries 
 currently available. This diversity, coupled with the absence of standardized reporting, creates a paradox of 
 choice that complicates decision-making for researchers and clinicians.
 
---------------------------------------------------------------------------------
-SEÇÃO: INTRODUCTION
-SUBTÍTULO: Research Question
-RESPONDE A: R2C1
---------------------------------------------------------------------------------
+--- Research Question (R2C1) ---
 
 This scoping review addresses the following research question: How can commercially available portable EEG and 
 fNIRS devices be systematically characterized and compared to support informed selection for neuroscience and 
@@ -43,11 +35,11 @@ neurorehabilitation research?
 Rather than testing a hypothesis, this study provides an evidence-based framework that bridges engineering 
 specifications and practical research implementation.
 
---------------------------------------------------------------------------------
+================================================================================
 SEÇÃO: DISCUSSION
-SUBTÍTULO: Deployment Pathways
-RESPONDE A: R2C9
---------------------------------------------------------------------------------
+================================================================================
+
+--- Deployment Pathways (R2C9) ---
 
 The implications of this review extend beyond academic research to clinical, industrial, and societal contexts. 
 From a clinical perspective, the increasing availability of medical-grade certified devices (7.3% of the 
@@ -63,11 +55,11 @@ Societal implications include accessibility and equity considerations. The price
 reflects significant heterogeneity, with consumer-grade devices potentially democratizing access to brain 
 monitoring technologies in resource-limited settings.
 
---------------------------------------------------------------------------------
+================================================================================
 SEÇÃO: FUTURE DIRECTIONS
-SUBTÍTULO: Emerging Technologies
-RESPONDE A: R2AQ3
---------------------------------------------------------------------------------
+================================================================================
+
+--- Emerging Technologies (R2AQ3) ---
 
 Several emerging technologies are likely to reshape the portable neurotechnology landscape:
 
@@ -84,11 +76,7 @@ without centralized data sharing, addressing regulatory and ethical constraints.
 Multimodal Integration: The convergence of EEG, fNIRS, and other biosignals (PPG, GSR, IMU) in single devices 
 enables comprehensive physiological monitoring for brain-body interface applications.
 
---------------------------------------------------------------------------------
-SEÇÃO: FUTURE DIRECTIONS
-SUBTÍTULO: Research Priorities
-RESPONDE A: R2AQ3
---------------------------------------------------------------------------------
+--- Research Priorities (R2AQ3) ---
 
 Future research should prioritize: (1) standardized benchmarking protocols for cross-device validation; 
 (2) clinical translation studies in neurorehabilitation settings; (3) longitudinal market surveillance to track 
@@ -98,9 +86,6 @@ technological evolution; and (4) development of reporting standards for neurotec
 AÇÃO PENDENTE
 ================================================================================
 
-[ ] Buscar referências 2023-2025:
-    - EEG + Inteligência Artificial
-    - Federated Learning em neurotecnologia
-    - Foundation Models para EEG/biossinais
+[ ] Buscar referências 2023-2025: EEG + IA, Federated Learning, Foundation Models
 
 ================================================================================
