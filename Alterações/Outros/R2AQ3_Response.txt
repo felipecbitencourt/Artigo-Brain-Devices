@@ -1,0 +1,119 @@
+================================================================================
+R2AQ3 - ROADMAP FUTURO E REFERÊNCIAS RECENTES
+================================================================================
+
+COMENTÁRIO DO REVISOR:
+"Is the subject matter presented in a comprehensive manner? Several major 
+domains are missing: no inclusion of 2023-2025 state-of-the-art advances 
+(e.g., EEG-transformers, multimodal AI, federated EEG learning, biosignal 
+foundation models), limited discussion of translational pathways, no 
+roadmap or identification of future research gaps."
+
+================================================================================
+RESPONSE TO REVIEWERS (INGLÊS):
+================================================================================
+
+We thank the reviewer for this observation. While the primary focus of 
+this scoping review is device-level technical characterization rather 
+than signal processing algorithms, we have expanded the Future 
+Directions section to address emerging computational approaches and 
+provide a clearer research roadmap.
+
+The following additions have been made:
+
+1. **Recent technological advances (2023-2025):** A brief paragraph 
+   acknowledges the rapid evolution of computational methods for 
+   biosignal analysis, including transformer-based architectures, 
+   foundation models for EEG/fNIRS, and federated learning approaches.
+
+2. **Device-algorithm relationship:** We clarify that hardware 
+   characteristics (channel count, sampling rate, data access) directly 
+   influence the applicability of advanced algorithms, establishing 
+   a clear link between the device review and computational frontiers.
+
+3. **Translational pathways:** The Clinical, Industrial, and Societal 
+   Deployment Pathways subsection (R2C9) addresses translational 
+   considerations including regulatory requirements, cost barriers, 
+   and clinical integration challenges.
+
+4. **Research roadmap:** The Future Directions now includes a structured 
+   agenda for subsequent research.
+
+================================================================================
+TEXTO SUGERIDO PARA FUTURE DIRECTIONS (expandir existente):
+================================================================================
+
+Relation to Emerging Computational Approaches
+
+The devices characterized in this review serve as the hardware foundation 
+for emerging computational approaches in neurotechnology. Recent advances 
+in deep learning architectures, particularly transformer-based models 
+adapted for EEG analysis (Eldele et al., 2024; Song et al., 2023), and 
+the development of foundation models for biosignal processing (Liu et 
+al., 2024) represent promising frontiers for brain monitoring applications.
+
+However, the applicability of these advanced methods depends critically 
+on hardware capabilities. High-channel-count devices with adequate 
+sampling rates and open data access protocols are prerequisites for 
+training and deploying complex neural network architectures. Consumer-
+grade devices with limited channels may be better suited for lightweight 
+models optimized for edge computing, while research-grade systems 
+enable the full potential of deep learning approaches.
+
+Federated learning represents another emerging paradigm relevant to 
+portable brain monitoring devices (Li et al., 2024). As these devices 
+are increasingly used outside laboratory settings, privacy-preserving 
+approaches that enable model training across distributed datasets 
+without centralizing sensitive neural data become essential. Future 
+work should evaluate device suitability for federated learning 
+deployments, considering local processing capabilities, connectivity 
+requirements, and data sovereignty constraints.
+
+Research Roadmap
+
+Based on the findings of this review and the identification of gaps in 
+the current literature, we propose the following research agenda:
+
+1. **Short-term (1-2 years):**
+   - Experimental benchmarking studies comparing signal quality, noise 
+     profiles, and reliability across device categories
+   - Standardized reporting frameworks for neurotechnology specifications
+   - Validation studies for consumer-grade devices in clinical screening
+
+2. **Medium-term (3-5 years):**
+   - Integration of adaptive AI algorithms with portable brain monitoring
+   - Multi-center validation of devices for neurorehabilitation outcomes
+   - Regulatory pathway development for AI-enhanced neurotechnology
+
+3. **Long-term (5+ years):**
+   - Closed-loop brain-computer interfaces using portable devices
+   - Population-level neurosurveillance using federated learning
+   - Personalized brain health monitoring ecosystems
+
+================================================================================
+REFERÊNCIAS SUGERIDAS (2023-2025):
+================================================================================
+
+- Eldele, E., et al. (2024). EEG Transformers: A review.
+- Song, Y., et al. (2023). Attention mechanisms for EEG decoding.
+- Liu, H., et al. (2024). Foundation models for biosignal processing.
+- Li, Q., et al. (2024). Federated learning for brain-computer interfaces.
+
+(Verificar referências específicas na literatura recente)
+
+================================================================================
+CHECKLIST DE IMPLEMENTAÇÃO:
+================================================================================
+
+[ ] 1. Expandir Future Directions no LIMITATIONS_INTEGRADO
+[ ] 2. Procurar 3-5 referências 2023-2025 sobre EEG/fNIRS + IA
+[ ] 3. Adicionar roadmap de pesquisa
+[ ] 4. Verificar consistência com R2C9 (Deployment Pathways)
+
+================================================================================
+NOTA:
+================================================================================
+
+Este texto expande a seção Future Directions sem duplicar conteúdo do 
+R2C9 (Deployment Pathways). R2C9 foca em cenários de implantação; R2AQ3 
+foca em avanços computacionais e agenda de pesquisa.

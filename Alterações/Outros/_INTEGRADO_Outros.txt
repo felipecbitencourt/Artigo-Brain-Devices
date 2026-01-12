@@ -1,0 +1,49 @@
+================================================================================
+OUTROS COMENTÁRIOS - DOCUMENTO INTEGRADOR
+================================================================================
+Comentários: R2C1, R2C9, R2AQ3
+
+Estes comentários não pertencem aos Clusters 1, 3 ou 5, mas estão
+atribuídos a Felipe e Eduarda.
+
+================================================================================
+MAPEAMENTO:
+================================================================================
+
+R2C1 - Pergunta de pesquisa explícita
+→ ONDE: Introduction
+→ STATUS: ✅ Resposta pronta
+
+R2C9 - Clinical, Industrial, and Societal Deployment Pathways
+→ ONDE: Discussion (nova subseção)
+→ STATUS: ✅ Resposta pronta
+
+R2AQ3 - Roadmap futuro e referências 2023-2025
+→ ONDE: Future Directions
+→ STATUS: ✅ Resposta pronta (precisa referências)
+
+================================================================================
+TEXTO INTEGRADO PARA INTRODUCTION (R2C1):
+================================================================================
+
+"Despite their growing potential, selecting the most appropriate brain 
+monitoring device remains a major challenge. The commercial landscape has 
+expanded rapidly, encompassing numerous manufacturers with heterogeneous 
+specifications. This diversity, coupled with the absence of standardized 
+reporting, creates a paradox of choice that complicates decision-making.
+
+This scoping review addresses the following research question: How can 
+commercially available portable EEG and fNIRS devices be systematically 
+characterized and compared to support informed selection for neuroscience 
+and neurorehabilitation research?
+
+Rather than testing a hypothesis, this study provides an evidence-based 
+framework that bridges engineering specifications and practical research 
+implementation."
+
+================================================================================
+CHECKLIST:
+================================================================================
+[x] R2C1 - Pergunta de pesquisa
+[x] R2C9 - Deployment Pathways
+[x] R2AQ3 - Roadmap futuro

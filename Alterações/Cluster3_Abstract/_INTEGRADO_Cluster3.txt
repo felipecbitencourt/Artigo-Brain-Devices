@@ -1,0 +1,69 @@
+================================================================================
+CLUSTER 3: ABSTRACT - DOCUMENTO INTEGRADOR
+================================================================================
+Comentários: R1AQ1, R2C7, R2AQ1
+
+================================================================================
+RESPONSE TO REVIEWERS (UNIFICADA):
+================================================================================
+
+Following the recommendations of Reviewers 1 and 2 regarding the Abstract 
+(R1AQ1, R2C7, R2AQ1), we have substantially revised the Abstract to include:
+
+1. **Specific quantitative achievements** (R2C7): 96 devices, 125 variants, 
+   2,087 studies, 55.79% inclusion rate
+2. **Clear statement of contribution** (R1AQ1): Evidence-based framework 
+   for device selection
+3. **Justification of descriptive scope** (R2AQ1): Valid scoping review 
+   methodology
+
+================================================================================
+ABSTRACT REVISADO:
+================================================================================
+
+Background: The proliferation of portable brain monitoring devices for 
+electroencephalography (EEG) and functional near-infrared spectroscopy 
+(fNIRS) has created both opportunities and challenges for neuroscience 
+and neurorehabilitation research. Device selection remains a methodological 
+challenge due to heterogeneous specifications and lack of standardized 
+comparison frameworks.
+
+Objective: This scoping review provides a comprehensive technical 
+characterization of wireless brain monitoring devices currently available 
+on the global market and quantifies their adoption in the scientific 
+literature.
+
+Methods: Following PRISMA-ScR guidelines and registered in the Open 
+Science Framework (OSF), we systematically identified and characterized 
+commercially available EEG and fNIRS devices. Research adoption was 
+quantified through DOI-indexed publications explicitly reporting device 
+use. An annualized adoption rate was calculated to account for differences 
+in device age.
+
+Results: A total of 96 unique devices (125 including model variants) 
+from [X] manufacturers across [Y] countries were identified. Bibliometric 
+analysis yielded 3,741 unique records, of which 2,087 (55.79%) met the 
+inclusion criteria, explicitly reporting device use in experimental or 
+clinical applications. The Emotiv EPOC/EPOC X led research adoption 
+with [N]% of included studies, followed by OpenBCI ([N]%) and NeuroSky 
+MindWave ([N]%).
+
+Conclusion: This review provides the most comprehensive device-level 
+mapping of portable brain monitoring technologies currently available 
+in the peer-reviewed literature. The compiled catalog offers an 
+evidence-based framework to guide device selection, bridging the gap 
+between engineering specifications and practical research implementation.
+
+================================================================================
+PLACEHOLDERS A PREENCHER:
+================================================================================
+[X] = número de fabricantes
+[Y] = número de países
+[N]% = percentuais específicos de cada dispositivo
+
+================================================================================
+CHECKLIST:
+================================================================================
+[x] R1AQ1 - Contribuição explícita (conclusão)
+[x] R2C7  - Números específicos (results)
+[x] R2AQ1 - Justificativa caráter descritivo (na resposta)

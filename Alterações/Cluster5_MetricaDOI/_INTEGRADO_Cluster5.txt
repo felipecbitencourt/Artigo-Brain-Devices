@@ -1,0 +1,64 @@
+================================================================================
+CLUSTER 5: MÉTRICA DOI / TEMPORAL - DOCUMENTO INTEGRADOR
+================================================================================
+Comentários: R1C1, R3C5, R3C6
+
+================================================================================
+RESPONSE TO REVIEWERS (UNIFICADA):
+================================================================================
+
+Following the recommendations of Reviewers 1 and 3 regarding adoption 
+metrics and temporal analysis (R1C1, R3C5, R3C6), we have made 
+substantial revisions including:
+
+1. **Time-normalized metrics** (R1C1): Annualized publication rate
+2. **Temporal evolution analysis** (R3C5): Timeline figure, trend analysis
+3. **Variant handling clarification** (R3C6): Aggregation strategy explained
+
+================================================================================
+TEXTOS INTEGRADOS:
+================================================================================
+
+--- METHODS (normalização temporal - R1C1) ---
+
+"Research adoption was quantified by the number of DOI-indexed publications 
+explicitly reporting the use of each device. This metric serves as a 
+literature-based proxy for adoption within the scientific community, 
+reflecting documented use rather than device quality. To account for 
+differences in device age, an annualized adoption rate was calculated 
+by dividing the total publication count by the number of years since 
+each device's market entry."
+
+--- METHODS (tratamento de variantes - R3C6) ---
+
+"Device variants were handled using a hybrid approach. At the catalog 
+level, unique device families were identified based on manufacturer 
+naming conventions. When variants exhibited distinct specifications, 
+they were recorded as separate entries (resulting in 125 entries from 
+96 device families). For bibliometric analysis, publication counts 
+were aggregated at the device family level to avoid fragmentation."
+
+--- RESULTS (evolução temporal - R3C5) ---
+
+"Figure X presents the timeline of market entry for the 96 devices. 
+The average channel count has increased over time, from [X] channels 
+(2009-2012) to [Y] channels (2020-2025). Cost per channel has decreased, 
+with current consumer-grade devices achieving costs below $50 per channel. 
+Wireless connectivity has become dominant, exceeding [Z]% for devices 
+released after 2020."
+
+================================================================================
+DADOS NECESSÁRIOS (ação dos autores):
+================================================================================
+- Ano de lançamento de cada dispositivo
+- Cálculo de artigos/ano
+- Análise de tendência de canais
+- Análise de custo/canal
+- Porcentagem de wireless por período
+
+================================================================================
+CHECKLIST:
+================================================================================
+[x] R1C1 - Texto normalização (precisa dados)
+[x] R3C5 - Texto evolução temporal (precisa dados)
+[x] R3C6 - Texto variantes

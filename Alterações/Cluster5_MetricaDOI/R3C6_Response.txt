@@ -1,0 +1,92 @@
+================================================================================
+R3C6 - TRATAMENTO DE VARIANTES NA ANÁLISE
+================================================================================
+
+COMENTÁRIO DO REVISOR:
+"The manuscript states '125 models and variants' but does not explain how 
+variants were handled in the analysis. If a study used 'Epoc' (2009) and 
+another used 'Epoc X' (2018), were these counted separately or aggregated? 
+Clarify the aggregation strategy."
+
+================================================================================
+RESPONSE TO REVIEWERS (INGLÊS):
+================================================================================
+
+We thank the reviewer for this important methodological question. We have 
+added a clarifying paragraph in the Methods section explaining our 
+variant handling strategy.
+
+**Variant Handling Strategy:**
+
+Device variants were handled using a hybrid approach:
+
+1. **Catalog level (96 devices):** Unique device families were identified 
+   based on manufacturer naming conventions and shared core architecture. 
+   For example, "Emotiv EPOC/EPOC+/EPOC X" was counted as one device 
+   family in the primary catalog.
+
+2. **Specification level (125 entries):** When variants exhibited 
+   distinct technical specifications (e.g., different channel counts, 
+   electrode configurations, or wireless protocols), they were recorded 
+   as separate entries in the technical specification tables. This 
+   resulted in 125 total entries from 96 unique device families.
+
+3. **Bibliometric level:** Publication counts were aggregated at the 
+   device family level to avoid artificial fragmentation of adoption 
+   metrics. Studies mentioning "EPOC," "EPOC+," or "EPOC X" were 
+   attributed to the Emotiv EPOC family. This approach was chosen 
+   because:
+   - Many publications do not specify the exact variant used
+   - Core hardware architecture often remains similar across variants
+   - Aggregation provides a more stable indicator of manufacturer/device 
+     adoption patterns
+
+**Justification:**
+
+This hybrid strategy balances two competing goals:
+- **Technical granularity:** Capturing specification differences between 
+  variants (e.g., EPOC X has improved reference system and motion sensors)
+- **Bibliometric stability:** Avoiding fragmented citation counts that 
+  would make comparison across device families unreliable
+
+For devices with major hardware revisions that represent distinct 
+generations (e.g., Muse 2014 vs Muse 2 2018), publication searches were 
+designed to capture all generations, with aggregated counts reported at 
+the product line level.
+
+================================================================================
+TEXTO SUGERIDO PARA METHODS:
+================================================================================
+
+Device Variant Handling
+
+The 96 identified devices correspond to unique device families based on 
+manufacturer naming conventions and core hardware architecture. When 
+manufacturers offered multiple variants with distinct technical 
+specifications (e.g., different channel configurations or electrode 
+types), these were recorded as separate entries in the technical 
+specification tables, resulting in 125 total catalog entries.
+
+For bibliometric analysis, publication counts were aggregated at the 
+device family level. Studies mentioning any variant of a device family 
+(e.g., "Emotiv EPOC," "EPOC+," or "EPOC X") were attributed to the 
+corresponding device family. This aggregation strategy was adopted 
+because many publications do not specify the exact variant used, and 
+aggregation provides more stable adoption indicators across device 
+families.
+
+================================================================================
+CHECKLIST DE IMPLEMENTAÇÃO:
+================================================================================
+
+[ ] 1. Adicionar parágrafo em Methods sobre tratamento de variantes
+[ ] 2. Verificar consistência com tabela (96 vs 125)
+[ ] 3. Confirmar que supplementary material lista todas as variantes
+[ ] 4. Ajustar texto se estratégia diferente foi usada
+
+================================================================================
+NOTA:
+================================================================================
+
+Este texto assume que a estratégia descrita foi a adotada. Se a metodologia 
+real foi diferente, ajustar o texto de acordo.
