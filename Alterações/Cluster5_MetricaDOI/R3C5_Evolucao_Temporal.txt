@@ -4,12 +4,11 @@ R3C5 - EVOLUÇÃO TEMPORAL DO MERCADO
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The manuscript mentions devices 'currently available' but does not analyze temporal evolution. The neurotechnology 
+The manuscript mentions devices "currently available" but does not analyze temporal evolution. The neurotechnology 
 market has evolved rapidly. Early devices (e.g., NeuroSky MindWave, 2009) differ significantly from recent models 
-(e.g., Kernel Flow, 2023). Requirement: 
-1. Add a timeline figure showing when each device entered the market
-2. Analyze trends: 2.1. Has the average channel count increased over time? 2.2. Has the price per channel decreased 
-   (Moore's Law for neurotechnology)? 2.3. When did wireless architectures become dominant?"
+(e.g., Kernel Flow, 2023). Requirement: 1. Add a timeline figure showing when each device entered the market; 
+2. Analyze trends: 2.1. Has the average channel count increased over time? 2.2. Has the price per channel 
+decreased (Moore's Law for neurotechnology)? 2.3. When did wireless architectures become dominant?
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -17,11 +16,11 @@ RESPONSE TO REVIEWERS
 
 We thank the reviewer for this insightful suggestion. We have addressed this comment by adding:
 
-1. A timeline figure (Figure X) showing device market entry dates from 2008 to 2025, organized by technology type.
+1. A timeline figure (Figure X) showing device market entry dates from 2008 to 2025.
 
 2. Trend analysis in the Results section covering:
    - Channel count evolution across four time periods
-   - Price per channel trends (with discussion of selection bias in recent data)
+   - Price per channel trends
    - Wireless architecture adoption rates (Bluetooth and Wi-Fi)
 
 3. A discussion paragraph relating these trends to broader technological evolution.
@@ -29,22 +28,10 @@ We thank the reviewer for this insightful suggestion. We have addressed this com
 4. Methodology explanation for determining "year of first appearance" when manufacturer disclosure was unavailable.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - METHODS
+SEÇÃO: RESULTS
 ================================================================================
 
-Release year information was not consistently disclosed by manufacturers for a substantial portion of the devices. 
-Consequently, a secondary strategy based on the year of first appearance was adopted. This strategy integrated 
-multiple indicators, including official manufacturer documentation, the earliest peer-reviewed publications 
-reporting device usage, presentations at scientific or industry events, and, when applicable, the year of first 
-clearance or approval by the relevant regulatory authority (e.g., FDA, CE marking), among other verifiable 
-milestones. For devices that underwent subsequent updates, revisions, or new versions, the earliest identifiable 
-date of public availability was considered.
-
-================================================================================
-TEXTO PARA MANUSCRITO - RESULTS
-================================================================================
-
-Temporal Evolution of the Neurotechnology Market
+--- Temporal Evolution of the Neurotechnology Market (R3C5) ---
 
 Figure X presents the timeline of market entry for the 96 devices identified in this review. The commercial 
 landscape has evolved substantially since the introduction of early consumer-grade EEG devices in 2008.
@@ -53,33 +40,41 @@ Market growth: Device entries accelerated markedly after 2019, with 63.6% of all
 entering the market between 2019 and 2025. The distribution was: 2008-2014 (8 devices, 8.3%), 2015-2018 (23 
 devices, 24.0%), 2019-2022 (35 devices, 36.5%), and 2023-2025 (26 devices, 27.1%).
 
-Channel count trends: The average channel count increased from 24.9 (2008-2014) to 27.4 (2015-2018), before 
-stabilizing around 22-24 channels (2019-2025). This pattern reflects the simultaneous growth of two market 
-segments: high-density research systems (32-128+ channels) and consumer-grade devices (1-8 channels).
+--- Channel Count Evolution (R3C5) ---
 
-Price per channel: Early devices (2008-2014) averaged $108 per channel. The 2015-2018 period showed significant 
-cost reduction ($69/channel) as consumer-grade devices entered the market. Contemporary pricing varies 
-substantially by device category, with consumer devices achieving sub-$50 per-channel costs.
+The average channel count increased from 24.9 (2008-2014) to 27.4 (2015-2018), before stabilizing around 22-24 
+channels (2019-2025). This pattern reflects the simultaneous growth of two market segments: high-density research 
+systems (32-128+ channels) and consumer-grade devices (1-8 channels).
 
-Wireless adoption: Wireless connectivity has dominated since 2015, with approximately 70% of devices featuring 
-Bluetooth connectivity. Bluetooth Low Energy emerged as the preferred protocol for consumer and research-grade 
-devices.
+--- Price Per Channel (R3C5) ---
 
-================================================================================
-TEXTO PARA MANUSCRITO - DISCUSSION
-================================================================================
+Early devices (2008-2014) averaged $108 per channel. The 2015-2018 period showed significant cost reduction 
+($69/channel) as consumer-grade devices entered the market. Contemporary pricing varies substantially by device 
+category, with consumer devices achieving sub-$50 per-channel costs.
 
-The temporal analysis reveals patterns consistent with broader technology adoption curves. The democratization 
-of brain monitoring technology—characterized by market growth exceeding 60% since 2019, bifurcation into consumer 
-and research segments, and near-universal wireless connectivity—mirrors trends observed in wearable electronics 
-and digital health devices.
+--- Wireless Adoption (R3C5) ---
+
+Wireless connectivity has dominated since 2015, with approximately 70% of devices featuring Bluetooth 
+connectivity: 2008-2014 (62.5% Bluetooth, 12.5% Wi-Fi), 2015-2018 (73.9% Bluetooth, 34.8% Wi-Fi), 2019-2022 
+(71.4% Bluetooth, 31.4% Wi-Fi), and 2023-2025 (69.2% Bluetooth, 19.2% Wi-Fi).
 
 ================================================================================
-FIGURAS GERADAS (em Alterações/Figuras/)
+SEÇÃO: DISCUSSION
 ================================================================================
 
-1. timeline_scatter.png  - Dispersão de dispositivos por ano de entrada
-2. timeline_bar.png      - Distribuição anual por tecnologia (empilhado)
-3. temporal_trends.png   - Painel 2x2 com tendências temporais
+--- Temporal Trends (R3C5) ---
+
+The temporal analysis reveals patterns consistent with broader technology adoption curves. The democratization of 
+brain monitoring technology—characterized by market growth exceeding 60% since 2019, bifurcation into consumer and 
+research segments, and near-universal wireless connectivity—mirrors trends observed in wearable electronics and 
+digital health devices.
+
+================================================================================
+FIGURAS (em Alterações/Figuras/)
+================================================================================
+
+1. timeline_scatter.png
+2. timeline_bar.png
+3. temporal_trends.png
 
 ================================================================================

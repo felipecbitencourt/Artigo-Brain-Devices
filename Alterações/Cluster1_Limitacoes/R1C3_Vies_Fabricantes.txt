@@ -4,7 +4,8 @@ R1C3 - VIÉS DE DADOS DOS FABRICANTES
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"Are specifications verified by independent sources, or do they rely solely on manufacturer claims?"
+How do the authors address the potential bias introduced by manufacturer-provided specifications, particularly 
+for parameters such as sampling rate, resolution, and wireless performance?
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -21,8 +22,10 @@ We thank the reviewer for raising this important concern. We have addressed this
 3. Recommending future work: Suggesting experimental benchmarking studies for independent validation.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - LIMITATIONS
+SEÇÃO: LIMITATIONS
 ================================================================================
+
+--- Manufacturer Data Bias (R1C3) ---
 
 The reliance on manufacturer-provided data introduces potential bias, as specifications may be optimized for 
 marketing purposes rather than scientific transparency. Parameters such as signal-to-noise ratio, latency, and 

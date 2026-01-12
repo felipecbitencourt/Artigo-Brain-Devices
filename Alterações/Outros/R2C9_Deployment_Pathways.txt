@@ -4,7 +4,8 @@ R2C9 - DEPLOYMENT PATHWAYS
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The discussion should address clinical, industrial, and societal deployment pathways."
+It may be beneficial to include a section titled "Clinical, Industrial, and Societal Deployment Pathways," where 
+potential deployment scenarios and their constraints are discussed.
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -17,10 +18,10 @@ We thank the reviewer for this suggestion. We have added a Discussion paragraph 
 3. Societal implications: Accessibility, equity, price heterogeneity across device categories.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - DISCUSSION
+SEÇÃO: DISCUSSION
 ================================================================================
 
-Deployment Pathways
+--- Deployment Pathways (R2C9) ---
 
 The implications of this review extend beyond academic research to clinical, industrial, and societal contexts. 
 From a clinical perspective, the increasing availability of medical-grade certified devices (7.3% of the 

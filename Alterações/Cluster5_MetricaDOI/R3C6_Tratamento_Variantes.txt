@@ -4,9 +4,11 @@ R3C6 - TRATAMENTO DE VARIANTES
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The manuscript states '125 models and variants' but does not explain how variants were handled in the analysis. 
-If a study used 'Epoc' (2009) and another used 'Epoc X' (2018), were these counted separately or aggregated? 
-Clarify the aggregation strategy."
+The manuscript states "125 models and variants" but does not explain how variants were handled in the analysis. 
+If a study used "Epoc" (2009) and another used "Epoc X" (2018), were these counted separately or aggregated? 
+The Epoc X has significant hardware improvements (5-electrode reference system, improved wireless). Clarify the 
+aggregation strategy. If variants were pooled, justify this decision. If kept separate, provide a breakdown 
+showing which specific variant was most cited.
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -22,10 +24,10 @@ We thank the reviewer for this important methodological question. We have added 
    device family level.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - METHODS
+SEÇÃO: METHODS
 ================================================================================
 
-Device Variant Handling
+--- Device Variant Handling (R3C6) ---
 
 Devices were organized based on form factor (device type) as the primary grouping criterion. Within the same 
 manufacturer, devices sharing identical form factors but differing in channel count or minor configurations were 
