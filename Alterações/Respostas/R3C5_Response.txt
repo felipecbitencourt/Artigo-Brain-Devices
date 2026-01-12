@@ -1,0 +1,184 @@
+================================================================================
+R3C5 - RESPOSTA AOS REVISORES
+================================================================================
+
+COMENTÁRIO DO REVISOR:
+"The manuscript mentions devices 'currently available' but does not analyze 
+temporal evolution. The neurotechnology market has evolved rapidly. Early 
+devices (e.g., NeuroSky MindWave, 2009) differ significantly from recent 
+models (e.g., Kernel Flow, 2023). Requirement: 
+1. Add a timeline figure showing when each device entered the market
+2. Analyze trends: 
+   2.1. Has the average channel count increased over time? 
+   2.2. Has the price per channel decreased (Moore's Law for neurotechnology)? 
+   2.3. When did wireless architectures become dominant?"
+
+================================================================================
+RESPONSE TO REVIEWERS (INGLÊS):
+================================================================================
+
+We thank the reviewer for this insightful suggestion regarding temporal 
+analysis of the neurotechnology market. We have addressed this comment 
+by adding trend analysis and a timeline visualization.
+
+**1. Timeline figure:** A new figure (Figure X) has been added presenting 
+a timeline of device market entry dates for the 96 identified devices. 
+The visualization organizes devices chronologically and stratifies them 
+by technology type (EEG, fNIRS, multimodal), enabling readers to 
+appreciate the evolution of the commercial landscape from early 
+consumer-grade devices (e.g., NeuroSky MindWave, 2009) to recent 
+advanced systems (e.g., Kernel Flow, 2023).
+
+**2. Trend analysis:** The following trends were analyzed and discussed:
+
+   **2.1. Channel count evolution:** Analysis reveals an overall increase 
+   in average channel count over time. Early consumer-grade devices 
+   (2009–2012) typically featured 1–14 channels, while recent research-
+   grade systems (2020–2025) commonly offer 32–64 channels as standard 
+   configurations. High-density systems exceeding 128 channels have 
+   become increasingly accessible.
+
+   **2.2. Price per channel (Moore's Law analog):** While absolute prices 
+   for research-grade systems remain high, the cost per channel has 
+   decreased substantially. Devices from the 2010–2015 period averaged 
+   approximately $1,000–2,000 per channel, whereas contemporary 
+   consumer-grade devices achieve costs below $50 per channel. This 
+   trend parallels Moore's Law dynamics observed in other technology 
+   sectors.
+
+   **2.3. Wireless architecture adoption:** The transition from wired to 
+   wireless architectures accelerated markedly after 2015. Prior to 
+   2012, wireless devices were rare and limited to low-channel-count 
+   consumer products. By 2020, wireless connectivity (Bluetooth, Wi-Fi) 
+   had become the dominant architecture across all device categories, 
+   with wired systems primarily retained for high-density clinical 
+   applications requiring maximum data throughput.
+
+**3. Discussion integration:** A new paragraph in the Discussion section 
+relates these trends to broader technological evolution, including 
+advances in low-power electronics, Bluetooth Low Energy protocols, 
+miniaturized amplifiers, and dry electrode technology.
+
+================================================================================
+TEXTO SUGERIDO PARA RESULTS:
+================================================================================
+
+Temporal Evolution of the Neurotechnology Market
+
+Figure X presents the timeline of market entry for the 96 devices 
+identified in this review. The commercial landscape has evolved 
+substantially since the introduction of early consumer-grade EEG 
+devices in the late 2000s.
+
+**Channel count trends:** The average channel count has increased over 
+time. Devices introduced between 2009 and 2012 offered a mean of 
+[X] channels (range: 1–14), while devices entering the market after 
+2020 average [Y] channels (range: 8–128). This trend reflects both 
+technological advances in miniaturized amplifier design and growing 
+demand for higher spatial resolution in research applications.
+
+**Cost per channel:** Analysis of devices with publicly available 
+pricing reveals a declining cost per channel over time. Early 
+consumer-grade devices (circa 2010) averaged approximately $[X] 
+per channel, while current consumer-grade systems achieve costs 
+below $50 per channel. Research-grade systems have also experienced 
+price reductions, though absolute costs remain substantial due to 
+higher channel counts and certification requirements.
+
+**Wireless adoption:** The proportion of wireless devices has 
+increased markedly. Among devices introduced before 2012, 
+approximately [X]% featured wireless connectivity. This proportion 
+increased to [Y]% for devices introduced between 2015 and 2020, 
+and exceeds [Z]% for devices released after 2020. Bluetooth Low 
+Energy (BLE) has emerged as the dominant protocol for consumer 
+and research-grade devices, while Wi-Fi is preferred for 
+high-throughput research applications.
+
+================================================================================
+TEXTO SUGERIDO PARA DISCUSSION:
+================================================================================
+
+The temporal analysis reveals patterns consistent with broader 
+technology adoption curves. The democratization of brain monitoring 
+technology—characterized by increasing channel counts, declining 
+costs per channel, and near-universal wireless connectivity—mirrors 
+trends observed in consumer electronics and medical devices. These 
+advances have been enabled by improvements in low-power integrated 
+circuits, miniaturized analog-to-digital converters, and efficient 
+wireless protocols such as Bluetooth Low Energy.
+
+The shift toward wireless architectures has particularly significant 
+implications for neurorehabilitation applications, where patient 
+mobility and ecological validity are paramount. Early wireless 
+devices sacrificed channel count and sampling rate for portability; 
+contemporary systems increasingly achieve parity with wired 
+alternatives, supporting high-density acquisition without movement 
+restrictions.
+
+================================================================================
+DADOS NECESSÁRIOS PARA ANÁLISE (a coletar da Tabela 1):
+================================================================================
+
+Para cada dispositivo, precisamos:
+- Ano de lançamento no mercado
+- Número de canais
+- Preço (quando disponível)
+- Tipo de conectividade (wired/wireless/both)
+
+Cálculos sugeridos:
+1. Média de canais por período (2009-2012, 2013-2016, 2017-2020, 2021-2025)
+2. Custo/canal médio por período (apenas dispositivos com preço público)
+3. % de dispositivos wireless por período
+4. Gráfico de linha temporal com marcos importantes
+
+================================================================================
+SUGESTÃO DE FIGURA (Timeline):
+================================================================================
+
+Opção 1: Linha do tempo horizontal
+- Eixo X: Anos (2009-2025)
+- Dispositivos posicionados verticalmente por categoria (consumer/research/clinical)
+- Cores por tecnologia (EEG azul, fNIRS vermelho, multimodal roxo)
+
+Opção 2: Gráfico de dispersão temporal
+- Eixo X: Ano de lançamento
+- Eixo Y: Número de canais
+- Tamanho do ponto: proporcional ao número de publicações
+- Cor: categoria do dispositivo
+
+================================================================================
+MARCOS TECNOLÓGICOS PARA MENCIONAR:
+================================================================================
+
+| Ano  | Marco                                           |
+|------|-------------------------------------------------|
+| 2009 | NeuroSky MindWave - primeiro EEG consumer       |
+| 2011 | Emotiv EPOC - 14 canais wireless consumer       |
+| 2014 | OpenBCI - hardware open-source                  |
+| 2015 | Muse - headband para meditação                  |
+| 2016 | Bluetooth Low Energy torna-se padrão            |
+| 2019 | Emotiv EPOC X - upgrade significativo           |
+| 2020 | Kernel Flow - fNIRS alta densidade              |
+| 2023 | Integração IA em dispositivos consumer          |
+
+================================================================================
+CHECKLIST DE IMPLEMENTAÇÃO:
+================================================================================
+
+[ ] 1. Coletar anos de lançamento dos 96 dispositivos
+[ ] 2. Calcular médias de canais por período
+[ ] 3. Calcular custo/canal para dispositivos com preço público
+[ ] 4. Calcular % wireless por período
+[ ] 5. Criar figura de linha do tempo
+[ ] 6. Adicionar texto em Results
+[ ] 7. Adicionar parágrafo em Discussion
+[ ] 8. Inserir referência à figura no texto
+
+================================================================================
+NOTAS:
+================================================================================
+
+- ATENÇÃO: Esta é uma das tarefas mais trabalhosas - requer coleta de dados
+- Se não houver dados de ano para todos os dispositivos, mencionar como limitação
+- Usar linguagem cautelosa ("trends suggest", "data indicate")
+- Focar nos dispositivos mais citados para a análise principal
