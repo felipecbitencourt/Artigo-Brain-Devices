@@ -1,0 +1,23 @@
+R2C6. 
+STATUS - Felipe e Eduarda   
+Add a “Limitations & Future Work” section. 
+ 
+1. Criar seção própria: “Limitations and Future Work” 
+2. Listar limitações claras: 
+●​
+ausência de benchmark; 
+●​
+dependência de dados de fabricantes; 
+●​
+não avaliação clínica direta. 
+3. Listar caminhos futuros: 
+●​
+benchmarking experimental; 
+●​
+integração com IA; 
+●​
+estudos clínicos. 
+→ Onde: Final do manuscrito 
+ 
+RESPONSE TO REVIEWERS 
+Text…

@@ -1,0 +1,20 @@
+R1C1. 
+STATUS - Felipe e Eduarda  
+How do the authors justify the use of the “number of DOI-indexed publications” as a proxy for device 
+adoption without normalising device age, year of market entry, or industry-specific publishing practices? 
+ 
+1. Explicar no Methods que essa métrica indica uso na literatura, não qualidade. 
+2. Substituir termos ambíguos por “inclusion rate” ou “proxy de adoção”. 
+3. Normalizar a métrica pelo tempo: 
+●​
+calcular o número de artigos por ano desde o lançamento do dispositivo. 
+4. Criar 1 tabela ou figura comparando: 
+●​
+número total de artigos; 
+●​
+número de artigos por ano. 
+5. Acrescentar um parágrafo explicando a limitação dessa métrica. 
+→ Onde: Methods, Results, Figures, Tables, Limitations 
+ 
+RESPONSE TO REVIEWERS 
+Text…

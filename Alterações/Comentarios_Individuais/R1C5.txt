@@ -1,0 +1,19 @@
+R1C5.  
+STATUS - Encarregado 
+In its current form, the review emphasises hardware characteristics. How do the authors plan to integrate 
+computational modelling or signal processing performance metrics to go beyond descriptive comparison? 
+ 
+1. Criar uma subseção chamada “Signal Processing and Computational Considerations” 
+2. Explicar que o desempenho depende de hardware + software. 
+3. Citar exemplos da literatura onde os dispositivos foram usados com: 
+●​
+machine learning; 
+●​
+BCI; 
+●​
+neurofeedback. 
+4. Deixar claro que o artigo discute compatibilidade, não testa algoritmos. 
+→ Onde: Discussion (nova subseção) 
+ 
+RESPONSE TO REVIEWERS 
+Text…

@@ -1,0 +1,18 @@
+This scoping review provides a technical characterization of 96 wireless brain monitoring devices 
+(EEG and fNIRS), totaling 125 models and variants, currently available on the global market. A 
+scientific characterization was performed by systematically searching the literature following 
+PRISMA guidelines and registered in the OSF. The search was conducted across five databases (IEEE, 
+Scopus, PubMed, Web of Science, and Embase) to identify the applications of the devices tracked in 
+the market. The searches were conducted between January and August 2025. A total of 5,071 
+records were analyzed; 3,741 were unique entries. Among these, 2,087 studies explicitly reported 
+the use of brain devices in clinical trials, dataset development, or technology evaluations, with an 
+overall inclusion rate of 55.79\% after screening. Research adoption was quantified by the number of 
+DOI-indexed publications referencing each device. The Epoc X leads the number of research 
+publications with 19.30\%, followed by the OpenBCI system with 4.81\%, and the MindWave with 
+4.06\%. Enobio appears in fourth place with 2.89\% and g.Nautilus ranks eighth with 1.71\%. These 
+findings demonstrate a global effort by researchers to conduct accessible studies using user-friendly, 
+low-cost, and widely available devices, revealing a significant gap between consumer-grade and 
+research-grade technologies. The compiled dataset provides an evidence-based framework to guide 
+neuroscientists, engineers, and clinicians in selecting the appropriate device for their specific 
+research needs. This work also identifies critical trends, such as the strong convergence toward 
+wireless architectures and the growing emphasis on open data interfaces.

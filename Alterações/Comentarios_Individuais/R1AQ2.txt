@@ -1,0 +1,51 @@
+R1AQ2. 
+RESOLVIDO - claudio   
+Is the paper technically sound? The methodology follows PRISMA-ScR guidelines, is transparently 
+registered in the OSF, and utilises several high-quality databases. Technical descriptions of EEG and fNIRS 
+systems are generally accurate and detailed. However, the review does not critically evaluate signal quality, 
+validation protocols, or performance trade-offs between different devices, which limits the interpretability 
+of technical comparisons. Furthermore, latency, jitter, wireless throughput, and multimodal synchronisation 
+are discussed descriptively but are not operationalised consistently within the comparative framework. 
+ 
+1. Manter a descrição metodológica (PRISMA-ScR e OSF), pois está correta. 
+2. Acrescentar um parágrafo explicando que o foco do artigo é comparação técnica e de adoção, não 
+validação clínica. 
+3. Criar uma subseção em Limitations abordando: ausência de testes diretos de qualidade de sinal; 
+dependência de dados fornecidos por fabricantes. 
+4. Tornar explícito que latência, jitter e sincronização são discutidos como critérios aplicacionais, 
+não como medições experimentais. 
+5. Ajustar o texto para evitar interpretações de que os autores testaram os dispositivos. 
+→ Onde: Methods, Discussion, Limitations
+
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this constructive comment. This scoping review focuses on device-level technical 
+specifications, reported capabilities, and patterns of use across the literature, rather than on experimental 
+validation of signal quality or controlled performance benchmarking. Validation protocols, signal-to-noise 
+ratios, and quantitative performance metrics are highly task-, setup-, and population-dependent and are 
+inconsistently reported across studies, making a cross-device experimental comparison of signal quality 
+beyond the scope of this review. 
+ 
+To ensure interpretability despite these constraints, performance trade-offs were addressed at an 
+architectural and applicational level, considering consistently reported characteristics such as channel 
+count, electrode technology, wireless communication protocol, data access, and software integration. 
+ 
+Regarding latency, jitter, wireless throughput, and multimodal synchronization, these parameters are now 
+explicitly treated as application-level performance criteria rather than experimental measurements. As 
+device-specific 
+numerical 
+values 
+are 
+rarely 
+disclosed 
+by 
+manufacturers 
+and 
+are 
+highly 
+configuration-dependent, they were operationalized within the comparative framework using protocol- and 
+data-rate–based proxies. Throughput requirements were inferred from channel count and nominal sampling 
+rate, while latency and jitter were contextualized according to the wireless communication protocol. 
+ 
+These criteria were integrated into Table 1 through the addition of a “Closed-loop readiness (proxy-based)” 
+column, enabling a systematic and consistent comparison of device suitability for real-time and closed-loop 
+applications, without implying regulatory certification or guaranteed real-time performance.

@@ -1,0 +1,284 @@
+Reviewer 2 
+R2C0. 
+STATUS - Encarregado 
+The manuscript appears to address a research topic in brain–computer interfaces, neurophysiology, and 
+multi-modal biosignal analysis, as evidenced by extensive references to EEG, EMG, fNIRS, cognitive 
+workload datasets, and deep learning-based signal processing. A comprehensive catalog and technical 
+mapping of 96 brain-monitoring devices (125 if variants included), using PRISMA methodology and OSF 
+registration. This topic is highly relevant and aligns well with the scope of the IEEE Access Journal. However, 
+some concerns regarding your manuscript need to be addressed as follows: 
+ 
+1. Manter o escopo geral do artigo (catálogo + mapeamento técnico). 
+2. Tornar explícito que o foco é mapeamento técnico e adoção, não validação clínica direta. 
+3. Reforçar no texto que o artigo é um scoping review orientado à tomada de decisão, não um 
+benchmark experimental. 
+→ Onde: Introduction, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C1. 
+STATUS - Felipe e Eduarda   
+The Introduction effectively contextualizes EEG/fNIRS relevance, but the research problem is not tightly 
+framed. The text implies lack of standardization and difficulty selecting devices but does not explicitly state 
+the research question nor hypothesis. 
+ 
+1. Inserir no final da Introduction: 
+●​
+uma pergunta de pesquisa explícita, por exemplo: 
+●​
+“How can commercially available portable EEG/fNIRS devices be systematically compared 
+to support informed selection for neuroscience and neurorehabilitation research?” 
+2. Acrescentar uma frase explicando por que escolher dispositivos é um problema real. 
+3. Deixar claro que o artigo não testa hipóteses, mas responde a uma questão de mapeamento e 
+comparação. 
+→ Onde: Introduction 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+R2C2. 
+STATUS - Eduardo  
+It would be advisable to include explicit search syntax for each database, a screening flow diagram with 
+reasons for exclusion, and a statement addressing risk-of-bias and data verification limitations 
+ 
+1. Criar uma subseção em Methods com strings de busca completas para cada base (copiar do 
+protocolo OSF). 
+2. Incluir um fluxograma PRISMA com números de exclusão por motivo (duplicata, falso positivo, 
+etc.). 
+3. Acrescentar um parágrafo chamado “Risk of bias and data verification” explicando:
+
+●​
+uso de dados de fabricantes; 
+●​
+ausência de verificação independente. 
+→ Onde: Methods, Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C3.  
+STATUS - Encarregado 
+The literature review presents a broad range of references, including EEG and cognitive-fatigue datasets 
+and IoT neurotechnology applications. However, the discussion remains largely descriptive rather than 
+analytical. It lacks a comparison matrix or critical synthesis that clearly connects gaps in prior work to the 
+current research. Additionally, key state-of-the-art contributions are missing, such as recent developments 
+in EEG Transformers, neural ODE-based models (2024–2025), biosignal foundation models (e.g., BMCL-23), 
+and advances in federated learning for bio-signal processing. 
+ 
+1. Criar uma subseção nova em Discussion: “Relation to recent advances in biosignal processing” 
+●​
+Inserir referências (sem aprofundar demais) sobre: 
+●​
+EEG Transformers; 
+●​
+modelos fundacionais de biossinais; 
+●​
+aprendizado federado em EEG. 
+●​
+Explicar claramente: 
+○​
+por que esses avanços não foram o foco do artigo; 
+○​
+como eles dependem da escolha do hardware. 
+→ Onde: Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C4. 
+RESOLVIDO - claudio   
+The current contribution is ambiguous. The manuscript does not articulate what is new beyond other 
+published surveys (e.g., wireless EEG surveys, multimodal neurotech reviews). 
+ 
+1. O que exatamente este artigo faz que outros surveys não fazem? 
+2. Em que dimensão ele é diferente (escopo, método, dados, resultado)? 
+3. Por que ele não é “apenas mais um survey de EEG wireless / multimodal”? 
+→ Onde: Introduction, Conclusion 
+ 
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this important comment. To clarify the novelty of the contribution, we revised the 
+Introduction to explicitly contrast this work with existing wireless EEG and multimodal neurotechnology 
+surveys. While prior reviews typically focus on signal processing methods, experimental paradigms, or 
+limited subsets of devices, the present study provides a large-scale, device-level mapping of commercially 
+available EEG and fNIRS systems. The revised text highlights the unique integration of technical 
+specifications, 
+application-oriented 
+criteria 
+(including 
+proxy-based 
+closed-loop 
+readiness 
+and
+
+synchronization support), and bibliometric indicators of device adoption, thereby clarifying the distinct 
+contribution of this review. 
+ 
+ 
+ 
+R2C5. 
+PRODUZINDO - claudio  
+Improve visual clarity of figures (resolution, captions, axis labels) 
+ 
+1. Revisar todas as figuras: 
+●​
+aumentar resolução; 
+●​
+melhorar legendas; 
+●​
+nomear eixos claramente. 
+2. Garantir que cada figura possa ser entendida sem ler o texto. 
+→ Onde: Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C6. 
+STATUS - Felipe e Eduarda   
+Add a “Limitations & Future Work” section. 
+ 
+1. Criar seção própria: “Limitations and Future Work” 
+2. Listar limitações claras: 
+●​
+ausência de benchmark; 
+●​
+dependência de dados de fabricantes; 
+●​
+não avaliação clínica direta. 
+3. Listar caminhos futuros: 
+●​
+benchmarking experimental; 
+●​
+integração com IA; 
+●​
+estudos clínicos. 
+→ Onde: Final do manuscrito 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C7.  
+STATUS - Encarregado 
+The abstract does not faithfully mirror scope and objectives. It lists general concepts with no quantifiable 
+achievements. 
+ 
+1. Reescrever o Abstract para conter: 
+●​
+número de dispositivos; 
+●​
+método (PRISMA-ScR); 
+●​
+principal resultado (mapeamento + adoção). 
+2. Evitar termos genéricos.
+
+3. Usar números sempre que possível. 
+→ Onde: Abstract 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C8.  
+STATUS - Encarregado 
+The article lists devices but does not benchmark them technically. 
+ 
+1. Criar benchmark indireto, baseado em: 
+●​
+categorias (baixa/média/alta densidade); 
+●​
+adequação a tempo real; 
+●​
+aplicações típicas. 
+2. Deixar explícito que: 
+●​
+não é benchmarking experimental. 
+→ Onde: Results e Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2C9.  
+STATUS - Encarregado 
+It may be beneficial to include a section titled “Clinical, Industrial, and Societal Deployment Pathways,” 
+where potential deployment scenarios and their constraints are discussed. 
+ 
+1. Criar uma nova seção com esse título: “Clinical, Industrial, and Societal Deployment Pathways” 
+2. Discutir brevemente: 
+●​
+uso clínico; 
+●​
+barreiras hospitalares; 
+●​
+custo e regulamentação. 
+3. Relacionar dispositivos a cenários reais. 
+→ Onde: Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+Additional Questions 
+R2AQ1.  
+STATUS - Encarregado 
+Does the paper contribute to the body of knowledge? The manuscript contributes a valuable 
+market-mapping dataset of 96 wireless EEG and fNIRS devices (125 including variants), compiled via a 
+PRISMA-ScR protocol and OSF registration. This large-scale technical catalog is useful for researchers 
+making device-selection decisions. However, its scientific advancement is limited, because the paper is
+
+primarily descriptive and does not provide critical synthesis, benchmarking, or analytical interpretation of 
+device performance, clinical applicability, or research validation. 
+ 
+1. Transformar o texto atual em uma resposta afirmativa clara. 
+2. Reconhecer o caráter descritivo. 
+3. Explicar por que o mapeamento ainda é uma contribuição científica válida. 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2AQ2.  
+STATUS - Encarregado 
+Is the paper technically sound? Partially, with methodological gaps that weaken its rigor. There is no 
+benchmarking, device validation, or SNR/latency/impedance comparative analysis, lack of reproducibility 
+information (reviewer count, exclusion rules, search strings), reliance on self-reported manufacturer data 
+without verification. 
+ 
+1. Reconhecer limitações metodológicas explicitamente. 
+2. Justificar escolhas metodológicas. 
+3. Evitar qualquer afirmação de validação técnica direta. 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R2AQ3.  
+STATUS - Encarregado 
+Is the subject matter presented in a comprehensive manner? The manuscript thoroughly lists devices, 
+specifications, bibliometric usage, and general technological considerations. However, several major 
+domains expected in a “comprehensive review” are missing or insufficiently developed, such as, no inclusion 
+of 2023–2025 state-of-the-art advances (e.g., EEG-transformers, multimodal AI, federated EEG learning, 
+biosignal foundation models), limited discussion of translational pathways (clinical use, hospital deployment 
+barriers, regulatory context, cost-effectiveness), no roadmap or identification of future research gaps. 
+ 
+1. Inserir referências 2023–2025 estratégicas. 
+2. Criar um roadmap futuro. 
+3. Relacionar tecnologia, clínica e sociedade. 
+ 
+RESPONSE TO REVIEWERS 
+Text…

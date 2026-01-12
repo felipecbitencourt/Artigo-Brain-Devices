@@ -1,0 +1,2 @@
+# Dependências para extração de PDF
+PyMuPDF>=1.23.0

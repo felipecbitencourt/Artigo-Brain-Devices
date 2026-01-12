@@ -1,0 +1,126 @@
+================================================================================
+R1C1 - RESPOSTA AOS REVISORES
+================================================================================
+
+COMENTÁRIO DO REVISOR:
+"How do the authors justify the use of the 'number of DOI-indexed publications' 
+as a proxy for device adoption without normalising device age, year of market 
+entry, or industry-specific publishing practices?"
+
+================================================================================
+RESPONSE TO REVIEWERS (INGLÊS):
+================================================================================
+
+We thank the reviewer for this important methodological concern. We acknowledge 
+that the raw count of DOI-indexed publications does not account for device age, 
+year of market entry, or field-specific publishing dynamics.
+
+To address this limitation, we have implemented the following revisions:
+
+1. **Clarification of metric purpose (Methods section):** We now explicitly 
+   state that the number of DOI-indexed publications serves as an indicator of 
+   documented use in the scientific literature, rather than a measure of device 
+   quality or technical performance. This metric reflects research adoption 
+   patterns across the neuroscience and neurorehabilitation communities.
+
+2. **Terminology revision:** Ambiguous terms have been replaced throughout the 
+   manuscript. We now consistently use "research adoption" and "literature-based 
+   adoption proxy" to describe this metric, avoiding any implication of quality 
+   assessment.
+
+3. **Time-normalized analysis:** We have added a supplementary analysis 
+   calculating the number of publications per year since each device's market 
+   entry date. This normalization accounts for the temporal bias inherent in 
+   raw publication counts and allows for fairer comparison between established 
+   and recently released devices.
+
+4. **New comparative table/figure:** We have created [Table X / Figure X] 
+   presenting both:
+   - Total number of DOI-indexed publications per device
+   - Annualized publication rate (publications per year since market entry)
+   
+   This dual presentation enables readers to assess both cumulative research 
+   impact and adoption velocity.
+
+5. **Limitations paragraph:** A dedicated paragraph has been added to the 
+   Limitations section explicitly acknowledging that:
+   - Publication counts may be influenced by device cost and accessibility
+   - Industry-specific publishing practices vary across manufacturers
+   - Open-access datasets and software availability may inflate counts for 
+     certain devices
+   - The metric does not reflect unpublished research, industrial applications, 
+     or clinical deployments outside academic contexts
+
+================================================================================
+TEXTOS SUGERIDOS PARA O ARTIGO:
+================================================================================
+
+--- METHODS (adicionar após descrição da busca) ---
+
+"Research adoption was quantified by the number of DOI-indexed publications 
+explicitly reporting the use of each device in experimental or clinical 
+applications. This metric serves as a literature-based proxy for adoption 
+within the scientific community, reflecting documented use rather than device 
+quality or technical performance. To account for differences in device age, 
+an annualized adoption rate was calculated by dividing the total publication 
+count by the number of years since each device's market entry. This 
+time-normalized metric enables comparison of adoption velocity across devices 
+with different commercial histories."
+
+
+--- RESULTS (adicionar nova subseção ou parágrafo) ---
+
+"Table X presents the research adoption metrics for the identified devices. 
+The Epoc X leads in total publications (n = 403, 19.30%), followed by OpenBCI 
+(n = 100, 4.81%) and MindWave (n = 85, 4.06%). However, when normalized by 
+years since market entry, the adoption velocity reveals different patterns: 
+[incluir dados normalizados]. This time-normalized perspective highlights that 
+some recently released devices exhibit higher annual adoption rates despite 
+lower total counts, suggesting growing research interest in newer technologies."
+
+
+--- LIMITATIONS (adicionar parágrafo) ---
+
+"The use of DOI-indexed publication counts as a proxy for research adoption 
+has inherent limitations. First, this metric does not account for industry-
+specific publishing practices, as some manufacturers may actively encourage 
+academic publications while others focus on commercial or clinical markets. 
+Second, device cost and accessibility influence publication frequency; 
+lower-cost, consumer-grade devices may appear more frequently in the 
+literature due to broader accessibility, particularly in resource-limited 
+research settings. Third, the availability of open-source software, datasets, 
+and community support for specific devices may inflate publication counts 
+independently of hardware performance. Finally, this metric captures only 
+documented academic use and does not reflect unpublished research, proprietary 
+industrial applications, or clinical deployments outside peer-reviewed 
+contexts. Readers should interpret adoption metrics as indicators of 
+documented research use rather than endorsements of device quality."
+
+================================================================================
+CHECKLIST DE IMPLEMENTAÇÃO:
+================================================================================
+
+[ ] 1. Adicionar texto explicativo em Methods
+[ ] 2. Revisar e substituir termos ambíguos em todo o manuscrito
+[ ] 3. Calcular artigos/ano para cada dispositivo (precisa de dados de lançamento)
+[ ] 4. Criar tabela comparativa (total vs. anualizado)
+[ ] 5. Adicionar parágrafo em Limitations
+[ ] 6. Revisar Abstract se necessário
+[ ] 7. Verificar consistência terminológica
+
+================================================================================
+DADOS NECESSÁRIOS PARA NORMALIZAÇÃO:
+================================================================================
+
+Para calcular a taxa anualizada, precisamos do ano de lançamento de cada 
+dispositivo. Sugestão: criar uma coluna "Year of Market Entry" na tabela 
+principal ou material suplementar.
+
+Fórmula: Annual Adoption Rate = Total Publications / (2025 - Year of Entry)
+
+Exemplo:
+- Epoc X: lançado em ~2019 → 403 / 6 = 67.2 artigos/ano
+- OpenBCI: lançado em ~2014 → 100 / 11 = 9.1 artigos/ano
+- MindWave: lançado em ~2011 → 85 / 14 = 6.1 artigos/ano
+
+(verificar datas exatas com dados do artigo)

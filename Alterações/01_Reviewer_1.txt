@@ -1,0 +1,297 @@
+Reviewer 1 
+R1C0. 
+STATUS - Encarregado 
+The manuscript presents a review of portable EEG and fNIRS brain monitoring devices, offering an 
+impressive collection of technical specifications, market availability, and bibliometric adoption. The 
+manuscript would benefit from a more in-depth analytical synthesis, clearer methodological justifications 
+for some metrics, and a stronger link between device characteristics and the requirements dictated by 
+applications in neuroscience and neurorehabilitation. The authors should address these limitations to 
+improve the scientific rigour, interpretability, and translational relevance of the review. 
+ 
+1. Reduzir a quantidade de texto descritivo (listas de dispositivos). 
+2. Investir mais em acrescentar comparações e interpretações entre dispositivos. 
+3. Justificar claramente por que cada métrica foi usada. 
+4. Relacionar características técnicas dos dispositivos em relação: 
+●​
+ao uso em pesquisa em neurociência; 
+●​
+ao uso em neuroreabilitação clínica. 
+5. Tornar os resultados mais úteis para tomada de decisão. 
+→ Onde: Introduction, Results, Discussion​  
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R1C1. 
+STATUS - Felipe e Eduarda  
+How do the authors justify the use of the “number of DOI-indexed publications” as a proxy for device 
+adoption without normalising device age, year of market entry, or industry-specific publishing practices? 
+ 
+1. Explicar no Methods que essa métrica indica uso na literatura, não qualidade. 
+2. Substituir termos ambíguos por “inclusion rate” ou “proxy de adoção”. 
+3. Normalizar a métrica pelo tempo: 
+●​
+calcular o número de artigos por ano desde o lançamento do dispositivo. 
+4. Criar 1 tabela ou figura comparando: 
+●​
+número total de artigos; 
+●​
+número de artigos por ano. 
+5. Acrescentar um parágrafo explicando a limitação dessa métrica. 
+→ Onde: Methods, Results, Figures, Tables, Limitations 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R1C2.  
+STATUS - Encarregado
+
+Given the absence of critical evaluation, how should readers interpret differences in signal quality, 
+reliability, or suitability for clinical versus experimental use among devices with similar specifications? 
+ 
+1. Escrever um parágrafo explicando que especificações técnicas semelhantes não garantem 
+desempenho igual. 
+2. Agrupar os dispositivos em categorias de uso: 
+●​
+pesquisa experimental; 
+●​
+uso clínico/translacional; 
+●​
+uso exploratório/educacional. 
+3. Criar uma tabela indicando: 
+●​
+tipo de uso recomendado por categoria; 
+●​
+existência ou não de validação independente. 
+4. Orientar o leitor sobre como interpretar os dados apresentados. 
+→ Onde: Results, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R1C3.  
+STATUS - Encarregado 
+How do the authors address the potential bias introduced by manufacturer-provided specifications, 
+particularly for parameters such as sampling rate, resolution, and wireless performance? 
+ 
+1. Identificar nas tabelas quais dados vêm de: 
+●​
+fabricantes; 
+●​
+artigos científicos. 
+2. Marcar claramente quando o dado é apenas declarado pelo fabricante. 
+3. Acrescentar no texto que: 
+●​
+esses dados não substituem testes independentes; 
+●​
+servem apenas para comparação técnica básica. 
+4. Criar um parágrafo em Limitations sobre esse viés. 
+→ Onde: Methods, Tables, Limitations 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R1C4.  
+RESOLVIDO - claudio 
+Could the authors clarify how latency, jitter, and throughput, which are discussed conceptually in the 
+context, could be quantitatively integrated into the comparative framework to support real-time or 
+closed-loop applications? 
+ 
+1. Explicar de forma simples: 1. O que é latência; 2. Por que ela é importante para BCI e 
+neurofeedback. 
+2. Classificar os dispositivos em: 1. Adequados para tempo real; 2. Potencialmente adequados; 3. 
+Não adequados. 
+3. Criar uma tabela com essa classificação. 
+4. Relacionar explicitamente com aplicações em loop fechado.
+
+→ Onde: Results, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this important comment. As device-specific numerical values for latency, jitter, 
+and wireless throughput are rarely disclosed and are highly configuration-dependent, they could not be 
+directly compared across devices. Instead, these parameters were quantitatively integrated into the 
+comparative framework using protocol- and data-rate–based proxies. Throughput was inferred from 
+channel count and nominal sampling rate, while latency and jitter were contextualized according to the 
+wireless communication protocol. 
+ 
+This proxy-based operationalization was incorporated into Table 1 through the addition of a “Closed-loop 
+readiness (proxy-based)” column, classifying devices as Low, Medium, or High in terms of suitability for 
+real-time 
+and 
+closed-loop 
+applications. 
+This 
+approach 
+enables 
+a 
+systematic comparison of 
+transmission-related performance trade-offs and reflects timing and bandwidth constraints relevant to 
+closed-loop applications, such as real-time neurofeedback, adaptive BCI control, and event-locked 
+multimodal synchronization, without implying regulatory certification or guaranteed real-time 
+performance. 
+ 
+ 
+ 
+R1C5.  
+STATUS - Encarregado 
+In its current form, the review emphasises hardware characteristics. How do the authors plan to integrate 
+computational modelling or signal processing performance metrics to go beyond descriptive comparison? 
+ 
+1. Criar uma subseção chamada “Signal Processing and Computational Considerations” 
+2. Explicar que o desempenho depende de hardware + software. 
+3. Citar exemplos da literatura onde os dispositivos foram usados com: 
+●​
+machine learning; 
+●​
+BCI; 
+●​
+neurofeedback. 
+4. Deixar claro que o artigo discute compatibilidade, não testa algoritmos. 
+→ Onde: Discussion (nova subseção) 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R1C6.  
+STATUS - Encarregado 
+The manuscript highlights multimodal integration (EEG, fNIRS, IMU, ECG, etc.). How do the authors propose 
+to evaluate the effectiveness of sensor fusion rather than simply the availability of sensors? 
+ 
+1. Diferenciar claramente: 
+●​
+ter vários sensores; 
+●​
+integrar bem esses sensores. 
+2. Criar níveis simples de multimodalidade: 
+●​
+Nível 1: sensores disponíveis; 
+●​
+Nível 2: sincronização descrita; 
+●​
+Nível 3: fusão usada em estudos. 
+3. Atualizar tabelas e texto para refletir esses níveis.
+
+→ Onde: Results, Tables​
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+Additional Questions Reviewer 1 
+R1AQ1.  
+STATUS - Encarregado 
+Does the paper contribute to the body of knowledge? The manuscript provides a systematic, 
+market-orientated review of portable and wireless devices for EEG and fNIRS brain monitoring currently 
+available worldwide. The collection of 96 devices and the quantification of their adoption in research 
+through DOI-indexed publications represent an original and valuable resource for neuroscientists, 
+biomedical engineers, and clinicians. The work offers an evidence-based mapping of the commercial 
+landscape of neurotechnologies, thereby filling a recognised gap between engineering specifications and 
+practical research implementation. 
+ 
+1. Deixar explícito no Abstract e na Introduction qual é a contribuição original do artigo. 
+2. Acrescentar um parágrafo dizendo claramente que o artigo: 
+●​
+reúne 96 dispositivos comerciais; 
+●​
+conecta especificações técnicas com uso real em pesquisa; 
+●​
+preenche a lacuna entre engenharia e aplicação prática. 
+3. Reforçar que o número de artigos DOI-indexados é usado como indicador de uso na literatura, 
+não de qualidade do dispositivo. 
+4. Incluir uma frase de síntese na Discussion explicando por que esse mapeamento é útil para 
+pesquisadores e clínicos. 
+→ Onde: Abstract, Introduction, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+R1AQ2. 
+RESOLVIDO - claudio   
+Is the paper technically sound? The methodology follows PRISMA-ScR guidelines, is transparently 
+registered in the OSF, and utilises several high-quality databases. Technical descriptions of EEG and fNIRS 
+systems are generally accurate and detailed. However, the review does not critically evaluate signal quality, 
+validation protocols, or performance trade-offs between different devices, which limits the interpretability 
+of technical comparisons. Furthermore, latency, jitter, wireless throughput, and multimodal synchronisation 
+are discussed descriptively but are not operationalised consistently within the comparative framework. 
+ 
+1. Manter a descrição metodológica (PRISMA-ScR e OSF), pois está correta. 
+2. Acrescentar um parágrafo explicando que o foco do artigo é comparação técnica e de adoção, não 
+validação clínica. 
+3. Criar uma subseção em Limitations abordando: ausência de testes diretos de qualidade de sinal; 
+dependência de dados fornecidos por fabricantes. 
+4. Tornar explícito que latência, jitter e sincronização são discutidos como critérios aplicacionais, 
+não como medições experimentais. 
+5. Ajustar o texto para evitar interpretações de que os autores testaram os dispositivos. 
+→ Onde: Methods, Discussion, Limitations
+
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this constructive comment. This scoping review focuses on device-level technical 
+specifications, reported capabilities, and patterns of use across the literature, rather than on experimental 
+validation of signal quality or controlled performance benchmarking. Validation protocols, signal-to-noise 
+ratios, and quantitative performance metrics are highly task-, setup-, and population-dependent and are 
+inconsistently reported across studies, making a cross-device experimental comparison of signal quality 
+beyond the scope of this review. 
+ 
+To ensure interpretability despite these constraints, performance trade-offs were addressed at an 
+architectural and applicational level, considering consistently reported characteristics such as channel 
+count, electrode technology, wireless communication protocol, data access, and software integration. 
+ 
+Regarding latency, jitter, wireless throughput, and multimodal synchronization, these parameters are now 
+explicitly treated as application-level performance criteria rather than experimental measurements. As 
+device-specific 
+numerical 
+values 
+are 
+rarely 
+disclosed 
+by 
+manufacturers 
+and 
+are 
+highly 
+configuration-dependent, they were operationalized within the comparative framework using protocol- and 
+data-rate–based proxies. Throughput requirements were inferred from channel count and nominal sampling 
+rate, while latency and jitter were contextualized according to the wireless communication protocol. 
+ 
+These criteria were integrated into Table 1 through the addition of a “Closed-loop readiness (proxy-based)” 
+column, enabling a systematic and consistent comparison of device suitability for real-time and closed-loop 
+applications, without implying regulatory certification or guaranteed real-time performance. 
+ 
+ 
+ 
+R1AQ3.  
+STATUS - Encarregado 
+Is the subject matter presented in a comprehensive manner? The manuscript presents terms on device 
+coverage, market breadth, and technical descriptors. However, the presentation lacks comparative analyses, 
+decision matrices, or performance-based groupings, which reduces the practical usability of the results 
+section. 
+ 
+1. Reduzir trechos apenas descritivos na seção de Resultados. 
+2. Criar pelo menos uma tabela ou figura comparativa, por exemplo: 
+●​
+dispositivos por tipo de aplicação (pesquisa, clínica, BCI); 
+●​
+dispositivos por nível de multimodalidade; 
+●​
+dispositivos por adequação a tempo real. 
+3. Inserir agrupamentos claros (classes ou categorias) no texto. 
+4. Acrescentar uma interpretação prática após cada tabela: 
+●​
+o que o leitor deve concluir a partir dela. 
+5. Tornar a seção Results mais orientada à tomada de decisão. 
+→ Onde: Results, Tables, Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text…

@@ -1,0 +1,163 @@
+Several studies have directly addressed the scope of this work, providing relevant findings and 
+insights. According to [1], EEG remains a preferred modality in neuroscience and BCI research due to 
+its widespread familiarity and high temporal resolution, which makes it particularly suitable for
+
+applications such as mental state classification, motor imagery, brain–computer interfaces, robotic 
+control, and neuroadaptive games.  
+ 
+Reference [2] conducted a standardized comparison of six EEG systems, isolating signal quality from 
+classifier performance. The active gel-based system achieved the highest signal-to-noise ratio (SNR), 
+followed by a passive gel system, while other passive and dry electrode systems exhibited reduced 
+performance because of design and contact limitations. The Saline-based electrodes showed the 
+lowest signal quality. Despite lower SNR, wireless and dry systems are often favored in short-term or 
+user-oriented contexts for their comfort and usability. For clinical or high-performance BCI 
+applications, high-end systems remain the most reliable, though mid-range commercial devices may 
+offer a cost-effective balance of signal quality and operational flexibility.  
+ 
+A study summarizes general technical specifications for six EEG devices and notes that several 
+studies have empirically evaluated the effectiveness of these wearable neurotechnologies in 
+fundamental research and BCI applications [3]. Reference [4] presents a comprehensive review of 
+driver drowsiness detection systems, examining 24 EEG-based technologies that use physiological 
+brain signals to determine drowsiness and wakefulness.   
+ 
+An overview of wireless EEG hardware is provided by [5]. This comprehensive survey includes 48 
+wireless EEG devices, outlining key features and specifications to enable side-by-side comparisons 
+and support informed hardware selection. Additionally, it reviews 110 publications that employed 
+wireless EEG, categorizing them by application and analyzing factors such as the devices used, 
+number of channels, sample sizes, and participant mobility. Complementing this analysis, the paper 
+provides background information and critical commentary on the challenges and considerations 
+inherent to wireless EEG research, offering valuable insights.  
+ 
+As noted by [6], BCIs enable brain–device communication, typically via EEG. Common systems range 
+from single-channel dry electrodes for targeted monitoring to saline-based devices offering broader 
+functionality. Lightweight multichannel setups are preferred for comprehensive recordings, while 
+headband-style devices are often used in gaming and sleep assessments. Dry electrodes are generally 
+favored over wet ones due to reduced setup time and improved comfort. Device selection depends on 
+the application and critical parameters such as sampling rate, resolution, battery life, and electrode 
+count.  
+ 
+EEG devices are commonly categorized based on a combination of intended use, technical 
+specifications, signal quality, and regulatory status, rather than a single criterion such as price or 
+channel count. Consumer-grade EEG systems are generally low-cost, portable, and easy to deploy, 
+and are primarily marketed for non-clinical applications such as neurofeedback, gaming, wellness, 
+and exploratory experimentation. These systems typically feature a limited number of channels, 
+prioritize usability and comfort, and often employ dry or semi-dry electrodes, which may constrain 
+signal robustness. Research-grade EEG systems are designed for academic and laboratory use and 
+provide higher channel counts, improved signal-to-noise ratio, flexible acquisition parameters, and 
+full access to raw data, supporting rigorous experimental protocols. Clinical-grade (or medical-grade) 
+EEG systems are certified for diagnostic and clinical applications and must comply with stringent 
+regulatory standards for safety, reliability, and performance, including formal medical device 
+approval. Overall, this classification reflects increasing levels of data quality, experimental control, 
+and regulatory compliance across consumer, research, and clinical contexts [Chuang and Lin, 2019], 
+[Doudou et al., 2020].
+
+According to [7], wet-electrode EEG systems classified as research-grade or clinical-grade typically 
+comprise 32 to 256 channels, cost tens of thousands of dollars, and offer high signal stability suitable 
+for advanced analyses in controlled laboratory or clinical environments. However, these systems 
+require trained personnel, setup times of approximately 15–30 minutes, and post-recording hair 
+washing, which limits their usability outside laboratory settings. Despite these constraints, they 
+provide scalable architectures and reliable access to raw signals, although the availability of 
+embedded algorithms is often limited. In contrast, dry-electrode EEG systems, commonly associated 
+with consumer-grade and some research-grade devices, are generally priced under a few thousand 
+dollars, support 1 to 64 channels, and allow rapid setup (typically under 10 minutes) without the need 
+for hair washing. These systems offer higher user comfort and wireless operation, enabling mobile 
+and hyperscanning recordings, but may exhibit greater variability in signal stability. 
+ 
+From a signal quality perspective, consumer-grade EEG systems tend to perform adequately under 
+high signal-to-noise ratio (SNR) conditions, such as event-related potential (ERP) paradigms 
+conducted in controlled environments. However, their performance often degrades in real-world, 
+low-SNR scenarios, particularly in mobile or naturalistic settings. Empirical evaluations indicate that 
+research-grade systems, especially those with higher sensor density, yield more reliable and 
+reproducible data under such conditions. These findings suggest that, despite their practical 
+advantages, consumer-grade devices may be insufficient for studies requiring robust signal quality in 
+ecological environments, underscoring the need for further advancements in dry-electrode 
+technology to bridge this gap [8]. 
+ 
+Reference [9] conducted a large-scale review of the technical specifications of 16 wireless EEG 
+systems from multiple manufacturers. The study shows a comparative analysis of key features, 
+underscoring the increasing accessibility and formal classification of wireless EEG technologies. 
+ 
+Another study [10] presents a table of 31 devices focused on measuring brain activity related to the 
+central nervous system, highlighting key market players and their most representative products. 
+Reference [11] classifies 22 brain monitoring devices based on their primary applications: executive 
+function, psychomotor skills, and behavioral, emotional, and sensory domains. Study selection and 
+analysis were systematically conducted following the PRISMA-ScR framework.  
+ 
+Reference [12] reports the development of a low-cost EEG system and compares commercial devices 
+ranging from USD 300 to 50,000. High-end prices reflect regulatory certifications required for 
+clinical use, which are often unnecessary for non-clinical BCIs. The limited availability of affordable, 
+high-quality options leads researchers to rely on costly clinical-grade systems. As costs scale with 
+channel count, reducing electrode number and optimizing spatial placement can improve 
+cost-efficiency without compromising performance.  
+ 
+Passive EEG electrodes transmit signals directly to the amplifier, while active electrodes incorporate 
+a preamplifier. Reliable recordings require stable electrode–scalp contact, shielding against 
+electromagnetic interference, and consistent signal acquisition. Improved contact enhances noise 
+identification and data reliability, potentially reducing the required sample size (n). Skin impedance 
+decreases from \SI{\sim200}{\kilo\ohm} (uncleaned) to \SI{\sim120}{\kilo\ohm} (cleaned), with 
+further reduction achievable through exfoliation or alcohol application at the electrode site [13].  
+ 
+Wet EEG electrodes with gel provide low impedance (\SI{<10}{\kilo\ohm}) but require skin 
+preparation, electrolyte application, and cleaning. Signal quality declines as the gel dries, limiting its 
+suitability for non-clinical use. Saline-based electrodes offer an alternative but may irritate abraded
+
+skin and promote oxidation, reducing lifespan [13], [14]. Dry electrodes enable faster setup; although 
+impedance is higher, advanced algorithms reduce noise and artifacts. Well-designed dry systems 
+combining optimized materials, placement, and shielding can achieve signal quality comparable to 
+wet systems [14], [15], [16], [17]. Silver electrodes coated with silver chloride (Ag/AgCl) remain the 
+gold standard due to their corrosion resistance [18].  
+ 
+Furthermore, low-cost EEG modules, typically compatible with open-source development platforms, 
+have emerged as accessible alternatives for initial investigations, educational purposes, and 
+non-clinical research. However, their limited functionality and susceptibility to noise constrain their 
+use in high-precision applications [19].  
+ 
+The common-mode rejection ratio (CMRR) of driven right leg (DRL) circuits is essential for minimizing 
+common-mode noise in biopotential recordings. DRL systems operate by inverting the 
+common-mode voltage, detected via a common-mode sense (CMS) electrode, and feeding it back to 
+the participant through the DRL electrode. This negative feedback reduces interference at the 
+amplifier inputs, enhancing CMRR and signal fidelity. Combined, CMS and DRL improve noise 
+rejection and overall recording reliability [20].  
+ 
+The lab streaming layer (LSL) enables precise multimodal synchronization without hardware triggers, 
+supporting seamless integration with platforms such as MATLAB, Python, OpenViBE, BCI2000, and 
+Unity. It synchronizes EEG, video, peripheral sensors, and stimulus markers for real-time applications, 
+enhancing interoperability and scalability in research [21].  
+ 
+The fNIRS measures cortical oxygenation and blood flow up to \SI{\sim15}{\milli\metre} depth using 
+red and near-infrared light. Emitted light penetrates the scalp and skull, interacts with brain tissue, 
+and is detected by infrared sensors positioned a few centimeters away. Absorption patterns, 
+influenced by changes in hemoglobin saturation, allow inference of cortical activity. Red light is 
+primarily absorbed by oxygenated hemoglobin, while near-infrared light reflects total blood 
+concentration. Short source–detector separations minimize contamination from superficial tissues, 
+enhancing signal specificity [22].  
+ 
+Latency, response time, jitter, and throughput are key performance metrics in wireless EEG and fNIRS 
+systems, influencing reliability and real-time operation. Latency is the delay from neural or 
+hemodynamic activity to its digitized signal; response time adds processing delays. Jitter, or 
+variability in these times, reduces temporal precision, while throughput, the rate of successful data 
+transmission, often trades off with latency. Optimizing these metrics is essential for temporal 
+resolution, data integrity, and real-time responsiveness [23], [24], [25], [26]. 
+ 
+Brain 
+monitoring 
+devices 
+increasingly 
+integrate 
+multimodal 
+biosensors, 
+including 
+electrocardiography (ECG), photoplethysmography (PPG), pulse oximetry, and blood pressure for 
+cardiovascular 
+monitoring; 
+electromyography 
+(EMG) 
+and 
+electrooculography 
+(EOG) 
+for 
+neuromuscular and ocular activity; and inertial measurement units (IMU), respiration sensors, and 
+ballistocardiography (BCG) for motion and breathing. Galvanic skin response (GSR) and thermal 
+sensors track skin conductance and temperature, while some systems add eye tracking and 
+light-based neuromodulation, such as transcranial photobiomodulation (tPBM) and near-infrared 
+photobiomodulation (NIR-PBM).

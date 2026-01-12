@@ -1,0 +1,18 @@
+R2C8.  
+STATUS - Encarregado 
+The article lists devices but does not benchmark them technically. 
+ 
+1. Criar benchmark indireto, baseado em: 
+●​
+categorias (baixa/média/alta densidade); 
+●​
+adequação a tempo real; 
+●​
+aplicações típicas. 
+2. Deixar explícito que: 
+●​
+não é benchmarking experimental. 
+→ Onde: Results e Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…

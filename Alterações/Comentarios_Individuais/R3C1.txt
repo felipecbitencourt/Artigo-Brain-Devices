@@ -1,0 +1,45 @@
+R3C1. 
+PARCIALMENTE RESOLVIDO - claudio
+
+The abstract states: "2,087 studies explicitly reported the use of brain devices... resulting in a true positive 
+rate of 55.79%." The term "true positive rate" is typically used in classification/diagnostic contexts 
+(sensitivity = TP/(TP+FN)). In a literature search, this terminology is confusing. What constitutes a "false 
+negative" in your search strategy? Are you referring to the precision of your search query (relevant papers / 
+total retrieved papers)? Please clarify this metric. If you mean that 55.79% of the screened papers were 
+relevant (i.e., actually used brain devices), use standard systematic review terminology such as "inclusion 
+rate" or "relevance rate." Provide a PRISMA flow diagram showing the exact numbers at each screening 
+stage. 
+ 
+1. Substituir completamente o termo true positive rate por “inclusion rate” em todo o artigo. 
+2. Inserir na seção Methods uma definição formal: 
+●​
+Inclusion rate = (nº de estudos que realmente usaram o dispositivo) / (nº total de registros 
+recuperados). 
+3. Deixar claro que: 
+●​
+não há “false negatives”; 
+●​
+trata-se de eficiência da estratégia de busca, não métrica diagnóstica. 
+4. Garantir que o fluxograma PRISMA mostre: 
+●​
+registros recuperados; 
+●​
+excluídos por falso positivo (nome ambíguo, menção sem uso); 
+●​
+incluídos finais. 
+→ Onde: Abstract, Methods, Results, PRISMA Figure 
+ 
+Response To Reviewers 
+We agree with the reviewer that the term true positive rate is inappropriate in the context of a 
+literature search. The manuscript has been revised to replace this term with inclusion rate, which 
+is consistent with systematic review terminology. The inclusion rate is now explicitly defined in the 
+Methods section as the proportion of retrieved records that explicitly applied the named brain 
+device as an experimental or clinical tool, reflecting the precision of the device-specific search 
+queries, rather than sensitivity or recall. The Abstract and Results sections were updated 
+accordingly to report that 2,087 of 3,741 unique records met the inclusion criteria, yielding an 
+overall inclusion rate of 55.79%. A PRISMA flow diagram has also been added to report the 
+number of records retrieved, duplicates removed, records screened, and studies included at each 
+stage. 
+ 
+ 
+​

@@ -1,0 +1,25 @@
+R1C2.  
+STATUS - Encarregado
+
+Given the absence of critical evaluation, how should readers interpret differences in signal quality, 
+reliability, or suitability for clinical versus experimental use among devices with similar specifications? 
+ 
+1. Escrever um parágrafo explicando que especificações técnicas semelhantes não garantem 
+desempenho igual. 
+2. Agrupar os dispositivos em categorias de uso: 
+●​
+pesquisa experimental; 
+●​
+uso clínico/translacional; 
+●​
+uso exploratório/educacional. 
+3. Criar uma tabela indicando: 
+●​
+tipo de uso recomendado por categoria; 
+●​
+existência ou não de validação independente. 
+4. Orientar o leitor sobre como interpretar os dados apresentados. 
+→ Onde: Results, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…

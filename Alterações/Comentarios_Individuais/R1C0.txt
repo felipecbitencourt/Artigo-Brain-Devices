@@ -1,0 +1,22 @@
+R1C0. 
+STATUS - Encarregado 
+The manuscript presents a review of portable EEG and fNIRS brain monitoring devices, offering an 
+impressive collection of technical specifications, market availability, and bibliometric adoption. The 
+manuscript would benefit from a more in-depth analytical synthesis, clearer methodological justifications 
+for some metrics, and a stronger link between device characteristics and the requirements dictated by 
+applications in neuroscience and neurorehabilitation. The authors should address these limitations to 
+improve the scientific rigour, interpretability, and translational relevance of the review. 
+ 
+1. Reduzir a quantidade de texto descritivo (listas de dispositivos). 
+2. Investir mais em acrescentar comparações e interpretações entre dispositivos. 
+3. Justificar claramente por que cada métrica foi usada. 
+4. Relacionar características técnicas dos dispositivos em relação: 
+●​
+ao uso em pesquisa em neurociência; 
+●​
+ao uso em neuroreabilitação clínica. 
+5. Tornar os resultados mais úteis para tomada de decisão. 
+→ Onde: Introduction, Results, Discussion​  
+ 
+RESPONSE TO REVIEWERS 
+Text…

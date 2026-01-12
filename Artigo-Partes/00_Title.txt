@@ -1,0 +1,6 @@
+Brain Monitoring Devices for Neuroscience: A Review of Current Technologies 
+doi: 10.1109/ACCESS.2024.0429000 
+ 
+This work was supported by the National Council for Scientific and Technological Development 
+(CNPq), Brazil, under Grant 443965/2024-2, and by the Coordination for the Improvement of Higher 
+Education Personnel (CAPES), Brazil, Finance Code 2143671.

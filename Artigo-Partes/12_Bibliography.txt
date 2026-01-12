@@ -1,0 +1,101 @@
+1.​
+Y. Duan, Z. Li, X. Tao, Q. Li, S. Hu, and J. Lu, “EEG-Based Maritime Object Detection for IoT-Driven Surveillance 
+Systems in Smart Ocean,” IEEE Internet Things J., vol. 7, no. 10, pp. 9678–9687, Oct. 2020., doi:DOI: 
+10.1109/JIOT.2020.2991025 
+2.​
+R. Zerafa, T. Camilleri, O. Falzon, and K. P. Camilleri, “A​ comparison of a broad range of EEG acquisition devices–is 
+there any difference for SSVEP BCIs” Brain Comput. Interfaces (Abingdon), vol. 5, no. 4, pp. 121–131, 2018., 
+doi:DOI: 10.1080/2326263X.2018.1550710 
+3.​
+K.-C. Chuang and Y.-P. Lin, “Cost-Efficient, Portable, and Custom Multi-Subject Electroencephalogram Recording 
+System,” IEEE Access, vol. 7, pp. 56760–56769, 2019., doi:DOI: 10.1109/ACCESS.2019.2914088 
+4.​
+M. Doudou, A. Bouabdallah, and V. Berge-Cherfaoui, “Driver Drowsiness Measurement Technologies: Current 
+Research, Market Solutions, and Challenges,” International Journal of Intelligent Transportation Systems 
+Research, vol. 18, no. 2, pp. 297–319, 2020., doi:DOI: 10.1007/s13177-019-00199-w 
+5.​
+G. Niso, E. Romero, J. T. Moreau, A. Araujo, and L. R. Krol, “Wireless EEG: A survey of systems and studies,” 
+Neuroimage, vol. 269, p. 119774, Apr. 1 2023., doi:DOI: 10.1016/j.neuroimage.2022.119774
+
+6.​
+G. Aggarwal, X. Dai, R. Saatchi, R. Binns, and A. Sikandar, “Experimental demonstration of single-channel EEG 
+signal using 32 × 32 pixel OLED screen and camera,” Electronics (Basel), vol. 8, no. 7, p. 734, 2019., doi:DOI: 
+10.3390/electronics8070734 
+7.​
+H. W. Huang, J. T. King, and C. L. Lee, “The New Science of Learning: Using the Power and Potential of the Brain to 
+Inform Digital Learning,” J. Educ. Technol. Soc., vol. 23, no. 4, pp. 1–13, 2020. 
+8.​
+A. Grasso-Cladera, S. Costa-Cordella, A. Rossi, N. F. Fuchs, and F. J. Parada, “Mobile Brain/Body Imaging: 
+Challenges and opportunities for the implementation of research programs based on the 4E perspective to 
+cognition,” Adapt. Behav., vol. 31, no. 5, pp. 423–448, 2023., doi:DOI: 10.1177/10597123211072613 
+9.​
+C. He, Y. Y. Chen, C. R. Phang, C. Stevenson, I. P. Chen, T. P. Jung, et al., “Diversity and Suitability of the 
+State-of-the-Art Wearable and Wireless EEG Systems Review,” IEEE J. Biomed. Health Inform., vol. 27, no. 8, pp. 
+3830–3843, Aug. 2023., doi:DOI: 10.1109/JBHI.2023.3239053 
+10.​ E. Loizaga, A. T. Eyam, L. Bastida, and J. L. M. Lastra, “A Comprehensive Study of Human Factors, Sensory 
+Principles, and Commercial Solutions for Future Human-Centered Working Operations in Industry 5.0,” IEEE 
+Access, vol. 11, pp. 53806–53829, 2023., doi:DOI: 10.1109/ACCESS.2023.3280071 
+11.​ J. Hernández-Capistrán, G. Alor-Hernández, H. Marín-Vega, M. Bustos-López, L. N. Sanchez-Morales, and J. L. 
+Sanchez-Cervantes, “Commercial Wearables for the Management of People with Autism Spectrum Disorder: A 
+Review,” Biosensors (Basel), vol. 14, no. 11, p. 556, Nov. 15 2024., doi:DOI: 10.3390/bios14110556 
+12.​ D. Antolínez, A. Cisnal, V. Martínez-Cagigal, E. Santamaría-Vázquez, D. Benavides, J. Granja, et al., “Development 
+and Validation of an Affordable Wearable Multichannel EEG System With Active Electrodes and Innovative 
+Flexible Headbands,” IEEE Access, vol. 13, pp. 83983–83995, 2025., doi:DOI: 10.1109/ACCESS.2025.3568302 
+13.​ F. Minow, “Minimizing impedances and using the right electrolyte gel saves time and makes research more 
+effective: a guidance from Falk Minow”, Brain Prod. Press Release, vol. 48, Oct. 2013, Access: May 2025. [Online]. 
+https://www.easycap.de/wp-content/uploads/2018/02/ImpedancesElectrolytes.pdf 
+14.​ H. Hinrichs, M. Scholz, A. K. Baum, J. W. Y. Kam, R. T. Knight, and H.-J. Heinze, “Comparison between a wireless dry 
+electrode EEG system with a conventional wired wet electrode EEG system for clinical applications,” Sci. Rep., vol. 
+10, no. 1, p. 5218, Mar. 23 2020., doi:DOI: 10.1038/s41598-020-62154-0 
+15.​ D. Liley and L. Kuhlmann, “Comparison of waveguard touch dry electrodes to conventional gelled electrodes on 
+physiological 
+paradigms”. 
+Access: 
+May 
+2025. 
+[Online]. 
+https://www.ant-neuro.com/blog/showcases-1/comparison-of-waveguard-touch-dry-electrodes-to-conventional-
+gelled-electrodes-on-physiological-paradigms-62\#blog\_content. 
+16.​ V. Nathan and R. Jafari, “Design Principles and Dynamic Front End Reconfiguration for Low Noise EEG Acquisition 
+With Finger Based Dry Electrodes,” IEEE Trans. Biomed. Circuits Syst., vol. 9, no. 5, pp. 631–640, Oct. 2015., 
+doi:DOI: 10.1109/TBCAS.2015.2471080 
+17.​ I. F. Warsito, M. Komosar, M. A. Bernhard, P. Fiedler, and J. Haueisen, “Flower electrodes for comfortable dry 
+electroencephalography,” Sci. Rep., vol. 13, no. 1, p. 16589, Oct. 3 2023., doi:DOI: 10.1038/s41598-023-42732-8 
+18.​ P. Tallgren, S. Vanhatalo, K. Kaila, and J. Voipio, “Evaluation of commercially available electrodes and gels for 
+recording of slow EEG potentials,” Clin. Neurophysiol., vol. 116, no. 4, pp. 799–806, Apr. 2005., doi:DOI: 
+10.1016/j.clinph.2004.10.001 
+19.​ I. Rakhmatulin, “Low-Cost Shield ardEEG to Measure EEG with Arduino Uno R4 WiFi”, May 2024. DOI: 
+10.20944/preprints202405.1643.v1. 
+20.​ D. S. Kumar, et al., “A high CMRR analog front-end IC for wearable physiological monitoring”, in 2012 Annual IEEE 
+India Conference (INDICON), Kochi: IEEE, Dec 2012, p. 385–388. DOI: 10.1109/INDCON.2012.6420648. 
+21.​ S. Iwama, M. Takemi, R. Eguchi, R. Hirose, M. Morishige, and J. Ushiba, “Two common issues in synchronized 
+multimodal recordings with EEG: Jitter and latency,” Neurosci. Res., vol. 203, pp. 1–7, Jun. 2024., doi:DOI: 
+10.1016/j.neures.2023.12.003 
+22.​ M. Serra-Sala, C. Timoneda-Gallart, and F. Pérez-Álvarez, “Clinical usefulness of hemoencephalography beyond the 
+neurofeedback,” Neuropsychiatr. Dis. Treat., vol. 12, May, pp. 1173–1180, May 11 2016., doi:DOI: 
+10.2147/NDT.S105476 
+23.​ A. A. Bisu, A. Purvis, K. Brigham, and H. Sun, “A Framework for End-to-End Latency Measurements in a Satellite 
+Network Environment”, em 2018 IEEE International Conference on Communications (ICC), Kansas City, MO: IEEE, 
+May 2018, p. 1–6. DOI: 10.1109/ICC.2018.8422913.
+
+24.​ F. Klassen and R. Silverman, “System and method for analyzing and tuning a communications network”, 
+US6711137B1, 1999 Access: Jun 2025. [Online] https://patents.google.com/patent/US6711137B1/en 
+25.​ B. Sawant, “Latency and Throughput Optimization In Modern Networks,” Int. J. Adv. Res. Sci. Commun. Technol., 
+May, pp. 585–592, 2021., doi:DOI: 10.48175/IJARSCT-1298 
+26.​ J.-P. Stauffert, F. Niebling, and M. E. Latoschik, “Reducing application-stage latencies for real-time interactive 
+systems”, in 2016 IEEE 9th Workshop on Software Engineering and Architectures for Realtime Interactive 
+Systems (SEARIS), Greenville, SC, USA: IEEE, Mar 2016, p. 1–7. DOI: 10.1109/SEARIS.2016.7551584. 
+27.​ Y. Zheng, C. Liu, N. Y. G. Lai, Q. Wang, Q. Xia, X. Sun, et al., “Current development of biosensing technologies 
+towards diagnosis of mental diseases,” Front. Bioeng. Biotechnol., vol. 11, p. 1190211, Jun. 29 2023., doi:DOI: 
+10.3389/fbioe.2023.1190211 
+28.​ R. Li, D. Yang, F. Fang, K.-S. Hong, A. L. Reiss, and Y. Zhang, “Concurrent fNIRS and EEG for Brain Function 
+Investigation: A Systematic, Methodology-Focused Review,” Sensors (Basel), vol. 22, no. 15, p. 5865, Aug. 5 2022., 
+doi:DOI: 10.3390/s22155865 
+29.​ C. T. Baker, “Documenting the Effects of Noninvasive Prefrontal pIR HEG Neurofeedback in the Treatment of 
+Common Mental Health Problems”, NeuroRegulation, vol. 10, no 3, p. 207–218, Set 2023, DOI: 
+10.15540/nr.10.3.207. 
+30.​ K.-C. Chuang and Y.-P. Lin, “Cost-Efficient, Portable, and Custom Multi-Subject Electroencephalogram Recording 
+System,” IEEE Access, vol. 7, pp. 56760–56769, 2019, doi: 10.1109/ACCESS.2019.2914088. 
+31.​ M. Doudou, A. Bouabdallah, and V. Berge-Cherfaoui, “Driver Drowsiness Measurement Technologies: Current 
+Research, Market Solutions, and Challenges,” International Journal of Intelligent Transportation Systems 
+Research, vol. 18, no. 2, pp. 297–319, 2020, doi: 10.1007/s13177-019-00199-w.

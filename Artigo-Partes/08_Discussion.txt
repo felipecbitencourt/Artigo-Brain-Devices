@@ -1,0 +1,110 @@
+This review focuses on device-level technical specifications, reported capabilities, and usage patterns 
+across the literature, rather than on experimental validation of signal quality or performance 
+benchmarking under controlled conditions. As validation protocols, signal-to-noise ratios, and 
+comparative performance metrics are highly task-, setup-, and population-dependent and are 
+inconsistently reported across studies, a quantitative cross-device evaluation of signal quality was 
+considered outside the scope of this scoping review. Instead, performance trade-offs between 
+devices were examined at an architectural and applicational level, considering factors such as channel 
+count, electrode technology, wireless communication protocol, data access, and software integration. 
+ 
+The 125 devices identified in this work span an impressive range of channel counts, from 
+ultra-compact single-channel units designed for basic biofeedback to full 150-channel 
+research-grade rigs. Counts in the studies found column indicate not only device popularity but also 
+empirical maturity, reflecting the availability of reliable estimates for signal-to-noise ratio (SNR), 
+noise spectral profiles, dropout rates, and operational parameters such as typical impedance, setup 
+time, and gain/analog-to-digital converter (ADC) stability. Devices with extensive literature typically 
+exhibit well-characterized sensor geometries and analog front-ends, enabling informed technical 
+decisions on montage, preprocessing (bandpass, notch, referencing), artifact modeling (ICA 
+templates, motion regression), and synchronization requirements for ERP or closed-loop paradigms. 
+However, a high publication count does not eliminate methodological risks: firmware or driver 
+updates, raw data access policies, and reliance on proprietary pipelines may introduce systematic 
+biases and affect inter-site reproducibility. These factors require authors to report the firmware 
+version and exact acquisition conditions.  
+ 
+Some models are frequently cited (often due to accessibility and cost), while others show few or no 
+reported applications, indicating a lack of independent validation. For studies requiring statistical 
+robustness and reproducibility (e.g., clinical ERP, connectivity analyses), selecting devices with 
+substantial prior use reduces measurement bias risk. In exploratory or prototyping contexts, devices 
+with limited publications may still be valuable if accompanied by technical validation (pilot SNR, 
+dropout, latency) and explicit discussion of generalization limits, as low study counts may reflect 
+novelty or barriers such as cost, licensing, or raw data availability.  
+ 
+Sampling rates across these devices reflect their intended applications. Consumer-grade and 
+low-power BCI headsets often operate at 86–250 Hz, sufficient for basic cognitive and affective 
+studies. Most research-oriented systems, however, sample between 250 Hz and 1 kHz, supporting 
+standard ERP, spectral, and time–frequency analyses without aliasing. A few multimodal platforms 
+push sampling rates up to 16 kHz to capture high-frequency EEG or evoked potentials with 
+millisecond precision, though this comes with increased demands for data storage and transmission.
+
+Bit depth is another critical differentiator. Lower-cost units typically employ 12–14-bit ADCs, 
+adequate for classroom demonstrations or basic neurofeedback. Mid-tier research systems almost 
+universally provide 16-bit resolution, offering a robust SNR for most experimental paradigms. 
+Premium devices feature 24-bit or even 32-bit converters, minimizing quantization noise and 
+maximizing dynamic range for detecting subtle oscillatory phenomena or conducting source 
+localization.  
+ 
+Connectivity options mirror trade-offs between mobility and data throughput. Bluetooth dominates 
+the entry and mid-range segments, enabling wireless operation at sampling rates up to 1 kHz with 
+latencies suitable for BCI control or ambulatory monitoring. A smaller subset of systems supports 
+Wi-Fi streaming, which is essential for multi-subject experiments (hyperscanning). 
+ 
+This scoping review focuses on device-level technical specifications and adoption patterns reported 
+in the literature, rather than on clinical validation or experimental benchmarking of signal quality. 
+ 
+Latency, jitter, and throughput were not reported as device-specific numerical values, as these 
+metrics are rarely disclosed by manufacturers and are highly configuration-dependent. In this review, 
+these parameters are therefore treated as application-level performance criteria, rather than 
+experimental measurements, and were integrated into the comparative framework using protocol- 
+and data-rate–based proxies. Throughput requirements were inferred from channel count and 
+nominal sampling rate, while latency and jitter were contextualized according to the wireless 
+communication protocol. In this context, quantitative integration refers to the use of minimum 
+data-rate requirements and protocol-level constraints as comparative proxies, rather than to 
+experimentally measured latency or jitter values. 
+ 
+Software support is a major consideration beyond hardware specifications. Approximately 70–80\% 
+of devices include their own acquisition and visualization suites; more advanced systems supplement 
+this with Python, MATLAB, or LabVIEW SDKs, enabling custom preprocessing, real-time artifact 
+rejection, and precise synchronization with stimuli or other biosignals. Entry-level headsets may only 
+permit audio-based triggers or manual markers, adequate for broad cognitive tasks but insufficient 
+for high-precision studies or closed-loop neuromodulation. 
+ 
+Based on a renowned manufacturer whose devices are widely recognized in research, the cost of EEG 
+systems varies significantly with the number of channels, which directly affects spatial resolution and 
+the range of clinical or research applications. Lower-channel systems, such as 8-channel devices, are 
+priced around \$6,000 (USD), making them suitable for basic monitoring tasks, educational use, or 
+preliminary research. As channel count increases, so does the system’s complexity and capabilities, 
+resulting in higher costs. For instance, a 16-channel EEG device is priced at approximately \$14,000, 
+while a 32-channel system costs about \$24,000. High-density EEG systems with 64 channels offer 
+superior spatial resolution and advanced signal acquisition but are substantially more expensive, 
+often exceeding \$50,000. These price differences highlight the trade-offs between cost, signal 
+quality, and application scope, underscoring the importance of selecting a system that aligns with the 
+project's specific needs and budgetary constraints. 
+ 
+Regarding devices with electrode caps, the choice of base material is critical. Densely woven meshes 
+and thick fabrics, such as neoprene, may cause discomfort due to increased scalp pressure and heat 
+retention, given the head’s sensitivity to temperature variations. Excessive or uneven pressure can 
+degrade signal quality by affecting the electrode–skin interface, increasing impedance, and 
+introducing motion artifacts. Furthermore, sustained pressure may lead to thermal discomfort and
+
+sweating, which can further impair conductivity. Asymmetrical pressure distribution may also 
+introduce artificial asymmetries in the recorded data. Consequently, device design must prioritize 
+ergonomic fit and material selection to ensure user comfort while preserving signal integrity and data 
+reliability. 
+ 
+The “Epoc X” device by Emotiv leads the number of research publications with 19.30\%, followed by 
+the OpenBCI system with 4.81\%, and the “MindWave Mobile 2” by Neurosky with 4.06\%. All three 
+are consumer-grade models. In fourth place appears the first research-grade device, the Enobio by 
+Neuroelectrics, with 2.89\%. The g.Nautilus by g.tec ranks eighth, representing 1.71\% of usage in 
+published research. 
+ 
+These findings demonstrate a global effort by researchers to conduct accessible studies using 
+user-friendly, low-cost, and widely available devices, revealing a significant gap between 
+consumer-grade and research-grade technologies. 
+ 
+In summary, most rehabilitation-oriented neuroscience studies will find an optimal balance in 16 to 
+32-channel devices sampling at 1 kHz with 16-bit resolution, Bluetooth streaming, and a 
+user-friendly SDK. For laboratories with greater demands for spatial resolution or multimodal 
+recording, premium systems—though more expensive and operationally demanding—offer 
+unparalleled data quality and flexibility. By understanding how hardware and software parameters 
+interact, researchers can select a brain monitoring system that best balances spatial coverage, signal 
+fidelity, mobility, and cost to meet their specific investigative goals.

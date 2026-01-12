@@ -1,0 +1,57 @@
+R3C2. 
+STATUS - claudio   
+The manuscript states that 96 devices were "tracked in the market" but does not describe the market survey 
+methodology. How were the 96 devices identified? Was there a systematic search of manufacturer websites, 
+regulatory databases (e.g., FDA, CE marking), or commercial catalogs? Were devices from China, India, or 
+other non-Western markets included? Requirement: Add a dedicated subsection in the Methods describing 
+the device identification protocol. Include: 1. Search terms used (e.g., "wireless EEG," "portable fNIRS"); 2. 
+Databases/sources consulted (e.g., Google Scholar, manufacturer websites, ResearchGate equipment lists); 
+3. Inclusion/exclusion criteria (e.g., "commercially available as of August 2025," "wireless only"); 4. A 
+supplementary table listing all 96 devices with manufacturer, model number, and year of market entry. 
+ 
+1. Criar uma subseção nova em Methods chamada: “Device identification and market survey 
+protocol” 
+2. Descrever claramente:
+
+●​
+termos de busca usados (ex.: “wireless EEG”, “portable fNIRS”); 
+●​
+fontes consultadas: 
+○​
+sites de fabricantes; 
+○​
+Google Scholar; 
+○​
+catálogos comerciais; 
+○​
+literatura científica. 
+3. Especificar critérios de inclusão: 
+●​
+dispositivo comercialmente disponível; 
+●​
+portátil e/ou wireless; 
+●​
+EEG e/ou fNIRS; 
+●​
+disponível até mês/ano definido. 
+4. Especificar critérios de exclusão: 
+●​
+protótipos acadêmicos; 
+●​
+dispositivos descontinuados; 
+●​
+softwares sem hardware. 
+5. Confirmar explicitamente: 
+●​
+inclusão de dispositivos de mercados não ocidentais (China, Índia). 
+6. Criar uma tabela suplementar com: 
+●​
+fabricante; 
+●​
+modelo; 
+●​
+ano de entrada no mercado. 
+→ Onde: Methods + Supplementary Material 
+ 
+RESPONSE TO REVIEWERS 
+Text…

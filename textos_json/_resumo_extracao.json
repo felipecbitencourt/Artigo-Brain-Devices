@@ -1,0 +1,24 @@
+{
+  "data_processamento": "2026-01-11T20:22:17.452053",
+  "total_arquivos": 3,
+  "arquivos": [
+    {
+      "pdf": "Altereções-necessárias.pdf",
+      "json": "Altereções-necessárias.json",
+      "paginas": 14,
+      "caracteres": 30094
+    },
+    {
+      "pdf": "Artigo-inicial.pdf",
+      "json": "Artigo-inicial.json",
+      "paginas": 202,
+      "caracteres": 1011194
+    },
+    {
+      "pdf": "Artigo-Revisado.pdf",
+      "json": "Artigo-Revisado.json",
+      "paginas": 16,
+      "caracteres": 57618
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+R2AQ3.  
+STATUS - Encarregado 
+Is the subject matter presented in a comprehensive manner? The manuscript thoroughly lists devices, 
+specifications, bibliometric usage, and general technological considerations. However, several major 
+domains expected in a “comprehensive review” are missing or insufficiently developed, such as, no inclusion 
+of 2023–2025 state-of-the-art advances (e.g., EEG-transformers, multimodal AI, federated EEG learning, 
+biosignal foundation models), limited discussion of translational pathways (clinical use, hospital deployment 
+barriers, regulatory context, cost-effectiveness), no roadmap or identification of future research gaps. 
+ 
+1. Inserir referências 2023–2025 estratégicas. 
+2. Criar um roadmap futuro. 
+3. Relacionar tecnologia, clínica e sociedade. 
+ 
+RESPONSE TO REVIEWERS 
+Text…

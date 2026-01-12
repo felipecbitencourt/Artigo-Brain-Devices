@@ -1,0 +1,48 @@
+This scoping review employed a structured documentary approach to identify and characterize 
+commercially available brain-monitoring devices. Data were collected from both primary scientific 
+literature and secondary sources, including patents, user manuals, and manufacturer websites. 
+Devices were included based on the following criteria: (i) noninvasive neurotechnologies; (ii) portable 
+form factor suitable for clinical or field use; (iii) commercial availability in the global market; (iv) sold 
+as complete bundled systems rather than modular components; and (v) demonstrated or potential 
+relevance to neuroscience and neurorehabilitation applications.  
+ 
+To define the technological scope of the review, MeSH categories were consulted. “Diagnostic 
+Techniques and Procedures” was selected as the overarching classification encompassing 
+brain-monitoring modalities across the target databases. Identified technologies included EEG, HEG, 
+NIRS, fNIRS, PET, MEG, MRI, and fMRI. However, the final analysis focused exclusively on 
+noninvasive, portable, and wireless EEG and fNIRS devices.  
+ 
+Database searches were conducted from March to August 2025 across five platforms: IEEE Xplore, 
+PubMed/MEDLINE, Web of Science, Scopus, and Embase. Each search employed a Boolean query 
+combining device name, manufacturer, and technology terms (e.g., “device” AND “manufacturer” 
+AND “EEG/fNIRS”). Queries were adapted to the syntax and indexing structure of each database. 
+IEEE Xplore was used for engineering and hardware design; PubMed/MEDLINE for its coverage of 
+biomedical literature; Web of Science and Scopus for multidisciplinary indexing and citation tracking; 
+and Embase for its emphasis on medical devices and international content.  
+ 
+An inclusion rate was used as a measure of search efficiency for each device-specific query. All 
+retrieved records were screened to determine whether the named brain device was effectively 
+applied as an experimental or clinical tool in the study; records in which the device name referred to 
+an unrelated entity (e.g., personal names or acronyms with different meanings) or in which the device 
+was merely mentioned without actual use were excluded. The inclusion rate was defined as the 
+proportion of retrieved records that met the inclusion criterion of explicit device application, 
+calculated as: 
+Inclusion rate = 
+Number of included studies using the device 
+Total number of records retrieved for that device 
+ 
+This metric reflects the precision of the device-specific search strategy, rather than sensitivity or 
+recall, and was used to quantify the effectiveness of each query in identifying studies with confirmed 
+device usage. 
+ 
+The number of DOI-indexed publications referencing each identified device was recorded to assess 
+research use. No language or date restrictions were applied. 
+ 
+A summary table was compiled for all eligible devices, including technical parameters such as the 
+number of channels, electrode type, sampling rate, data connectivity, software availability, and 
+intended application. Additionally, peer-reviewed articles reporting experimental or clinical use of 
+each device were identified to verify relevance, deployment, and impact across neuroscience and 
+biomedical engineering domains.  
+ 
+The protocol of this scoping review was prospectively registered in the Open Science Framework 
+(OSF) under the registration DOI: 10.17605/OSF.IO/EMRH8.

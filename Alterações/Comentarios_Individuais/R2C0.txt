@@ -1,0 +1,17 @@
+R2C0. 
+STATUS - Encarregado 
+The manuscript appears to address a research topic in brain–computer interfaces, neurophysiology, and 
+multi-modal biosignal analysis, as evidenced by extensive references to EEG, EMG, fNIRS, cognitive 
+workload datasets, and deep learning-based signal processing. A comprehensive catalog and technical 
+mapping of 96 brain-monitoring devices (125 if variants included), using PRISMA methodology and OSF 
+registration. This topic is highly relevant and aligns well with the scope of the IEEE Access Journal. However, 
+some concerns regarding your manuscript need to be addressed as follows: 
+ 
+1. Manter o escopo geral do artigo (catálogo + mapeamento técnico). 
+2. Tornar explícito que o foco é mapeamento técnico e adoção, não validação clínica direta. 
+3. Reforçar no texto que o artigo é um scoping review orientado à tomada de decisão, não um 
+benchmark experimental. 
+→ Onde: Introduction, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…

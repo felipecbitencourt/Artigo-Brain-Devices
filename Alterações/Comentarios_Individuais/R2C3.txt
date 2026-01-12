@@ -1,0 +1,28 @@
+R2C3.  
+STATUS - Encarregado 
+The literature review presents a broad range of references, including EEG and cognitive-fatigue datasets 
+and IoT neurotechnology applications. However, the discussion remains largely descriptive rather than 
+analytical. It lacks a comparison matrix or critical synthesis that clearly connects gaps in prior work to the 
+current research. Additionally, key state-of-the-art contributions are missing, such as recent developments 
+in EEG Transformers, neural ODE-based models (2024–2025), biosignal foundation models (e.g., BMCL-23), 
+and advances in federated learning for bio-signal processing. 
+ 
+1. Criar uma subseção nova em Discussion: “Relation to recent advances in biosignal processing” 
+●​
+Inserir referências (sem aprofundar demais) sobre: 
+●​
+EEG Transformers; 
+●​
+modelos fundacionais de biossinais; 
+●​
+aprendizado federado em EEG. 
+●​
+Explicar claramente: 
+○​
+por que esses avanços não foram o foco do artigo; 
+○​
+como eles dependem da escolha do hardware. 
+→ Onde: Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…

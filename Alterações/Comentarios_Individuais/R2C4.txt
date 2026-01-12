@@ -1,0 +1,27 @@
+R2C4. 
+RESOLVIDO - claudio   
+The current contribution is ambiguous. The manuscript does not articulate what is new beyond other 
+published surveys (e.g., wireless EEG surveys, multimodal neurotech reviews). 
+ 
+1. O que exatamente este artigo faz que outros surveys não fazem? 
+2. Em que dimensão ele é diferente (escopo, método, dados, resultado)? 
+3. Por que ele não é “apenas mais um survey de EEG wireless / multimodal”? 
+→ Onde: Introduction, Conclusion 
+ 
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this important comment. To clarify the novelty of the contribution, we revised the 
+Introduction to explicitly contrast this work with existing wireless EEG and multimodal neurotechnology 
+surveys. While prior reviews typically focus on signal processing methods, experimental paradigms, or 
+limited subsets of devices, the present study provides a large-scale, device-level mapping of commercially 
+available EEG and fNIRS systems. The revised text highlights the unique integration of technical 
+specifications, 
+application-oriented 
+criteria 
+(including 
+proxy-based 
+closed-loop 
+readiness 
+and
+
+synchronization support), and bibliometric indicators of device adoption, thereby clarifying the distinct 
+contribution of this review.

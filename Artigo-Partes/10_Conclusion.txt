@@ -1,0 +1,57 @@
+This review provides a comprehensive and technically grounded synthesis of the current landscape of 
+noninvasive brain monitoring technologies, with emphasis on their applicability to neuroscience and 
+neurorehabilitation. By systematically mapping the specifications, architectures, and operational 
+features of commercially available EEG and fNIRS systems, the study translates complex engineering 
+data into an actionable framework for device selection and experimental design. The proposed 
+framework supports researchers and clinicians in aligning technical parameters with the specific 
+goals of their investigations, facilitating evidence-based, reproducible, and methodologically sound 
+use of neurotechnological tools. 
+ 
+The analysis highlights that device selection should be guided primarily by the intended research or 
+clinical objective. High temporal resolution and signal fidelity are essential for applications such as 
+event-related potentials and functional connectivity analysis, whereas mobility, ease of deployment, 
+and rapid setup are critical for field studies, BCI applications, and rehabilitation in movement-rich 
+contexts. Multimodal configurations, such as integrated EEG–fNIRS systems, further expand the 
+potential for real-time monitoring, neurofeedback, and closed-loop virtual reality paradigms. Across 
+modalities, core decision parameters include electrode or optode type, channel density, sampling 
+rate, bit resolution, wireless transmission protocol, and data accessibility through standardized 
+interfaces or SDKs. 
+ 
+Practical trade-offs also emerge among systems. Wet and gel-based electrodes provide the highest 
+signal quality but require time-intensive preparation, while dry and semi-dry electrodes enhance 
+usability and participant comfort at the cost of slightly increased impedance. Channel configurations 
+between 8 and 32 are suitable for most BCI and connectivity studies, whereas high-density arrays 
+($\ge$ 64 channels) enable source localization and advanced spatial analysis. Sampling rates between 
+250 and 500 Hz meet the majority of experimental demands, while higher rates (\SI{\ge 
+1}{\kilo\hertz}) and 24-bit resolution are recommended for precision time-locked paradigms. Reliable 
+wireless connectivity—preferably low-latency Wi-Fi for data-intensive applications and Bluetooth 
+Low Energy for mobile protocols—supports robust multimodal synchronization and integration with 
+immersive environments.
+
+In applied neurorehabilitation, integration with virtual reality systems requires ergonomically 
+optimized, low-latency devices capable of sustaining high-quality signal acquisition during motion. 
+Systems equipped with open SDKs and native synchronization libraries facilitate seamless 
+communication with VR engines, enabling adaptive neurofeedback and ecological data capture. Dry 
+electrode designs are particularly advantageous in these contexts, improving participant comfort and 
+reducing setup time while maintaining acceptable signal stability for most training and assessment 
+scenarios. 
+ 
+The findings from the strong body of evidence in the scientific literature highlight a global movement 
+toward increasing the accessibility of neuroscience research through user-friendly, affordable, and 
+widely available devices, while also underscoring the persistent gap that remains between 
+consumer-grade and research-grade technologies. 
+ 
+The compiled dataset provides an evidence-based framework to guide neuroscientists, engineers, 
+and clinicians in selecting the most appropriate device for their specific research needs. This work 
+also identifies critical technological trends, such as the strong convergence toward wireless 
+architectures and the growing emphasis on open data interfaces. 
+ 
+Overall, this study contributes a reproducible, evidence-based technical mapping of EEG and fNIRS 
+technologies, consolidating information from scientific, industrial, and patent sources into a unified 
+classification framework. Beyond informing device acquisition, these findings promote greater 
+interoperability, transparency, and standardization within the neurotechnology ecosystem. Future 
+research should expand the evaluation scope to include longitudinal data quality, real-world 
+reliability, and user experience metrics, strengthening the translational bridge between engineering 
+innovation and clinical neurorehabilitation. By doing so, the field moves closer to developing 
+adaptive, accessible, and scientifically validated neurotechnological platforms capable of 
+transforming both neuroscience research and patient care.

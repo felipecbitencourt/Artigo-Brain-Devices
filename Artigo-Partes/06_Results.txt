@@ -1,0 +1,19 @@
+A total of 5,071 records were retrieved from the selected scientific databases based on the inclusion 
+criteria. After removing 1,331 duplicates (26.25\%), 3,741 unique records remained. Of these, 2,087 
+studies explicitly reported the use of brain monitoring devices in clinical trials, dataset development, 
+or technological assessments, yielding an inclusion rate of 55.79\% after title, abstract, and full-text 
+screening. Eighty records (2.14\%) were excluded due to a lack of access. Supplementary technical 
+information was obtained from manufacturers’ websites and consolidated in Table 1, comprising 96 
+devices, 125 when including model variants. Research adoption was quantified by the number of 
+DOI-indexed publications referencing each device. No critical appraisal of individual sources of 
+evidence was performed, as this scoping review aimed to map the extent and nature of the literature 
+without assessing study quality.  
+ 
+Table 1. Portable and Wireless Brain Monitoring Devices (2025 Worldwide Commercial Availability) 
+ 
+Footnote. Closed-loop readiness represents a proxy-based classification of device suitability for 
+real-time and closed-loop applications. This indicator is inferred from transmission-related
+
+specifications, including wireless communication protocol, channel count, nominal sampling rate, and 
+data access capabilities. It does not reflect experimentally measured latency or jitter, nor does it 
+imply regulatory certification or guaranteed real-time performance.

@@ -1,0 +1,29 @@
+R3C3. 
+STATUS - claudio   
+The manuscript reports percentages (e.g., Epoc X = 19.30%, OpenBCI = 4.81%) but lacks deeper statistical 
+analysis. These percentages suggest a highly skewed distribution (a few devices dominate, while most have 
+minimal adoption). This is a classic "long-tail" phenomenon. Requirement: 1. Provide a Lorenz curve or Gini 
+coefficient to quantify the inequality in research adoption; 2. Perform a correlation analysis: 2.1. Does 
+device cost negatively correlate with adoption rate? 2.2. Does channel count positively correlate with 
+citation frequency? 2.3. Use regression analysis to identify which technical specifications (e.g., open API, dry 
+electrodes, price) predict research adoption. 
+ 
+1. Gerar uma Curva de Lorenz para adoção dos dispositivos. 
+2. Calcular o coeficiente de Gini da distribuição de citações. 
+3. Fazer análises simples: 
+●​
+correlação entre preço vs adoção; 
+●​
+correlação entre nº de canais vs adoção. 
+4. Rodar uma regressão exploratória com variáveis como: 
+●​
+open API (sim/não); 
+●​
+tipo de eletrodo (seco/molhado); 
+●​
+preço aproximado. 
+5. Deixar explícito que a análise é exploratória, não causal. 
+→ Onde: Results + Figures + Methods (estatística) 
+ 
+RESPONSE TO REVIEWERS 
+Text…

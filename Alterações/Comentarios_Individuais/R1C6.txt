@@ -1,0 +1,23 @@
+R1C6.  
+STATUS - Encarregado 
+The manuscript highlights multimodal integration (EEG, fNIRS, IMU, ECG, etc.). How do the authors propose 
+to evaluate the effectiveness of sensor fusion rather than simply the availability of sensors? 
+ 
+1. Diferenciar claramente: 
+●​
+ter vários sensores; 
+●​
+integrar bem esses sensores. 
+2. Criar níveis simples de multimodalidade: 
+●​
+Nível 1: sensores disponíveis; 
+●​
+Nível 2: sincronização descrita; 
+●​
+Nível 3: fusão usada em estudos. 
+3. Atualizar tabelas e texto para refletir esses níveis.
+
+→ Onde: Results, Tables​
+ 
+RESPONSE TO REVIEWERS 
+Text…

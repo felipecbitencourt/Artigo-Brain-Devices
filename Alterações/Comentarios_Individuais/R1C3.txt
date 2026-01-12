@@ -1,0 +1,21 @@
+R1C3.  
+STATUS - Encarregado 
+How do the authors address the potential bias introduced by manufacturer-provided specifications, 
+particularly for parameters such as sampling rate, resolution, and wireless performance? 
+ 
+1. Identificar nas tabelas quais dados vêm de: 
+●​
+fabricantes; 
+●​
+artigos científicos. 
+2. Marcar claramente quando o dado é apenas declarado pelo fabricante. 
+3. Acrescentar no texto que: 
+●​
+esses dados não substituem testes independentes; 
+●​
+servem apenas para comparação técnica básica. 
+4. Criar um parágrafo em Limitations sobre esse viés. 
+→ Onde: Methods, Tables, Limitations 
+ 
+RESPONSE TO REVIEWERS 
+Text…

@@ -1,0 +1,51 @@
+Table 1 summarizes the technical, functional, and bibliometric characteristics of the EEG devices 
+identified in this scoping review. The table reports the monitoring technology and commercial model, 
+together with the device type, usage grade, manufacturer, and country of origin. The grade column 
+classifies devices as consumer-grade, research-grade, or clinical-grade according to their intended 
+use, technical capabilities, and regulatory context, providing a high-level distinction between 
+wellness-oriented, research-focused, and clinically certified systems. 
+ 
+Sensor-related information includes electrode type and sensor technology, reflecting conductive 
+media requirements, signal acquisition principles, and factors affecting signal quality, noise 
+susceptibility, and user comfort. Hardware configuration is described by the number of recording 
+channels and electrode positioning, while wireless connectivity specifies the communication 
+technology used for data transmission. 
+ 
+Parameters relevant to data acquisition include the nominal sampling rate and analog-to-digital 
+converter (ADC) resolution. Raw data access indicates whether unprocessed EEG signals are 
+available to the user. Closed-loop readiness provides a proxy-based classification of device suitability 
+for real-time and closed-loop applications, categorized as Low, Medium, or High, and inferred from 
+transmission-related specifications, including wireless communication protocol, channel count, and 
+nominal sampling rate. This classification supports a comparative assessment of real-time 
+transmission constraints and performance trade-offs, without implying regulatory certification, 
+experimentally validated latency or jitter, or guaranteed real-time performance. These proxy 
+parameters reflect timing and bandwidth constraints relevant to closed-loop applications, such as 
+real-time neurofeedback, adaptive BCI control, and event-locked multimodal synchronization. 
+ 
+Software-related aspects are reported through bundled software and data synchronization. Bundled 
+software describes the availability and licensing model of manufacturer-provided software for data 
+acquisition, control, or visualization, including desktop, mobile, web-based, or cloud applications, 
+whether included, freely available, open-source, subscription-based, or sold separately. Data 
+synchronization indicates the availability of software interfaces and communication protocols, such 
+as SDKs, APIs, LSL, or TCP, that enable event-based and temporal alignment of EEG data streams with 
+external systems or multimodal sources. Auxiliary capabilities summarize additional integrated 
+functionalities, such as inertial sensors or embedded analytics. 
+ 
+Finally, price information, when available, is reported in U.S. dollars, excluding taxes and shipping, 
+with currency conversion applied as needed; in cases where prices were not publicly disclosed, 
+manufacturers were contacted, although such values are not shown to account for confidentiality 
+and variability in purchasing terms. The bibliometric columns report the number of peer-reviewed 
+studies using each device and the corresponding inclusion proportion, representing the share of 
+included records in which the device was explicitly applied. 
+ 
+Device design varies substantially across categories. Caps streamline setup, enhance sensor contact, 
+and optimize signal quality. Headsets, resembling headphones, combine ease of use with safety, 
+making them suitable for immersive clinical and non-clinical scenarios. Headbands provide
+
+lightweight, ergonomic form factors ideal for cognitive research, neurofeedback, and brain-computer 
+interfaces (BCI) in naturalistic environments. Earphones and headphones integrate auditory 
+stimulation with EEG acquisition, while adhesive systems enable low-impedance, long-duration 
+recordings, useful in intensive care unit (ICU) and sleep studies. The fNIRS caps and headsets offer 
+spatial mapping of cortical activity and are used in complex cognitive and motor studies. Multimodal 
+devices, including those integrating EEG with fNIRS, enhance spatial and temporal resolution, 
+supporting applications such as virtual reality (VR)-based neurorehabilitation.

@@ -1,0 +1,208 @@
+Reviewer 3 
+R3C1. 
+PARCIALMENTE RESOLVIDO - claudio
+
+The abstract states: "2,087 studies explicitly reported the use of brain devices... resulting in a true positive 
+rate of 55.79%." The term "true positive rate" is typically used in classification/diagnostic contexts 
+(sensitivity = TP/(TP+FN)). In a literature search, this terminology is confusing. What constitutes a "false 
+negative" in your search strategy? Are you referring to the precision of your search query (relevant papers / 
+total retrieved papers)? Please clarify this metric. If you mean that 55.79% of the screened papers were 
+relevant (i.e., actually used brain devices), use standard systematic review terminology such as "inclusion 
+rate" or "relevance rate." Provide a PRISMA flow diagram showing the exact numbers at each screening 
+stage. 
+ 
+1. Substituir completamente o termo true positive rate por “inclusion rate” em todo o artigo. 
+2. Inserir na seção Methods uma definição formal: 
+●​
+Inclusion rate = (nº de estudos que realmente usaram o dispositivo) / (nº total de registros 
+recuperados). 
+3. Deixar claro que: 
+●​
+não há “false negatives”; 
+●​
+trata-se de eficiência da estratégia de busca, não métrica diagnóstica. 
+4. Garantir que o fluxograma PRISMA mostre: 
+●​
+registros recuperados; 
+●​
+excluídos por falso positivo (nome ambíguo, menção sem uso); 
+●​
+incluídos finais. 
+→ Onde: Abstract, Methods, Results, PRISMA Figure 
+ 
+Response To Reviewers 
+We agree with the reviewer that the term true positive rate is inappropriate in the context of a 
+literature search. The manuscript has been revised to replace this term with inclusion rate, which 
+is consistent with systematic review terminology. The inclusion rate is now explicitly defined in the 
+Methods section as the proportion of retrieved records that explicitly applied the named brain 
+device as an experimental or clinical tool, reflecting the precision of the device-specific search 
+queries, rather than sensitivity or recall. The Abstract and Results sections were updated 
+accordingly to report that 2,087 of 3,741 unique records met the inclusion criteria, yielding an 
+overall inclusion rate of 55.79%. A PRISMA flow diagram has also been added to report the 
+number of records retrieved, duplicates removed, records screened, and studies included at each 
+stage. 
+ 
+ 
+​
+R3C2. 
+STATUS - claudio   
+The manuscript states that 96 devices were "tracked in the market" but does not describe the market survey 
+methodology. How were the 96 devices identified? Was there a systematic search of manufacturer websites, 
+regulatory databases (e.g., FDA, CE marking), or commercial catalogs? Were devices from China, India, or 
+other non-Western markets included? Requirement: Add a dedicated subsection in the Methods describing 
+the device identification protocol. Include: 1. Search terms used (e.g., "wireless EEG," "portable fNIRS"); 2. 
+Databases/sources consulted (e.g., Google Scholar, manufacturer websites, ResearchGate equipment lists); 
+3. Inclusion/exclusion criteria (e.g., "commercially available as of August 2025," "wireless only"); 4. A 
+supplementary table listing all 96 devices with manufacturer, model number, and year of market entry. 
+ 
+1. Criar uma subseção nova em Methods chamada: “Device identification and market survey 
+protocol” 
+2. Descrever claramente:
+
+●​
+termos de busca usados (ex.: “wireless EEG”, “portable fNIRS”); 
+●​
+fontes consultadas: 
+○​
+sites de fabricantes; 
+○​
+Google Scholar; 
+○​
+catálogos comerciais; 
+○​
+literatura científica. 
+3. Especificar critérios de inclusão: 
+●​
+dispositivo comercialmente disponível; 
+●​
+portátil e/ou wireless; 
+●​
+EEG e/ou fNIRS; 
+●​
+disponível até mês/ano definido. 
+4. Especificar critérios de exclusão: 
+●​
+protótipos acadêmicos; 
+●​
+dispositivos descontinuados; 
+●​
+softwares sem hardware. 
+5. Confirmar explicitamente: 
+●​
+inclusão de dispositivos de mercados não ocidentais (China, Índia). 
+6. Criar uma tabela suplementar com: 
+●​
+fabricante; 
+●​
+modelo; 
+●​
+ano de entrada no mercado. 
+→ Onde: Methods + Supplementary Material 
+ 
+RESPONSE TO REVIEWERS 
+Text… 
+ 
+ 
+ 
+R3C3. 
+STATUS - claudio   
+The manuscript reports percentages (e.g., Epoc X = 19.30%, OpenBCI = 4.81%) but lacks deeper statistical 
+analysis. These percentages suggest a highly skewed distribution (a few devices dominate, while most have 
+minimal adoption). This is a classic "long-tail" phenomenon. Requirement: 1. Provide a Lorenz curve or Gini 
+coefficient to quantify the inequality in research adoption; 2. Perform a correlation analysis: 2.1. Does 
+device cost negatively correlate with adoption rate? 2.2. Does channel count positively correlate with 
+citation frequency? 2.3. Use regression analysis to identify which technical specifications (e.g., open API, dry 
+electrodes, price) predict research adoption. 
+ 
+1. Gerar uma Curva de Lorenz para adoção dos dispositivos. 
+2. Calcular o coeficiente de Gini da distribuição de citações. 
+3. Fazer análises simples: 
+●​
+correlação entre preço vs adoção; 
+●​
+correlação entre nº de canais vs adoção. 
+4. Rodar uma regressão exploratória com variáveis como: 
+●​
+open API (sim/não); 
+●​
+tipo de eletrodo (seco/molhado); 
+●​
+preço aproximado. 
+5. Deixar explícito que a análise é exploratória, não causal. 
+→ Onde: Results + Figures + Methods (estatística) 
+ 
+RESPONSE TO REVIEWERS 
+Text…
+
+R3C4.  
+PARCIALMENTE RESOLVIDO - claudio 
+The abstract mentions "a significant gap between consumer-grade and research-grade technologies" but 
+does not define these categories. Is the classification based on price, signal quality (SNR), regulatory 
+approval (FDA Class II), or intended use? Requirement: 1. Provide explicit criteria for this classification. For 
+example: 1.1. Consumer-grade: < $500, < 8 channels, dry electrodes, primarily marketed for 
+meditation/gaming; 1.2. Research-grade: > $5,000, > 32 channels, wet/gel electrodes, medical-grade 
+certification. 
+ 
+1. Criar critérios explícitos em Methods ou Results: 
+2. Aplicar essa classificação de forma consistente. 
+3. Ajustar o Abstract para refletir essa definição. 
+4. Inserir na tabela a classificação “Grade: consumer / research / clinical” 
+→ Onde: Methods, Results, Abstract 
+ 
+RESPONSE TO REVIEWERS 
+We have added an explicit definitional paragraph clarifying that the classification of EEG devices is based on 
+intended use, technical specifications, signal quality, and regulatory status. This paragraph was placed 
+before the detailed technical comparison to improve conceptual clarity and directly address the reviewer’s 
+concern. This classification framework is supported by prior studies distinguishing consumer-grade, 
+research-grade, and clinical-grade EEG systems based on these criteria (Chuang and Lin, 2019; Doudou et 
+al., 2020; Huang et al., 2020; Grasso-Cladera et al., 2023). 
+ 
+ 
+​
+R3C5. 
+STATUS - Encarregado 
+The manuscript mentions devices "currently available" but does not analyze temporal evolution. The 
+neurotechnology market has evolved rapidly. Early devices (e.g., NeuroSky MindWave, 2009) differ 
+significantly from recent models (e.g., Kernel Flow, 2023). Requirement: 1. Add a timeline figure showing 
+when each device entered the market; 2. Analyze trends: 2.1. Has the average channel count increased over 
+time? 2.2. Has the price per channel decreased (Moore's Law for neurotechnology)? 2.3. When did wireless 
+architectures become dominant? 
+ 
+1. Criar uma linha do tempo mostrando ano de entrada de cada dispositivo no mercado. 
+2. Analisar tendências simples: 
+●​
+aumento do nº médio de canais ao longo do tempo; 
+●​
+redução do custo por canal; 
+●​
+transição para arquiteturas wireless. 
+3. Relacionar essas tendências à evolução tecnológica geral. 
+→ Onde: Results, Figures, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…
+
+R3C6.  
+STATUS - Encarregado 
+The manuscript states "125 models and variants" but does not explain how variants were handled in the 
+analysis. If a study used "Epoc" (2009) and another used "Epoc X" (2018), were these counted separately or 
+aggregated? The Epoc X has significant hardware improvements (5-electrode reference system, improved 
+wireless). Clarify the aggregation strategy. If variants were pooled, justify this decision. If kept separate, 
+provide a breakdown showing which specific variant was most cited. 
+ 
+1. Explicar claramente a estratégia adotada: 
+●​
+variantes agrupadas por família ou 
+●​
+variantes tratadas separadamente. 
+2. Justificar a decisão: 
+●​
+semelhança técnica; 
+●​
+continuidade comercial. 
+3. Se variantes foram separadas, apresentar qual versão foi mais citada. 
+4. Incluir essa explicação em Methods. 
+→ Onde: Methods, Supplementary Table 
+ 
+RESPONSE TO REVIEWERS 
+Text…

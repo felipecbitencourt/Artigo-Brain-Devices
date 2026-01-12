@@ -1,0 +1,24 @@
+R3C6.  
+STATUS - Encarregado 
+The manuscript states "125 models and variants" but does not explain how variants were handled in the 
+analysis. If a study used "Epoc" (2009) and another used "Epoc X" (2018), were these counted separately or 
+aggregated? The Epoc X has significant hardware improvements (5-electrode reference system, improved 
+wireless). Clarify the aggregation strategy. If variants were pooled, justify this decision. If kept separate, 
+provide a breakdown showing which specific variant was most cited. 
+ 
+1. Explicar claramente a estratégia adotada: 
+●​
+variantes agrupadas por família ou 
+●​
+variantes tratadas separadamente. 
+2. Justificar a decisão: 
+●​
+semelhança técnica; 
+●​
+continuidade comercial. 
+3. Se variantes foram separadas, apresentar qual versão foi mais citada. 
+4. Incluir essa explicação em Methods. 
+→ Onde: Methods, Supplementary Table 
+ 
+RESPONSE TO REVIEWERS 
+Text…

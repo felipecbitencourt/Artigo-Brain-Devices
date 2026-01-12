@@ -1,0 +1,24 @@
+R1AQ3.  
+STATUS - Encarregado 
+Is the subject matter presented in a comprehensive manner? The manuscript presents terms on device 
+coverage, market breadth, and technical descriptors. However, the presentation lacks comparative analyses, 
+decision matrices, or performance-based groupings, which reduces the practical usability of the results 
+section. 
+ 
+1. Reduzir trechos apenas descritivos na seção de Resultados. 
+2. Criar pelo menos uma tabela ou figura comparativa, por exemplo: 
+●​
+dispositivos por tipo de aplicação (pesquisa, clínica, BCI); 
+●​
+dispositivos por nível de multimodalidade; 
+●​
+dispositivos por adequação a tempo real. 
+3. Inserir agrupamentos claros (classes ou categorias) no texto. 
+4. Acrescentar uma interpretação prática após cada tabela: 
+●​
+o que o leitor deve concluir a partir dela. 
+5. Tornar a seção Results mais orientada à tomada de decisão. 
+→ Onde: Results, Tables, Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text…

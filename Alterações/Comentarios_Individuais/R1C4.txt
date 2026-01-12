@@ -1,0 +1,38 @@
+R1C4.  
+RESOLVIDO - claudio 
+Could the authors clarify how latency, jitter, and throughput, which are discussed conceptually in the 
+context, could be quantitatively integrated into the comparative framework to support real-time or 
+closed-loop applications? 
+ 
+1. Explicar de forma simples: 1. O que é latência; 2. Por que ela é importante para BCI e 
+neurofeedback. 
+2. Classificar os dispositivos em: 1. Adequados para tempo real; 2. Potencialmente adequados; 3. 
+Não adequados. 
+3. Criar uma tabela com essa classificação. 
+4. Relacionar explicitamente com aplicações em loop fechado.
+
+→ Onde: Results, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+We thank the reviewer for this important comment. As device-specific numerical values for latency, jitter, 
+and wireless throughput are rarely disclosed and are highly configuration-dependent, they could not be 
+directly compared across devices. Instead, these parameters were quantitatively integrated into the 
+comparative framework using protocol- and data-rate–based proxies. Throughput was inferred from 
+channel count and nominal sampling rate, while latency and jitter were contextualized according to the 
+wireless communication protocol. 
+ 
+This proxy-based operationalization was incorporated into Table 1 through the addition of a “Closed-loop 
+readiness (proxy-based)” column, classifying devices as Low, Medium, or High in terms of suitability for 
+real-time 
+and 
+closed-loop 
+applications. 
+This 
+approach 
+enables 
+a 
+systematic comparison of 
+transmission-related performance trade-offs and reflects timing and bandwidth constraints relevant to 
+closed-loop applications, such as real-time neurofeedback, adaptive BCI control, and event-locked 
+multimodal synchronization, without implying regulatory certification or guaranteed real-time 
+performance.

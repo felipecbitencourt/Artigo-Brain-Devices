@@ -1,0 +1,147 @@
+================================================================================
+R2C6 - RESPOSTA AOS REVISORES
+================================================================================
+
+COMENTÁRIO DO REVISOR:
+"Add a 'Limitations & Future Work' section."
+
+================================================================================
+RESPONSE TO REVIEWERS (INGLÊS):
+================================================================================
+
+We thank the reviewer for this recommendation. A dedicated "Limitations and 
+Future Directions" section has been added at the end of the manuscript, 
+positioned before the Conclusion. This section explicitly addresses the 
+methodological constraints of the current review and outlines opportunities 
+for future research.
+
+The new section includes:
+
+1. **Limitations:**
+   - Absence of experimental benchmarking or signal quality validation
+   - Reliance on manufacturer-provided specifications without independent 
+     verification
+   - No direct clinical evaluation or patient-based assessment
+   - Publication-based adoption metrics may not reflect real-world usage
+   - Temporal limitations regarding device availability and market changes
+
+2. **Future Directions:**
+   - Experimental benchmarking studies comparing signal quality, noise 
+     profiles, and reliability across devices
+   - Integration with artificial intelligence and machine learning pipelines
+   - Clinical validation studies in neurorehabilitation settings
+   - Longitudinal tracking of device adoption and technological evolution
+   - Development of standardized reporting frameworks for neurotechnology 
+     specifications
+
+================================================================================
+TEXTO SUGERIDO PARA NOVA SEÇÃO (inserir antes de Conclusion):
+================================================================================
+
+Limitations and Future Directions
+
+This scoping review has several limitations that should be acknowledged. 
+First, the study did not include experimental benchmarking or direct 
+signal quality validation. Device specifications were compiled from 
+manufacturer documentation, technical manuals, and secondary literature, 
+rather than from independent laboratory testing. As a result, reported 
+parameters such as sampling rate, resolution, and wireless performance 
+reflect manufacturer claims and may not fully represent real-world 
+performance under varying conditions.
+
+Second, the reliance on manufacturer-provided data introduces potential 
+bias, as specifications may be optimized for marketing purposes rather 
+than scientific transparency. Parameters such as signal-to-noise ratio, 
+latency, and impedance are rarely disclosed in standardized formats, 
+limiting direct cross-device comparisons.
+
+Third, no direct clinical evaluation was performed. The review focused 
+on technical characterization and research adoption patterns rather than 
+therapeutic efficacy or patient outcomes. Clinical applicability should 
+be inferred cautiously, and device selection for clinical use requires 
+additional validation beyond the scope of this review.
+
+Fourth, the use of DOI-indexed publication counts as an adoption proxy 
+has inherent limitations. This metric captures documented academic use 
+but does not account for unpublished research, proprietary industrial 
+applications, or clinical deployments outside peer-reviewed contexts. 
+Additionally, publication frequency may be influenced by device cost, 
+accessibility, and manufacturer support rather than technical merit.
+
+Finally, the neurotechnology market evolves rapidly. Devices included 
+in this review reflect commercial availability as of August 2025, and 
+new products, firmware updates, or discontinued models may alter the 
+landscape in subsequent years.
+
+Future research should address these limitations through several 
+complementary approaches. First, experimental benchmarking studies 
+are needed to systematically compare signal quality, noise spectral 
+profiles, dropout rates, and operational reliability across devices 
+under controlled conditions. Such studies would provide empirical 
+evidence to complement manufacturer specifications.
+
+Second, the integration of brain monitoring devices with artificial 
+intelligence and machine learning pipelines represents a critical 
+frontier. Future work should evaluate device compatibility with 
+real-time classification algorithms, adaptive neurofeedback systems, 
+and closed-loop brain-computer interfaces.
+
+Third, clinical validation studies in neurorehabilitation settings 
+are essential to assess the translational potential of portable 
+neurotechnologies. Prospective trials evaluating therapeutic outcomes, 
+patient comfort, and long-term usability would strengthen the 
+evidence base for clinical adoption.
+
+Fourth, longitudinal tracking of device adoption and technological 
+evolution would enable trend analysis and inform predictions about 
+future market developments. This could include tracking firmware 
+updates, software ecosystem growth, and shifts in research community 
+preferences.
+
+Finally, the development of standardized reporting frameworks for 
+neurotechnology specifications would enhance transparency and 
+facilitate cross-study comparisons. Industry-wide adoption of 
+minimum reporting standards, similar to those established in other 
+biomedical domains, would benefit both researchers and clinicians 
+in making informed device selection decisions.
+
+================================================================================
+CHECKLIST DE IMPLEMENTAÇÃO:
+================================================================================
+
+[ ] 1. Criar nova seção "Limitations and Future Directions" no manuscrito
+[ ] 2. Posicionar antes da seção Conclusion
+[ ] 3. Revisar o texto para garantir consistência com o restante do artigo
+[ ] 4. Verificar se há redundância com limitações mencionadas em outras seções
+[ ] 5. Atualizar a estrutura do artigo no Abstract (se aplicável)
+
+================================================================================
+VERSÃO RESUMIDA (se o espaço for limitado):
+================================================================================
+
+Limitations and Future Directions
+
+This review has several limitations. First, no experimental benchmarking 
+was performed; specifications were compiled from manufacturer sources 
+rather than independent testing. Second, manufacturer-provided data may 
+introduce bias, as parameters are not standardized across devices. Third, 
+no clinical evaluation was conducted; the focus was on technical 
+characterization rather than therapeutic efficacy. Fourth, publication-
+based adoption metrics do not capture unpublished or industrial use. 
+Finally, the rapidly evolving market may render some findings outdated.
+
+Future research should include: (1) experimental benchmarking comparing 
+signal quality and reliability across devices; (2) integration with AI 
+and machine learning for real-time applications; (3) clinical validation 
+studies in neurorehabilitation; (4) longitudinal tracking of market 
+evolution; and (5) development of standardized reporting frameworks for 
+neurotechnology specifications.
+
+================================================================================
+NOTAS:
+================================================================================
+
+- A seção foi dividida claramente em "Limitations" e "Future Directions"
+- As limitações correspondem diretamente aos pontos levantados pelo revisor
+- Os caminhos futuros são específicos e acionáveis
+- Oferecidas duas versões: completa (~450 palavras) e resumida (~180 palavras)

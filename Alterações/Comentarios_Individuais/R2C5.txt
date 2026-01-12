@@ -1,0 +1,16 @@
+R2C5. 
+PRODUZINDO - claudio  
+Improve visual clarity of figures (resolution, captions, axis labels) 
+ 
+1. Revisar todas as figuras: 
+●​
+aumentar resolução; 
+●​
+melhorar legendas; 
+●​
+nomear eixos claramente. 
+2. Garantir que cada figura possa ser entendida sem ler o texto. 
+→ Onde: Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text…

@@ -1,0 +1,26 @@
+R1AQ1.  
+STATUS - Encarregado 
+Does the paper contribute to the body of knowledge? The manuscript provides a systematic, 
+market-orientated review of portable and wireless devices for EEG and fNIRS brain monitoring currently 
+available worldwide. The collection of 96 devices and the quantification of their adoption in research 
+through DOI-indexed publications represent an original and valuable resource for neuroscientists, 
+biomedical engineers, and clinicians. The work offers an evidence-based mapping of the commercial 
+landscape of neurotechnologies, thereby filling a recognised gap between engineering specifications and 
+practical research implementation. 
+ 
+1. Deixar explícito no Abstract e na Introduction qual é a contribuição original do artigo. 
+2. Acrescentar um parágrafo dizendo claramente que o artigo: 
+●​
+reúne 96 dispositivos comerciais; 
+●​
+conecta especificações técnicas com uso real em pesquisa; 
+●​
+preenche a lacuna entre engenharia e aplicação prática. 
+3. Reforçar que o número de artigos DOI-indexados é usado como indicador de uso na literatura, 
+não de qualidade do dispositivo. 
+4. Incluir uma frase de síntese na Discussion explicando por que esse mapeamento é útil para 
+pesquisadores e clínicos. 
+→ Onde: Abstract, Introduction, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…

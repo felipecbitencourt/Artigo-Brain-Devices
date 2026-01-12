@@ -1,0 +1,16 @@
+R2AQ1.  
+STATUS - Encarregado 
+Does the paper contribute to the body of knowledge? The manuscript contributes a valuable 
+market-mapping dataset of 96 wireless EEG and fNIRS devices (125 including variants), compiled via a 
+PRISMA-ScR protocol and OSF registration. This large-scale technical catalog is useful for researchers 
+making device-selection decisions. However, its scientific advancement is limited, because the paper is
+
+primarily descriptive and does not provide critical synthesis, benchmarking, or analytical interpretation of 
+device performance, clinical applicability, or research validation. 
+ 
+1. Transformar o texto atual em uma resposta afirmativa clara. 
+2. Reconhecer o caráter descritivo. 
+3. Explicar por que o mapeamento ainda é uma contribuição científica válida. 
+ 
+RESPONSE TO REVIEWERS 
+Text…

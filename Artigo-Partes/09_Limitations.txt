@@ -1,0 +1,91 @@
+The technologies applied in brain research have been fundamental in enhancing our understanding of 
+the nervous system and in developing interventions for neurorehabilitation. However, their use 
+comes with several limitations that can impact their effectiveness, applicability, and reach across 
+different contexts. These limitations span technical, economic, and operational aspects, all of which 
+must be carefully considered in the development and implementation of these tools. 
+ 
+From a technical perspective, key challenges include resolution, accuracy, and response time. EEG, for 
+example, offers excellent temporal resolution but lower spatial resolution compared to fNIRS. 
+Response time is particularly critical for real-time applications such as neurofeedback and BCI 
+development. Reliability is another concern, as noise and external interference can compromise data 
+quality and reduce the effectiveness of the methods. EEG measures electrical activity from the 
+cerebral cortex, but signal distortions occur as electrical potentials pass through the skull and scalp. 
+These signals range from approximately -90 mV at rest to 40 mV at the peak of an action potential 
+and require amplification, an essential step that can also introduce additional noise. 
+ 
+Noise sources include improper electrode placement, oxidized or deteriorated electrodes, weak scalp 
+attachment, poor contact due to dry or oily skin, hair strands, dirt, and crusts. Additional sources 
+include movement artifacts from muscle activity, blinking, heartbeats, and electromagnetic 
+interference caused by electrical transients, radio frequencies, and grounding issues. Given these 
+challenges, EEG devices require meticulous electronic design, careful assembly, and circuits for 
+attenuating oscillating electromagnetic frequencies. Connections and circuits must be shielded, 
+cables should be short and shielded, and electrodes must be firmly and consistently attached to the 
+scalp. Even with these precautions, significant computational effort is needed to filter the resulting 
+signals effectively.
+
+Due to the complex, non-stationary, and nonlinear characteristics of EEG signals, several systems 
+have been developed for data analysis. Signal complexity can be reduced using fast algorithms, 
+enabling machine learning methods to automatically classify certain mental disorders with high 
+accuracy. Disorders such as depression and epilepsy could be diagnosed at the same time. However, 
+EEG-based diagnosis has limitations: patients may not exhibit abnormal patterns consistently, and 
+short EEG recordings can miss critical events, leading to inaccurate results. While long-term 
+monitoring improves the detection of abnormalities, EEG signals are highly susceptible to external 
+interference, and detecting periods of inactivity remains challenging [27]. 
+ 
+Usability and ergonomics are key factors that influence the adoption of these technologies. Sensors 
+and devices can be uncomfortable during extended acquisition sessions, while complex interfaces 
+and advanced technical requirements may limit their use in clinical or home environments. The 
+portability of certain devices, such as brain imaging systems (fMRI or PET), is also constrained by 
+their size and dependence on specialized infrastructure, restricting their application to research 
+centers or hospitals. Additionally, the high cost of advanced technologies constitutes a barrier to 
+their widespread implementation. 
+ 
+The fNIRS faces challenges in distinguishing brain hemodynamic changes from artifacts caused by 
+scalp hemodynamics or movement. Photons detected by infrared receivers are influenced by 
+physiological factors like respiration and heart rate, reducing contrast and spatial resolution. The 
+technique also suffers from low temporal resolution and SNR [28]. Efforts to improve signal quality 
+range from averaging multiple readings to using advanced statistical models, but low sensitivity to 
+deeper brain layers and the inherent statistical properties of the signal complicate data 
+interpretation [29]. 
+ 
+Some technologies are unsuitable for patients with metal implants or cognitive impairments. 
+Combining these tools with conventional therapeutic approaches can be complex, particularly when 
+determining the clinical relevance of the data collected. Ethical and privacy concerns related to brain 
+and physiological data collection further complicate their adoption, necessitating stringent 
+regulations to ensure user trust and safety. 
+ 
+The EEG technology has advanced with the development of wireless systems, dry electrodes, and 
+AI-driven data processing. Dry electrodes enhance usability by enabling faster and more accessible 
+setups. While fNIRS is less affected by electromagnetic interference, its sensitivity is limited by the 
+slower hemodynamic response compared to the rapid transmission of electrical signals in EEG. 
+AI-enhanced multimodal fNIRS systems are approaching clinical-grade performance, although high 
+costs remain a significant barrier. 
+ 
+The term research-grade quality is often used to describe devices suitable for scientific studies but 
+not meeting the stringent standards required for clinical use. In contrast, low-cost EEG modules, 
+priced under fifty dollars, offer affordable alternatives. Commonly sold as do-it-yourself (DIY) kits, 
+these modules allow for customized assembly, making EEG technology more accessible. While they 
+lack the advanced features and precision of clinical-grade systems, they still provide meaningful 
+insights into brain activity. 
+ 
+Software is often sold separately, significantly increasing overall costs. Commercial solutions typically 
+start around \$1,000, with advanced versions reaching up to \$8,000. Temporary licenses, renewable 
+subscriptions, and lite versions with limited functionality are common, while open-source platforms
+
+offer more accessible alternatives. Some systems are specifically designed for neurofeedback, with 
+software tailored to training games. Increasingly, brain monitoring devices integrate artificial 
+intelligence (AI) for real-time data processing, anomaly detection, and rapid diagnostics. Open access 
+to raw or AI-processed data fosters innovation and supports new research applications. Free access 
+to AI-filtered data is a valuable resource for the neuroscience community. 
+ 
+Several brain equipment manufacturers offer either complete systems or modular components, 
+allowing for user customization, though often without clear guidance for selection. Some companies, 
+traditionally focused on wired systems, have introduced wireless options, typically limited to 
+amplifiers without caps. Others operate exclusively through rental or contracted services, while 
+certain technologies remain under development. Identified manufacturers include Compumedics 
+Neuroscan (AUS), fNIR Devices (USA), Hitachi (JPN), Neurosoft (RUS), BioSemi (NLD), iCelera (BRA), 
+Contec (CHN), Meditron (BRA), Neurovirtual (USA), TechEn (USA), Imec (BEL), Kernel (USA), 
+Mindfield (DEU), NeuroPro (CHE), Gowerlabs (ENG), Neurotec (BRA), and Deymed (CZE). 
+Additionally, low-cost module providers include Deuteron (ISR) and Sichiray (CHN). In some cases, 
+websites are outdated or provide little evidence of ongoing product availability, raising concerns 
+about whether some manufacturers are still active.

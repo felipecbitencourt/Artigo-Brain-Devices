@@ -1,0 +1,25 @@
+R3C4.  
+PARCIALMENTE RESOLVIDO - claudio 
+The abstract mentions "a significant gap between consumer-grade and research-grade technologies" but 
+does not define these categories. Is the classification based on price, signal quality (SNR), regulatory 
+approval (FDA Class II), or intended use? Requirement: 1. Provide explicit criteria for this classification. For 
+example: 1.1. Consumer-grade: < $500, < 8 channels, dry electrodes, primarily marketed for 
+meditation/gaming; 1.2. Research-grade: > $5,000, > 32 channels, wet/gel electrodes, medical-grade 
+certification. 
+ 
+1. Criar critérios explícitos em Methods ou Results: 
+2. Aplicar essa classificação de forma consistente. 
+3. Ajustar o Abstract para refletir essa definição. 
+4. Inserir na tabela a classificação “Grade: consumer / research / clinical” 
+→ Onde: Methods, Results, Abstract 
+ 
+RESPONSE TO REVIEWERS 
+We have added an explicit definitional paragraph clarifying that the classification of EEG devices is based on 
+intended use, technical specifications, signal quality, and regulatory status. This paragraph was placed 
+before the detailed technical comparison to improve conceptual clarity and directly address the reviewer’s 
+concern. This classification framework is supported by prior studies distinguishing consumer-grade, 
+research-grade, and clinical-grade EEG systems based on these criteria (Chuang and Lin, 2019; Doudou et 
+al., 2020; Huang et al., 2020; Grasso-Cladera et al., 2023). 
+ 
+ 
+​

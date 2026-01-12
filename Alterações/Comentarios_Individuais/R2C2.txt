@@ -1,0 +1,19 @@
+R2C2. 
+STATUS - Eduardo  
+It would be advisable to include explicit search syntax for each database, a screening flow diagram with 
+reasons for exclusion, and a statement addressing risk-of-bias and data verification limitations 
+ 
+1. Criar uma subseção em Methods com strings de busca completas para cada base (copiar do 
+protocolo OSF). 
+2. Incluir um fluxograma PRISMA com números de exclusão por motivo (duplicata, falso positivo, 
+etc.). 
+3. Acrescentar um parágrafo chamado “Risk of bias and data verification” explicando:
+
+●​
+uso de dados de fabricantes; 
+●​
+ausência de verificação independente. 
+→ Onde: Methods, Figures 
+ 
+RESPONSE TO REVIEWERS 
+Text…

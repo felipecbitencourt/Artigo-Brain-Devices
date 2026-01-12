@@ -1,0 +1,60 @@
+Advances in neurotechnology have profoundly transformed the field of neurorehabilitation, enabling 
+targeted stimulation of neuroplasticity, data-driven clinical decision-making, and continuous 
+monitoring of brain activity in both laboratory and real-world settings. These systems integrate 
+sensor-based monitoring, signal processing, and computational modeling to generate objective 
+indicators of brain function, enhancing the precision, reproducibility, and personalization of 
+therapeutic interventions. The emergence of portable, wireless, and cost-effective brain monitoring 
+devices has further democratized access to neuroscience tools, allowing the acquisition of 
+high-quality neural data under ecologically valid and movement-rich conditions that better reflect 
+functional behavior in daily life. 
+ 
+Among noninvasive neuroimaging modalities, electroencephalography (EEG) and functional 
+near-infrared spectroscopy (fNIRS) have become fundamental in both clinical and experimental 
+neuroscience. EEG records electrical potentials with high temporal resolution, providing direct 
+insight into neuronal dynamics and oscillatory activity. Its portability, affordability, and compatibility 
+with wearable architectures make it particularly suitable for neurofeedback and brain–computer 
+interface (BCI) applications. In contrast, fNIRS measures hemodynamic changes associated with
+
+cortical activation by detecting oxygenation-dependent absorption of near-infrared light. Although it 
+provides lower temporal resolution than EEG, fNIRS achieves higher spatial location and greater 
+robustness against electrical interference. When combined, EEG and fNIRS offer complementary 
+information—temporal precision and hemodynamic specificity—creating multimodal platforms 
+capable of characterizing the neural mechanisms underlying movement, learning, and recovery. 
+ 
+In neurorehabilitation, these multimodal monitoring systems enable quantification of functional 
+recovery and optimization of individualized therapy programs. They support closed-loop 
+neurofeedback by providing brain-derived real-time metrics that guide adaptive training and 
+promote cortical reorganization after neurological injury. When embedded in immersive or gamified 
+environments, such systems enhance engagement and motivation, bridging neuroscience and 
+rehabilitation engineering. The resulting datasets not only inform clinical decisions but also 
+contribute to large-scale neurophysiological research through standardized and reproducible 
+acquisition protocols. 
+ 
+Despite their growing potential, selecting the most appropriate brain monitoring device remains a 
+major challenge. The commercial landscape has expanded rapidly, encompassing numerous 
+manufacturers and models with heterogeneous technical specifications, including differences in 
+signal quality, channel count, electrode or optode design, wireless architecture, data accessibility, and 
+integration capabilities. This diversity, coupled with the absence of standardized technical reporting, 
+hinders direct comparison between systems and complicates the alignment of device performance 
+with specific experimental or therapeutic goals. As a result, decision-making often becomes complex 
+and time-consuming, resembling the paradox of choice, where an excess of alternatives may obscure 
+optimal selection. 
+ 
+To address this gap, the present work goes beyond existing wireless EEG and multimodal 
+neurotechnology surveys by providing a large-scale, device-level mapping and technical 
+characterization of commercially available EEG and fNIRS systems relevant to neuroscience and 
+neurorehabilitation research. Unlike prior reviews that focus primarily on signal processing methods, 
+experimental paradigms, or small subsets of devices, this study systematically analyzes 96 
+commercially available systems using manufacturer documentation, technical manuals, patents, and 
+secondary literature. The resulting framework integrates engineering specifications with 
+application-oriented criteria, including connectivity, data access, synchronization support, and 
+proxy-based closed-loop readiness, as well as bibliometric indicators of device adoption in the 
+literature. By combining technical, applicational, and adoption-level perspectives, this review offers a 
+translationally oriented resource that is not available in existing surveys. 
+ 
+By integrating these dimensions, this review offers a decision-support framework to guide scientists, 
+engineers, and clinicians in selecting brain monitoring technologies that are best suited to their 
+methodological and operational requirements. Ultimately, its goal is to strengthen the interface 
+between biomedical engineering and clinical neuroscience, accelerating the translation of portable 
+brain monitoring systems into real-world neurorehabilitation contexts and advancing the 
+development of evidence-based neurotechnological practice.

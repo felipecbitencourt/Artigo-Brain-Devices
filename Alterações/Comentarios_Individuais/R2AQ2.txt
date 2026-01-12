@@ -1,0 +1,13 @@
+R2AQ2.  
+STATUS - Encarregado 
+Is the paper technically sound? Partially, with methodological gaps that weaken its rigor. There is no 
+benchmarking, device validation, or SNR/latency/impedance comparative analysis, lack of reproducibility 
+information (reviewer count, exclusion rules, search strings), reliance on self-reported manufacturer data 
+without verification. 
+ 
+1. Reconhecer limitações metodológicas explicitamente. 
+2. Justificar escolhas metodológicas. 
+3. Evitar qualquer afirmação de validação técnica direta. 
+ 
+RESPONSE TO REVIEWERS 
+Text…

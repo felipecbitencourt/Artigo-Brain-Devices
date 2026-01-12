@@ -1,0 +1,22 @@
+R3C5. 
+STATUS - Encarregado 
+The manuscript mentions devices "currently available" but does not analyze temporal evolution. The 
+neurotechnology market has evolved rapidly. Early devices (e.g., NeuroSky MindWave, 2009) differ 
+significantly from recent models (e.g., Kernel Flow, 2023). Requirement: 1. Add a timeline figure showing 
+when each device entered the market; 2. Analyze trends: 2.1. Has the average channel count increased over 
+time? 2.2. Has the price per channel decreased (Moore's Law for neurotechnology)? 2.3. When did wireless 
+architectures become dominant? 
+ 
+1. Criar uma linha do tempo mostrando ano de entrada de cada dispositivo no mercado. 
+2. Analisar tendências simples: 
+●​
+aumento do nº médio de canais ao longo do tempo; 
+●​
+redução do custo por canal; 
+●​
+transição para arquiteturas wireless. 
+3. Relacionar essas tendências à evolução tecnológica geral. 
+→ Onde: Results, Figures, Discussion 
+ 
+RESPONSE TO REVIEWERS 
+Text…
