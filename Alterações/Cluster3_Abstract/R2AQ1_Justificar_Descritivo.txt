@@ -4,7 +4,12 @@ R2AQ1 - JUSTIFICAR CARÁTER DESCRITIVO
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"Why is this a descriptive scoping review rather than a systematic review with meta-analysis?"
+Does the paper contribute to the body of knowledge? The manuscript contributes a valuable market-mapping dataset 
+of 96 wireless EEG and fNIRS devices (125 including variants), compiled via a PRISMA-ScR protocol and OSF 
+registration. This large-scale technical catalog is useful for researchers making device-selection decisions. 
+However, its scientific advancement is limited, because the paper is primarily descriptive and does not provide 
+critical synthesis, benchmarking, or analytical interpretation of device performance, clinical applicability, or 
+research validation.
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -22,8 +27,10 @@ We thank the reviewer for this methodological question. We have:
    comparative efficacy.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - METHODS
+SEÇÃO: METHODS
 ================================================================================
+
+--- Scoping Review Justification (R2AQ1) ---
 
 This scoping review was conducted following PRISMA-ScR guidelines and registered in the Open Science Framework. 
 The scoping review methodology was selected because the objective was to map the commercial landscape and 

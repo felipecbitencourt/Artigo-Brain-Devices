@@ -20,7 +20,7 @@ regulatory requirements, system integration, data privacy, digital literacy, and
 support.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - DISCUSSION
+SEÇÃO: DISCUSSION
 ================================================================================
 
 Clinical, Industrial, and Societal Deployment Pathways

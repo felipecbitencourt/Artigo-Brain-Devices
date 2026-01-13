@@ -4,13 +4,18 @@ R1AQ1 - CONTRIBUIÇÃO ORIGINAL
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"What is the unique contribution of this review compared to existing literature?"
+Does the paper contribute to the body of knowledge? The manuscript provides a systematic, market-orientated 
+review of portable and wireless devices for EEG and fNIRS brain monitoring currently available worldwide. The 
+collection of 96 devices and the quantification of their adoption in research through DOI-indexed publications 
+represent an original and valuable resource for neuroscientists, biomedical engineers, and clinicians. The work 
+offers an evidence-based mapping of the commercial landscape of neurotechnologies, thereby filling a recognised 
+gap between engineering specifications and practical research implementation.
 
 ================================================================================
 RESPONSE TO REVIEWERS
 ================================================================================
 
-We thank the reviewer for this question. We have:
+We thank the reviewer for recognizing the contribution of this work. We have:
 
 1. Added explicit contribution statement in the Conclusion: Emphasizing this is the most comprehensive 
    device-level mapping currently available.
@@ -22,8 +27,10 @@ We thank the reviewer for this question. We have:
    this review provides cross-device comparison framework.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - CONCLUSION
+SEÇÃO: CONCLUSION
 ================================================================================
+
+--- Original Contribution (R1AQ1) ---
 
 This review provides the most comprehensive device-level mapping of portable brain monitoring technologies 
 currently available in the peer-reviewed literature. The compiled catalog, encompassing 96 devices from 64 

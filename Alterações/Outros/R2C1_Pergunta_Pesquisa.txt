@@ -4,7 +4,9 @@ R2C1 - PERGUNTA DE PESQUISA
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The introduction should include an explicit research question."
+The Introduction effectively contextualizes EEG/fNIRS relevance, but the research problem is not tightly framed. 
+The text implies lack of standardization and difficulty selecting devices but does not explicitly state the 
+research question nor hypothesis.
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -17,8 +19,10 @@ for neuroscience and neurorehabilitation research?" The framing now connects
 the practical challenge of device selection to the scoping review objective.
 
 ================================================================================
-TEXTO PARA MANUSCRITO - INTRODUCTION
+SEÇÃO: INTRODUCTION
 ================================================================================
+
+--- Research Context (R2C1) ---
 
 Accordingly, this review addresses the following research question: How can 
 commercially available portable EEG and fNIRS devices be systematically 

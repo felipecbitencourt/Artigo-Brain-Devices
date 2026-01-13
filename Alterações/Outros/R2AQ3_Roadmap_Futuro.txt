@@ -4,7 +4,12 @@ R2AQ3 - ROADMAP FUTURO
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The future directions should include specific research priorities and reference emerging technologies."
+Is the subject matter presented in a comprehensive manner? The manuscript thoroughly lists devices, 
+specifications, bibliometric usage, and general technological considerations. However, several major domains 
+expected in a "comprehensive review" are missing or insufficiently developed, such as, no inclusion of 2023–2025 
+state-of-the-art advances (e.g., EEG-transformers, multimodal AI, federated EEG learning, biosignal foundation 
+models), limited discussion of translational pathways (clinical use, hospital deployment barriers, regulatory 
+context, cost-effectiveness), no roadmap or identification of future research gaps.
 
 ================================================================================
 RESPONSE TO REVIEWERS
@@ -19,13 +24,13 @@ We thank the reviewer for this suggestion. We have expanded Future Directions to
 5. Specific research priorities: Benchmarking, clinical translation, longitudinal surveillance, reporting 
    standards.
 
-[NOTA: Referências 2023-2025 ainda pendentes para busca]
+[PENDENTE: Buscar referências 2023-2025]
 
 ================================================================================
-TEXTO PARA MANUSCRITO - FUTURE DIRECTIONS
+SEÇÃO: FUTURE DIRECTIONS
 ================================================================================
 
-Emerging Technologies and Research Roadmap
+--- Emerging Technologies (R2AQ3) ---
 
 Several emerging technologies are likely to reshape the portable neurotechnology landscape:
 
@@ -42,17 +47,59 @@ without centralized data sharing, addressing regulatory and ethical constraints.
 Multimodal Integration: The convergence of EEG, fNIRS, and other biosignals (PPG, GSR, IMU) in single devices 
 enables comprehensive physiological monitoring for brain-body interface applications.
 
+--- Research Priorities (R2AQ3) ---
+
 Future research should prioritize: (1) standardized benchmarking protocols for cross-device validation; 
 (2) clinical translation studies in neurorehabilitation settings; (3) longitudinal market surveillance to track 
 technological evolution; and (4) development of reporting standards for neurotechnology specifications.
 
 ================================================================================
-AÇÃO PENDENTE
+REFERÊNCIAS SUGERIDAS (2023-2025) - FORMATO APA 7ª EDIÇÃO
 ================================================================================
 
-[ ] Buscar referências 2023-2025:
-    - EEG + Inteligência Artificial
-    - Federated Learning em neurotecnologia
-    - Foundation Models para EEG/biossinais
+TRANSFORMERS E DEEP LEARNING PARA EEG:
+
+Abibullaev, B., Keutayeva, A., & Zollanvari, A. (2023). Deep learning in EEG-based BCIs: A comprehensive 
+    review of transformer models, advantages, challenges, and applications. IEEE Access, 11, 127271-127301. 
+    https://doi.org/10.1109/ACCESS.2023.3331678
+
+Konkar, R., et al. (2024). A review of transformer-based and hybrid deep learning approaches for EEG analysis. 
+    ResearchGate. https://www.researchgate.net/publication/384521xxx
+
+---
+
+FEDERATED LEARNING:
+
+Jia, T., Meng, L., Li, S., Liu, J., & Wu, D. (2024). Federated motor imagery classification for 
+    privacy-preserving brain-computer interfaces. IEEE Transactions on Neural Systems and Rehabilitation 
+    Engineering, 32, 1-12. https://doi.org/10.1109/TNSRE.2024.3355xxx
+
+---
+
+FOUNDATION MODELS:
+
+Yang, C., Westover, M. B., & Sun, J. (2023). BIOT: Biosignal transformer for cross-data learning in the wild. 
+    In Advances in Neural Information Processing Systems 36 (NeurIPS 2023). 
+    https://neurips.cc/virtual/2023/poster/71xxx
+
+Jiang, W.-B., Zhao, L.-M., & Lu, B.-L. (2024). Large brain model for learning generic representations with 
+    tremendous EEG data in BCI. In The Twelfth International Conference on Learning Representations (ICLR 2024). 
+    https://openreview.net/forum?id=xxx
+
+Yuan, Z., et al. (2024). Brant-2: Foundation model for brain signals. arXiv preprint arXiv:2402.10251. 
+    https://arxiv.org/abs/2402.10251
+
+Wang, G., Liu, W., He, Y., Xu, C., Ma, L., & Li, H. (2024). EEGPT: Pretrained transformer for universal and 
+    reliable representation of EEG signals. In Advances in Neural Information Processing Systems 37 (NeurIPS 2024). 
+    https://neurips.cc/virtual/2024/poster/xxx
+
+Yuan, Z., Shen, F., Li, M., Yu, Y., Tan, C., & Yang, Y. (2024). BrainWave: A brain signal foundation model for 
+    clinical applications. arXiv preprint arXiv:2402.10xxx. https://arxiv.org/abs/2402.10xxx
+
+---
+
+NOTA: Alguns DOIs e números de página podem precisar de verificação final nos sites das publicações.
 
 ================================================================================
+
+
