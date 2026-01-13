@@ -4,36 +4,64 @@ R2C9 - DEPLOYMENT PATHWAYS
 Atualizado: 2026-01-12
 
 COMENTÁRIO DO REVISOR:
-"The discussion should address clinical, industrial, and societal deployment pathways."
+It may be beneficial to include a section titled “Clinical, Industrial, and Societal Deployment Pathways,” 
+where potential deployment scenarios and their constraints are discussed. 
 
 ================================================================================
 RESPONSE TO REVIEWERS
 ================================================================================
 
-We thank the reviewer for this suggestion. We have added a Discussion paragraph addressing:
-
-1. Clinical pathways: Medical-grade certification trends, tele-neurorehabilitation potential.
-2. Industrial pathways: Workplace monitoring, driver alertness, human-machine interfaces.
-3. Societal implications: Accessibility, equity, price heterogeneity across device categories.
+We thank the reviewer for this suggestion. In response, we have added a new subsection 
+titled “Clinical, Industrial, and Societal Deployment Pathways” to the Discussion. This 
+subsection outlines how EEG and fNIRS technologies may be deployed in clinical, industrial, 
+and societal contexts, highlighting key use cases, such as diagnostic support, workplace 
+monitoring, and community-based applications, together with the main constraints, including
+regulatory requirements, system integration, data privacy, digital literacy, and sustainability of 
+support.
 
 ================================================================================
 TEXTO PARA MANUSCRITO - DISCUSSION
 ================================================================================
 
-Deployment Pathways
+Clinical, Industrial, and Societal Deployment Pathways
 
-The implications of this review extend beyond academic research to clinical, industrial, and societal contexts. 
-From a clinical perspective, the increasing availability of medical-grade certified devices (7.3% of the 
-identified devices) suggests a maturing pathway toward regulatory-approved neurotechnology deployments. 
-Consumer-grade devices (42.7%) offer opportunities for preventive neurology, mental wellness monitoring, and 
-tele-neurorehabilitation, though clinical validation remains essential.
+Beyond the characterization of devices in academic research contexts, it is relevant 
+to discuss how these technologies may be deployed in clinical, industrial, and societal 
+settings, as well as the constraints that shape their use.
 
-Industrial deployment pathways include workplace cognitive monitoring, driver alertness systems, and human-machine 
-interface optimization. The dominance of wireless architectures (approximately 70% Bluetooth adoption) facilitates 
-integration into existing occupational health infrastructures.
+From a clinical perspective, the presence of only a small subset of regulatory-certified 
+devices among the systems analyzed indicates that only a fraction of currently available 
+portable technologies meets the safety, reliability, and standardization requirements for 
+medical use. These devices are better suited for applications such as diagnostic support 
+(e.g., epilepsy monitoring or assessment of cortical activity in neurological disorders), 
+therapy monitoring, and closed-loop neurorehabilitation, in which brain signals are used 
+to guide or adapt interventions in real time. However, clinical deployment remains constrained
+by lengthy regulatory approval processes, challenges in integrating devices with hospital
+information systems, and the need for trained clinical personnel to operate and interpret 
+these technologies. Consumer-grade devices, while not intended for diagnostic use, open 
+complementary pathways for mental wellness monitoring, home-based neurorehabilitation, and 
+telemedicine, provided that their outputs are interpreted cautiously and, when necessary, 
+benchmarked against clinical-grade references.
 
-Societal implications include accessibility and equity considerations. The price range observed ($97 to $25,000) 
-reflects significant heterogeneity, with consumer-grade devices potentially democratizing access to brain 
-monitoring technologies in resource-limited settings.
+Industrial deployment pathways include workplace cognitive monitoring for fatigue and attention, 
+alertness systems for operators and drivers (for example, in road, rail, or aviation contexts), 
+and the optimization of human–machine interaction in safety-critical environments. In this domain,
+the adoption of wireless and wearable architectures, together with the increasing availability of 
+dry or semi-dry sensors, facilitates integration into operational settings, enabling continuous and 
+unobtrusive monitoring during real-world tasks. At the same time, industrial deployment faces important
+constraints related to data privacy, worker consent, and the difficulty of defining reliable 
+criteria for interpreting brain signals consistently across individuals, tasks, and environments.
+
+At the societal level, deployment pathways are shaped by issues of accessibility and equity. 
+The wide range of device prices and technical sophistication observed in this review reflects
+a market in which high-end research systems coexist with low-cost consumer devices. This diversity
+creates opportunities for educational use (e.g., classroom-based neuroscience labs and student projects), 
+community-based research (such as participatory data collection in local health or cognition studies), 
+and technology-assisted wellness in resource-limited settings (including stress monitoring and basic 
+neurofeedback in schools or community clinics). However, equitable adoption depends
+not only on affordability but also on overcoming digital literacy barriers, providing 
+culturally appropriate and usable interfaces, and establishing ongoing support models that 
+include training, maintenance, and assistance with data interpretation beyond the initial 
+purchase of the device.
 
 ================================================================================

@@ -10,26 +10,19 @@ COMENTÁRIO DO REVISOR:
 RESPONSE TO REVIEWERS
 ================================================================================
 
-We thank the reviewer for this suggestion. We have:
-
-1. Added explicit research question in the Introduction.
-2. Framed the scoping review objective clearly.
-3. Distinguished from hypothesis-testing studies.
+We thank the reviewer for this observation. We have revised the Introduction to 
+explicitly state the research question: "How can commercially available portable 
+EEG and fNIRS devices be systematically characterized to support informed selection 
+for neuroscience and neurorehabilitation research?" The framing now connects 
+the practical challenge of device selection to the scoping review objective.
 
 ================================================================================
 TEXTO PARA MANUSCRITO - INTRODUCTION
 ================================================================================
 
-Despite their growing potential, selecting the most appropriate brain monitoring device remains a major challenge. 
-The commercial landscape has expanded rapidly, with 96 devices from 64 manufacturers across 26 countries 
-currently available. This diversity, coupled with the absence of standardized reporting, creates a paradox of 
-choice that complicates decision-making for researchers and clinicians.
-
-This scoping review addresses the following research question: How can commercially available portable EEG and 
-fNIRS devices be systematically characterized and compared to support informed selection for neuroscience and 
+Accordingly, this review addresses the following research question: How can 
+commercially available portable EEG and fNIRS devices be systematically 
+characterized to support informed selection for neuroscience and 
 neurorehabilitation research?
-
-Rather than testing a hypothesis, this study provides an evidence-based framework that bridges engineering 
-specifications and practical research implementation.
 
 ================================================================================
